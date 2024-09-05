@@ -23,3 +23,4 @@ This is a {placeholder}.
 ## Rules
 
 - Don't change variables
+- Don't change the JSON keys (Example: `{ "key": "value" }`)
