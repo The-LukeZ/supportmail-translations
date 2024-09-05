@@ -1,8 +1,20 @@
 {
-  "global": {},
-  "error": {},
-  "ticket": {},
-  "report": {},
-  "command": {},
-  "labels": {}
+  "global": {
+    "loginRequired": "Login required!",
+    "loginWithDiscordDesc": "You need to log in with Discord. Due to recent changes, it's now more difficult to access mutual guilds without being logged in. Please click the login button to continue or [here](https://api.supportmail.dev/login)."
+  },
+  "error": { },
+  "ticket": {
+    "continueQuestion": "Continue in Ticket?",
+    "continueTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
+    "guildInfo": ""
+  },
+  "report": { },
+  "command": { },
+  "labels": {
+    "confirm": "Confirm",
+    "changeServer": "Change Server",
+    "cancel": "Cancel",
+    "login": "Login"
+  }
 }
