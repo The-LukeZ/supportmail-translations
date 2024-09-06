@@ -13,7 +13,7 @@ If you want to add another language,
 
 3. Translate the file and create a pull request and I will look at it and merge it.
 
-The list of locales can be found [here](https://discord.com/developers/docs/reference#locales).
+The locale system we use is the [ISO-639-1 standard](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 ### Variables
 

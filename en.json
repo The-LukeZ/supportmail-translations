@@ -1,20 +1,29 @@
 {
   "global": {
     "loginRequired": "Login required!",
-    "loginWithDiscordDesc": "You need to log in with Discord. Due to recent changes, it's now more difficult to access mutual guilds without being logged in. Please click the login button to continue or [here](https://api.supportmail.dev/login)."
+    "loginWithDiscordDesc": "You need to log in with Discord. Due to recent changes, it's now more difficult to access mutual guilds without being logged in. Please click the login button to continue or [here](https://api.supportmail.dev/login).",
+    "contactServerAdmin": "Please contact a server admin.",
+    "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj)."
   },
-  "error": { },
-  "ticket": {
+  "errors": {
+    "anErrorOccured": "An error occured!",
+    "ticketChannelInvalid": "Ticket channel invalid"
+  },
+  "tickets": {
+    "createTicketQuestion": "Create a new Ticket?",
     "continueQuestion": "Continue in Ticket?",
     "continueTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
-    "guildInfo": ""
+    "guildInfo": "- **Servername:** {guildName}\n- **Server ID:** `{guildId}`",
+    "selectServerTitle": "Please select a server",
+    "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one."
   },
-  "report": { },
-  "command": { },
+  "reports": { },
+  "commands": { },
   "labels": {
     "confirm": "Confirm",
     "changeServer": "Change Server",
     "cancel": "Cancel",
-    "login": "Login"
+    "login": "Login",
+    "createTicket": "Create Ticket"
   }
 }
