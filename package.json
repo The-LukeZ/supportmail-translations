@@ -1,6 +1,6 @@
 {
   "name": "supportmail-locales",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translations for SupportMail",
   "main": "index.js",
   "scripts": {
