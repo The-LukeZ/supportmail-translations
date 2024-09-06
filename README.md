@@ -17,11 +17,12 @@ The locale system we use is the [ISO-639-1 standard](https://www.loc.gov/standar
 
 ### Variables
 
-Variables look like this:
+-   Normal variables: `{placeholder}`
+-   Command placeholders: `{command:help}`
 
-```txt
-This is a {placeholder}.
-```
+Command placeholders will eventually parse to a clickable `/help`.
+
+Note that you can also write command placeholders with spaces like `{command:config tickets panel}` .
 
 ## Rules
 
