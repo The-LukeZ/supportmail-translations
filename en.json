@@ -3,7 +3,9 @@
     "loginRequired": "Login required!",
     "loginWithDiscordDesc": "You need to log in with Discord. Due to recent changes, it's now more difficult to access mutual guilds without being logged in. Please click the login button to continue or [here](https://api.supportmail.dev/login).",
     "contactServerAdmin": "Please contact a server admin.",
-    "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj)."
+    "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj).",
+    "blacklistedTitle": ":warning: You are blacklisted!",
+    "dontDeleteMessages": "Please don't delete messages!"
   },
   "errors": {
     "anErrorOccured": "An error occured!",
@@ -15,10 +17,14 @@
     "continueTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
     "guildInfo": "- **Servername:** {guildName}\n- **Server ID:** `{guildId}`",
     "selectServerTitle": "Please select a server",
-    "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one."
+    "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one.",
+    "blacklistedDesc": "-# You can't create new tickets in this server."
   },
   "reports": { },
   "commands": { },
+  "tips": {
+    "turnOffTips": "-# Did you know that you can turn off tips by using "
+  },
   "labels": {
     "confirm": "Confirm",
     "changeServer": "Change Server",
