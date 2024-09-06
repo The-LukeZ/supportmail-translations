@@ -9,9 +9,11 @@
   },
   "errors": {
     "anErrorOccured": "An error occured!",
-    "ticketChannelInvalid": "Ticket channel invalid"
+    "ticketChannelInvalid": "Ticket channel invalid",
+    "tokenRevocationError": "### ❌ There has been a token revocation error.\nPlease notify the bot support."
   },
   "tickets": {
+    "createNewTicket": "Create new Ticket",
     "createTicketQuestion": "Create a new Ticket?",
     "continueQuestion": "Continue in Ticket?",
     "continueTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
@@ -21,7 +23,10 @@
     "blacklistedDesc": "-# You can't create new tickets in this server."
   },
   "reports": { },
-  "commands": { },
+  "commands": {
+    "currentlyNotLoggedIn": "### ❌ You are currently not logged in.",
+    "successfullyLoggedOut": "### ✅ Successfully logged out."
+  },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using "
   },
@@ -30,6 +35,8 @@
     "changeServer": "Change Server",
     "cancel": "Cancel",
     "login": "Login",
-    "createTicket": "Create Ticket"
+    "createTicket": "Create Ticket",
+    "createNewTicket": "Create new Ticket",
+    "continueInTicket": "Continue in Ticket"
   }
 }
