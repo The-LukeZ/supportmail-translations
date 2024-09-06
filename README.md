@@ -26,6 +26,5 @@ Note that you can also write command placeholders with spaces like `{command:con
 
 ## Rules
 
--   Don't change the index.js. I do that.
 -   Don't change variables
 -   Don't change the JSON keys (Example: `{ "key": "value" }`)
