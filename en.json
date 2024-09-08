@@ -20,7 +20,8 @@
     "guildInfo": "- **Servername:** {guildName}\n- **Server ID:** `{guildId}`",
     "selectServerTitle": "Please select a server",
     "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one.",
-    "blacklistedDesc": "-# You can't create new tickets in this server."
+    "blacklistedDesc": "-# You can't create new tickets in this server.",
+    "ticketPostMessage": "### <@{userid}> said:\n\n{text}"
   },
   "reports": { },
   "commands": {
