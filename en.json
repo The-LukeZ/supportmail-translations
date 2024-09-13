@@ -26,10 +26,14 @@
   "reports": { },
   "commands": {
     "currentlyNotLoggedIn": "### ❌ You are currently not logged in.",
-    "successfullyLoggedOut": "### ✅ Successfully logged out."
+    "successfullyLoggedOut": "### ✅ Successfully logged out.",
+    "anonymConfigEnabled": "Users will see the alias **`{alias}`** when they get a response.",
+    "anonymConfigDataDisabled": "Users will see the team member who has replied in their ticket."
   },
   "tips": {
-    "turnOffTips": "-# Did you know that you can turn off tips by using "
+    "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
+    "premiumRequired": "You need SupportMail Premium to do this!",
+    "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)"
   },
   "labels": {
     "confirm": "Confirm",
