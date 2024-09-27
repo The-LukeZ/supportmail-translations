@@ -24,7 +24,7 @@
     "ticketPostMessage": "### <@{userid}> said:\n\n{text}",
     "modmailExplanation": "What is Modmail? Click here to learn more."
   },
-  "reports": { },
+  "reports": {},
   "commands": {
     "currentlyNotLoggedIn": "### ❌ You are currently not logged in.",
     "successfullyLoggedOut": "### ✅ Successfully logged out.",
@@ -44,5 +44,18 @@
     "createTicket": "Create Ticket",
     "createNewTicket": "Create new Ticket",
     "continueInTicket": "Continue in Ticket"
+  },
+  "permissions": {
+    "CREATE_PUBLIC_THREADS": "CREATE_PUBLIC_THREADS",
+    "EMBED_LINKS": "EMBED_LINKS",
+    "MANAGE_CHANNELS": "MANAGE_CHANNELS",
+    "MANAGE_GUILD": "MANAGE_GUILD",
+    "MANAGE_MESSAGES": "MANAGE_MESSAGES",
+    "READ_MESSAGE_HISTORY": "READ_MESSAGE_HISTORY",
+    "SEND_MESSAEGS": "SEND_MESSAEGS",
+    "SEND_MESSAEGS_IN_THREADS": "SEND_MESSAEGS_IN_THREADS",
+    "USE_EXTERNAL_EMOJIS": "USE_EXTERNAL_EMOJIS",
+    "VIEW_AUDIT_LOG": "VIEW_AUDIT_LOG",
+    "VIEW_CHANNEL": "VIEW_CHANNEL"
   }
 }
