@@ -58,13 +58,16 @@
     "setupSuccessDesc": [
       "Remember that you can always change the settings with the commands.",
       "",
-      "- Change staff members/roles by allowing/denying the `VIEW_CHANNEL` permission for each member/role in <#{forumId}>.",
-      "- Change Ticket Pings: {command:config tickets pings}",
-      "- Change Anonymity Settings: {command:config tickets anonym}",
-      "- Change Automatic Message Forwarding: {command:config tickets forwarding}",
-      "- Change Allowed Bots: {command:config tickets bots}",
-      "- Set up User Feedback: {command:config tickets user-feedback}",
-      "- Set up a Panel: {command:config tickets panel}"
+      "Change staff members/roles by allowing/denying the `VIEW_CHANNEL` permission for each member/role in <#{forumId}>.",
+      "You can also change",
+      "- Anonymity Settings",
+      "- Automatic Message Forwarding",
+      "- Allowed Bots",
+      "and also",
+      "- Set up Custom Messages for Ticket creation/closure",
+      "- Set up User Feedback",
+      "- Set up a Ticket Panel",
+      "with {command:config tickets} ."
     ]
   },
   "reports": { },
