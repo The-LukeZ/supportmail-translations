@@ -52,7 +52,20 @@
     "tag-unanswered": "Unanswered",
     "tag-closeRequested": "Close Requested",
     "tag-userResponded": "User Responded",
-    "tag-awaitingResponse": "Awaiting Response"
+    "tag-awaitingResponse": "Awaiting Response",
+    "automaticMessageForwarding": "Automatic Message Forwarding",
+    "allowedBots": "Allowed Bots (in Tickets)",
+    "setupSuccessDesc": [
+      "Remember that you can always change the settings with the commands.",
+      "",
+      "- Change staff members/roles by allowing/denying the `VIEW_CHANNEL` permission for each member/role in <#{forumId}>.",
+      "- Change Ticket Pings: {command:config tickets pings}",
+      "- Change Anonymity Settings: {command:config tickets anonym}",
+      "- Change Automatic Message Forwarding: {command:config tickets forwarding}",
+      "- Change Allowed Bots: {command:config tickets bots}",
+      "- Set up User Feedback: {command:config tickets user-feedback}",
+      "- Set up a Panel: {command:config tickets panel}"
+    ]
   },
   "reports": { },
   "commands": {
@@ -85,6 +98,7 @@
     "ticketPings": "Ticket Pings",
     "setupStaff": "Setup Staff",
     "setupStaffDesc": "Select the staff members who should be able to see the ticket forum. (You can change this manually later.)",
+    "youCanChangeEverythingLater": "You can change everything later.",
     "guidedSetup": "Guided Setup",
     "setupPings": "Setup Pings",
     "setupAnonym": "Setup Anonymity",
@@ -95,7 +109,9 @@
     "setupAutoForwarding": "Setup Auto Forwarding",
     "autoForwardingEnabledByDefault": "Auto forwarding is enabled by default.",
     "setupAllowedBots": "Setup Allowed Bots",
-    "selectMenuIssueNotice": "> :warning: If the pre-selected values are the same, go to another channel and come straight back. This should fix the problem.\n-# :information_source: This is just a notice about this bug. You can click to dismiss this message."
+    "selectMenuIssueNotice": "> If the pre-selected values are the same, go to another channel and come straight back. This should fix the problem.\n-# :information_source: This is just a notice about this bug. You can click to dismiss this message.",
+    "setupOverview": "Setup Overview",
+    "pleaseFinishTheSetup": "Please finish the setup or dismiss this message to cancel it."
   },
   "labels": {
     "confirm": "Confirm",
@@ -161,7 +177,10 @@
     "add": "Add",
     "remove": "Remove",
     "activated": "Activated",
-    "deactivated": "Deactivated"
+    "deactivated": "Deactivated",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "staff": "Staff"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
