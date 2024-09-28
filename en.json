@@ -114,7 +114,12 @@
     "setupAllowedBots": "Setup Allowed Bots",
     "selectMenuIssueNotice": "> If the pre-selected values are the same, go to another channel and come straight back. This should fix the problem.\n-# :information_source: This is just a notice about this bug. You can click to dismiss this message.",
     "setupOverview": "Setup Overview",
-    "pleaseFinishTheSetup": "Please finish the setup or dismiss this message to cancel it."
+    "pleaseFinishTheSetup": "Please finish the setup or dismiss this message to cancel it.",
+    "editQuestionsWithButtonsBelow": "Edit the questions with the buttons below.",
+    "changeQuestionToEditWithselectMenuBelow": "Change the question to edit with the select menu below.",
+    "userFeedbackQuestions": "User Feedback Questions",
+    "questions": "Questions"
+
   },
   "labels": {
     "confirm": "Confirm",
@@ -183,7 +188,21 @@
     "deactivated": "Deactivated",
     "enabled": "Enabled",
     "disabled": "Disabled",
-    "staff": "Staff"
+    "enable": "Enable",
+    "disable": "Disable",
+    "staff": "Staff",
+    "selectQuestionToEdit": "Select Question to Edit",
+    "noQuestionsSet": "No questions found",
+    "editQuestion": "Edit Question",
+    "addQuestion": "Add Question",
+    "removeQuestion": "Remove Question",
+    "reorderQuestions": "Reorder Questions",
+    "questionLabel": "Question Label",
+    "placeholder": "Placeholder",
+    "questionMinChars": "Minimum Characters",
+    "questionMaxChars": "Maximum Characters",
+    "toggleRequired": "Toggle Required ({newState})",
+    "back": "Back"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
