@@ -25,7 +25,9 @@
     "ticketWasClosed": "Ticket was closed.",
     "youWantToCreateANewTicket": "You want to create a new ticket?",
     "setupInProgress": "Setup already in progress. Please wait.",
-    "missingPermissions": "Missing permissions"
+    "missingPermissions": "Missing permissions",
+    "invalidPositions": "Invalid positions! Every position has to be unique and between `1` and `5`.",
+    "anonymDisabled": "Anonymity is disabled."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -54,6 +56,9 @@
     "tag-userResponded": "User Responded",
     "tag-awaitingResponse": "Awaiting Response",
     "automaticMessageForwarding": "Automatic Message Forwarding",
+    "autoForwardingGuildExplanaition": "If enabled, messages in a ticket will be automatically forwarded to the user.",
+    "autoForwardingDMExplanaition": "If enabled, messages in a ticket will be automatically forwarded to your last active Ticket.",
+    "autoForwardInDMsNotice": ":warning: If you have an open ticket and want to create another one you need to use {command:create-ticket} in your DMS!",
     "allowedBots": "Allowed Bots (in Tickets)",
     "setupSuccessDesc": [
       "Remember that you can always change the settings with the commands.",
@@ -68,7 +73,17 @@
       "- Set up User Feedback",
       "- Set up a Ticket Panel",
       "with {command:config tickets} ."
-    ]
+    ],
+    "thankyouForYouFeedback": "Thank you for your feedback!",
+    "ticketPostName": "[{ticketId}] (#{count}) @{username}",
+    "userInfo": "User Info",
+    "userDetails": [
+      "- **User:** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>\n",
+      "- **User ID:** `{id}`\n",
+      "- **Joined Discord:** {joinedDiscord}\n",
+      "- **Joined Server:** {joinedGuild}"
+    ],
+    "userRoles": "User Roles"
   },
   "reports": { },
   "commands": {
@@ -90,7 +105,7 @@
     "setupTickets": "Setup Tickets",
     "configureCustomMessage": "Configure Custom Message",
     "customMessageExampleBelow": "An example of the custom message is shown below.",
-    "setupTicketWithCommand": "You can set up tickets with the command {command:setup tickets}.",
+    "setupTicketWithCommand": "You can set up tickets with the command {command:setup tickets quick} or {command:setup tickets guided}.",
     "userFeedbackTurnedOff": "User feedback has been turned off.",
     "panelConfiguration": "Panel Configuration",
     "editPanelWithButtonsBelow": "Edit the panel with the buttons below.",
@@ -118,8 +133,22 @@
     "editQuestionsWithButtonsBelow": "Edit the questions with the buttons below.",
     "changeQuestionToEditWithselectMenuBelow": "Change the question to edit with the select menu below.",
     "userFeedbackQuestions": "User Feedback Questions",
-    "questions": "Questions"
-
+    "questions": "Questions",
+    "welcomeToGuidedSetup": [
+      "### __Welcome to the guided setup!__",
+      "Here the bot will guide you through the setup process.",
+      "Only the first step is required, the rest is optional. Optional steps can be skipped by clicking the button \"Skip\".",
+      "You can always change the settings later with the command {command:config tickets}.",
+      "",
+      "Press the button below to start the guided setup.",
+      "-# If you are already familiar with the bot, you can also use the command {command:setup tickets quick}."
+    ],
+    "questionLabelPlaceholder": "The Question you are asking the user",
+    "phPlaceholder": "The placeholder text in the input field",
+    "minCharsPlaceholder": "Minimum number of characters the user has to type in.",
+    "maxCharsPlaceholder": "Maximum number of characters the user can type in.",
+    "stylePlaceholder": "1 = Single-Line ; 2 = Multi-Line",
+    "changeSelectionBelowToChangeConfig": "Change the selection below to change the configuration."
   },
   "labels": {
     "confirm": "Confirm",
@@ -192,7 +221,7 @@
     "disable": "Disable",
     "staff": "Staff",
     "selectQuestionToEdit": "Select Question to Edit",
-    "noQuestionsSet": "No questions found",
+    "noQuestionsFound": "No questions found",
     "editQuestion": "Edit Question",
     "addQuestion": "Add Question",
     "removeQuestion": "Remove Question",
@@ -202,12 +231,23 @@
     "questionMinChars": "Minimum Characters",
     "questionMaxChars": "Maximum Characters",
     "toggleRequired": "Toggle Required ({newState})",
-    "back": "Back"
+    "back": "Back",
+    "allowedLength": "Allowed Length",
+    "required": "Required",
+    "style": "Style",
+    "inputStyle1": "1 (Single-Line)",
+    "inputStyle2": "2 (Multi-Line)",
+    "currentPosition": "Current Position: {pos}",
+    "thankyouResponse": "Thank you Response",
+    "toggleForwarding": "Toggle Forwarding ({newState})",
+    "toggleSetting": "Toggle Setting ({newState})",
+    "youNeedPremium": "SupportMail Premium Feature"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
-    "premiumRequired": "You need SupportMail Premium to do this!",
-    "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)"
+    "premiumRequired": "You need SupportMail Premium for this!",
+    "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)",
+    "selectAtMost5": "You can select at most 5."
   },
   "permissions": {
     "CREATE_PUBLIC_THREADS": "CREATE_PUBLIC_THREADS",
