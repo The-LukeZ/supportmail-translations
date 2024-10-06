@@ -34,7 +34,7 @@
     "createNewTicket": "Create new Ticket",
     "createTicketQuestion": "Create a new Ticket?",
     "continueQuestion": "Continue in Ticket?",
-    "continueTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
+    "activeTicketDetails": "- **Ticket ID:** `{ticketId}`\n- **Server Name:** {guildName}\n- **Server ID:** `{guildId}`\n- **last Active:** <t:{relTimestamp}:R>",
     "guildInfo": "- **Servername:** {guildName}\n- **Server ID:** `{guildId}`",
     "selectServerTitle": "Please select a server",
     "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one.",
@@ -75,12 +75,12 @@
       "with {command:config tickets} ."
     ],
     "thankyouForYouFeedback": "Thank you for your feedback!",
-    "ticketPostName": "[{ticketId}] (#{count}) @{username}",
+    "ticketPostName": "#{count} | {ticketId} | @{username}",
     "userInfo": "User Info",
     "userDetails": [
-      "- **User:** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>\n",
-      "- **User ID:** `{id}`\n",
-      "- **Joined Discord:** {joinedDiscord}\n",
+      "- **User:** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>",
+      "- **User ID:** `{id}`",
+      "- **Joined Discord:** {joinedDiscord}",
       "- **Joined Server:** {joinedGuild}"
     ],
     "userRoles": "User Roles"
