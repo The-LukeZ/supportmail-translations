@@ -6,7 +6,8 @@
     "contactServerAdmin": "Please contact a server admin.",
     "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj).",
     "blacklistedTitle": ":warning: You are blacklisted!",
-    "dontDeleteMessages": "Please don't delete messages!"
+    "dontDeleteMessages": "Please don't delete messages!",
+    "ok": "OK."
   },
   "errors": {
     "anErrorOccured": "An error occured!",
@@ -27,7 +28,15 @@
     "setupInProgress": "Setup already in progress. Please wait.",
     "missingPermissions": "Missing permissions",
     "invalidPositions": "Invalid positions! Every position has to be unique and between `1` and `5`.",
-    "anonymDisabled": "Anonymity is disabled."
+    "anonymDisabled": "Anonymity is disabled.",
+    "postClosed_ReopenToContinue": "This post has been closed. Reopen it to continue the conversation.\n-# The post will be archived again in 10 seconds. PLease do not respond in closed tickets!",
+    "dmFailed": "Failed to send the DM.",
+    "userNotifyFailed": "Failed to notify the user.",
+    "cannotSendMessagesToTheUser": "Cannot send messages to the user.",
+    "ticketNotFound": "Ticket not found.",
+    "ticketAlreadyClosed": "Ticket already closed.",
+    "closeRequestNotFound": "Close request not found.",
+    "timestringError": "Timestring error: `{error}`"
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -83,7 +92,22 @@
       "- **Joined Discord:** {joinedDiscord}",
       "- **Joined Server:** {joinedGuild}"
     ],
-    "userRoles": "User Roles"
+    "userRoles": "User Roles",
+    "closedAutomaticallyToDMFailed": "Ticket closed automatically. Failed to send the message to the user.",
+    "ticketClosed": "Ticket closed",
+    "closeRequestCancelled": "Close request cancelled.",
+    "closeComment": "Close Comment",
+    "closeCommentIsPrivate": "The comment is private.",
+    "deleteCloseReqAndCloseTicket": "Delete close request and close ticket?",
+    "closeCancelled": "Close cancelled.",
+    "closeRequest": "Close Request",
+    "closeRequestDescription": "The user can now accept or deny the close request.\n\n> To revoke the close request, execute {command:close-request delete} or send another message you want to send to the user.",
+    "ticketAutoCloseIfNoResponse": "The ticket will be automatically closed if the user doesn't respond until <t:{closeTime}> (<t:{closeTime}:R>).",
+    "acceptOrDenyCloseRequest": "Accept or deny the close request.",
+    "comment": "Comment",
+    "autoCloseIn": "Automatically close in",
+    "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>",
+    "closeInsteadQuestion": "Close ticket instead?"
   },
   "reports": { },
   "commands": {
@@ -148,7 +172,8 @@
     "minCharsPlaceholder": "Minimum number of characters the user has to type in.",
     "maxCharsPlaceholder": "Maximum number of characters the user can type in.",
     "stylePlaceholder": "1 = Single-Line ; 2 = Multi-Line",
-    "changeSelectionBelowToChangeConfig": "Change the selection below to change the configuration."
+    "changeSelectionBelowToChangeConfig": "Change the selection below to change the configuration.",
+    "closeRequestDeleted": "Close request deleted."
   },
   "labels": {
     "confirm": "Confirm",
@@ -241,13 +266,18 @@
     "thankyouResponse": "Thank you Response",
     "toggleForwarding": "Toggle Forwarding ({newState})",
     "toggleSetting": "Toggle Setting ({newState})",
-    "youNeedPremium": "SupportMail Premium Feature"
+    "youNeedPremium": "SupportMail Premium Feature",
+    "yes": "Yes",
+    "no": "No",
+    "accept": "Accept",
+    "deny": "Deny"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
     "premiumRequired": "You need SupportMail Premium for this!",
     "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)",
-    "selectAtMost5": "You can select at most 5."
+    "selectAtMost5": "You can select at most 5.",
+    "youShouldCloseTicket": "You should close the ticket."
   },
   "permissions": {
     "CREATE_PUBLIC_THREADS": "CREATE_PUBLIC_THREADS",
