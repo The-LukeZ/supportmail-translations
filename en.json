@@ -106,7 +106,7 @@
     "acceptOrDenyCloseRequest": "Accept or deny the close request.",
     "comment": "Comment",
     "autoCloseIn": "Automatically close in",
-    "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>",
+    "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Close ticket instead?",
     "responseInTicket": "Response in Ticket"
   },
