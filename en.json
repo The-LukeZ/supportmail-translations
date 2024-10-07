@@ -10,6 +10,7 @@
     "ok": "OK."
   },
   "errors": {
+    "unknownError": "An unknown error occured. Please contact the developer.",
     "anErrorOccured": "An error occured!",
     "somethingWentWrongErrorBelow": "Something went wrong. The error is shown below.",
     "ticketChannelInvalid": "Ticket channel invalid",
@@ -36,7 +37,8 @@
     "ticketNotFound": "Ticket not found.",
     "ticketAlreadyClosed": "Ticket already closed.",
     "closeRequestNotFound": "Close request not found.",
-    "timestringError": "Timestring error: `{error}`"
+    "timestringError": "Timestring error: `{error}`",
+    "ticketNotCloseRequested": "Ticket not close requested. Something feels wrong here..."
   },
   "tickets": {
     "serverteam": "Serverteam",
