@@ -107,7 +107,8 @@
     "comment": "Comment",
     "autoCloseIn": "Automatically close in",
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>",
-    "closeInsteadQuestion": "Close ticket instead?"
+    "closeInsteadQuestion": "Close ticket instead?",
+    "responseInTicket": "Response in Ticket"
   },
   "reports": { },
   "commands": {
