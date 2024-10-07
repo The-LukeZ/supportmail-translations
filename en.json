@@ -57,7 +57,7 @@
     "respondWithYourIssue": "Please respond with your issue.",
     "checkYourDMs": "Please check your DMs.",
     "ticketCreated": "Ticket created.",
-    "ticketId": "**Ticket ID:** {id}",
+    "ticketId": "**Ticket ID:** `{id}`",
     "categoryName": "SupportMail",
     "forumName": "tickets",
     "tag-open": "Open",
