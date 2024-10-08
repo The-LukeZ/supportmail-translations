@@ -38,7 +38,8 @@
     "ticketAlreadyClosed": "Ticket already closed.",
     "closeRequestNotFound": "Close request not found.",
     "timestringError": "Timestring error: `{error}`",
-    "ticketNotCloseRequested": "Ticket not close requested. Something feels wrong here..."
+    "ticketNotCloseRequested": "Ticket not close requested. Something feels wrong here...",
+    "openTicketFound": "Open ticket found."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -110,7 +111,9 @@
     "autoCloseIn": "Automatically close in",
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Close ticket instead?",
-    "responseInTicket": "Response in Ticket"
+    "responseInTicket": "Response in Ticket",
+    "checkYourDM": "Please check your DMs.",
+    "finishOpenTicket": "Finish open your ticket first!"
   },
   "reports": { },
   "commands": {
@@ -127,6 +130,7 @@
     ],
     "anonym-disabled": "Ticket responses will be sent with the team member's username.",
     "ticketPingConfig": "Ticket Ping Configuration",
+    "reportPingConfig": "Report Pings",
     "ticketBotsConfig": "Allowed Bots in Tickets",
     "userFeedbackConfig": "User Feedback Configuration",
     "setupTickets": "Setup Tickets",
@@ -280,7 +284,7 @@
     "premiumRequired": "You need SupportMail Premium for this!",
     "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)",
     "selectAtMost5": "You can select at most 5.",
-    "youShouldCloseTicket": "You should close the ticket."
+    "youShouldCloseTicket": "You should close the ticket with {command:close} ."
   },
   "permissions": {
     "CREATE_PUBLIC_THREADS": "CREATE_PUBLIC_THREADS",
