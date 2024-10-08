@@ -39,7 +39,13 @@
     "closeRequestNotFound": "Close request not found.",
     "timestringError": "Timestring error: `{error}`",
     "ticketNotCloseRequested": "Ticket not close requested. Something feels wrong here...",
-    "openTicketFound": "Open ticket found."
+    "openTicketFound": "Open ticket found.",
+    "invalidTime": "Invalid time.",
+    "timeInPast": "Time is in the past.",
+    "ticketsAlreadyPaused": "Tickets are already paused.",
+    "reportsAlreadyPaused": "Reports are already paused.",
+    "ticketsNotPaused": "Tickets are not paused.",
+    "reportsNotPaused": "Reports are not paused."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -180,7 +186,12 @@
     "maxCharsPlaceholder": "Maximum number of characters the user can type in.",
     "stylePlaceholder": "1 = Single-Line ; 2 = Multi-Line",
     "changeSelectionBelowToChangeConfig": "Change the selection below to change the configuration.",
-    "closeRequestDeleted": "Close request deleted."
+    "closeRequestDeleted": "Close request deleted.",
+    "tickets-paused": "Tickets paused.",
+    "reports-paused": "Reports paused.",
+    "resumeAt": "Resume at <t:{at}> (<t:{at}:R>).",
+    "tickets-resumed": "Tickets resumed.",
+    "reports-resumed": "Reports resumed."
   },
   "labels": {
     "confirm": "Confirm",
