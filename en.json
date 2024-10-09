@@ -7,7 +7,9 @@
     "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj).",
     "blacklistedTitle": ":warning: You are blacklisted!",
     "dontDeleteMessages": "Please don't delete messages!",
-    "ok": "OK."
+    "ok": "OK.",
+    "premiumRequired": "You need SupportMail Premium for this!",
+    "managePremiumHere": "Manage premium with {command:premium}."
   },
   "errors": {
     "unknownError": "An unknown error occured. Please contact the developer.",
@@ -292,8 +294,6 @@
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
-    "premiumRequired": "You need SupportMail Premium for this!",
-    "buyPremiumHere": "You can buy Premium [here](https://localhost:3000/premium/buy)",
     "selectAtMost5": "You can select at most 5.",
     "youShouldCloseTicket": "You should close the ticket with {command:close} ."
   },
@@ -309,5 +309,45 @@
     "USE_EXTERNAL_EMOJIS": "USE_EXTERNAL_EMOJIS",
     "VIEW_AUDIT_LOG": "VIEW_AUDIT_LOG",
     "VIEW_CHANNEL": "VIEW_CHANNEL"
+  },
+  "logs": {
+    "type": {
+      "ticket": "Tickets",
+      "report": "Reports",
+      "blacklist": "Blacklist"
+    },
+    "ticket": {
+      "created": "Ticket created",
+      "closed": "Ticket closed",
+      "closeRequested": "Close requested",
+      "closeRequestAccepted": "Close request accepted",
+      "closeRequestDenied": "Close request denied",
+      "closeRequestDeleted": "Close request deleted",
+      "pingsUpdated": "Pings updated",
+      "messageForwardingToggled": "Message forwarding toggled",
+      "anonymityUpdated": "Anonymity updated",
+      "allowedBotsUpdated": "Allowed bots updated",
+      "userFeedbackUpdated": "User feedback updated",
+      "ticketPaused": "Tickets paused",
+      "ticketResumed": "Tickets resumed"
+    },
+    "report": {
+      "created": "Report created",
+      "updated": "Report updated",
+      "deleted": "Report deleted",
+      "reportChannelUpdated": "Report channel updated",
+      "pingsUpdated": "Pings updated",
+      "immunityUpdated": "Immunity updated",
+      "modRolesUpdated": "Mod roles updated",
+      "channelsUpdated": "Channels updated",
+      "buttonsToggled": "Buttons toggled",
+      "paused": "Reports paused",
+      "resumed": "Reports resumed"
+    },
+    "blacklist": {
+      "add": "User added to blacklist",
+      "remove": "User removed from blacklist",
+      "clear": "Blacklist cleared"
+    }
   }
 }
