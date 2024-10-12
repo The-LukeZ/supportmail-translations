@@ -19,6 +19,7 @@
     "tokenRevocationError": "There has been a token revocation error.\nPlease notify the bot support.",
     "userFeedbackNotSetup": "User feedback is not set up.",
     "ticketsAlreadySetup": "Tickets are already set up.",
+    "reportsAlreadySetup": "Reports are already set up.",
     "userFeedbackAlreadySetup": "User feedback is already set up.",
     "ticketsNotEnabled": "Tickets are not enabled in this server.",
     "reportsNotEnabled": "Reports are not enabled in this server.",
