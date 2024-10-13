@@ -63,7 +63,7 @@ We can nest JSON objects as much as we want but in this project, we only nest on
 - Command placeholders: `{command:commandname}`<br>
   Example: `{command:help}` will parse to a clickable `/help`.
 
-Note that you can also write command placeholders with spaces like `{command:config tickets panel}` .
+Note that you can also write command placeholders with spaces like `{command:config tickets}` which parses to `/config tickets`.
 
 ### Arrays / Lists
 
