@@ -58,10 +58,10 @@ We can nest JSON objects as much as we want but in this project, we only nest on
 
 ### Variables
 
-- Normal variables: `{placeholder}`
-- Command placeholders: `{command:help}`
-
-Command placeholders will eventually parse to a clickable `/help`.
+- Normal variables: `{variableName}`<br>
+  Example: `{username}` will parse into `thelukez`.
+- Command placeholders: `{command:commandname}`<br>
+  Example: `{command:help}` will parse to a clickable `/help`.
 
 Note that you can also write command placeholders with spaces like `{command:config tickets panel}` .
 
