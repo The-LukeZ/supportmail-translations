@@ -9,7 +9,8 @@
     "dontDeleteMessages": "Please don't delete messages!",
     "ok": "OK.",
     "premiumRequired": "You need SupportMail Premium for this!",
-    "managePremiumHere": "Manage premium with {command:premium}."
+    "managePremiumHere": "Manage premium with {command:premium}.",
+    "default": "Default"
   },
   "errors": {
     "unknownError": "An unknown error occured. Please contact the developer.",
@@ -53,7 +54,11 @@
     "sendingReportFailed": "Sending the Report failed.",
     "ongoingReportForThisMessage": "There is an ongoing report for this message. Please wait.",
     "noOngoingReportForThisUser": "There is no ongoing report for this user. Please wait.",
-    "youCantReportMe": "You can't report me. What are you trying to achieve? 🤨"
+    "youCantReportMe": "You can't report me. What are you trying to achieve? 🤨",
+    "maxReportsInGuildReached": "Maximum reports in the guild reached. Try again later or contact the server staff.",
+    "maxReportsCreated": "Maximum number of reports created. Please wait until one of the reports is resolved.",
+    "maxReportsReceivedForUser": "You can report this user anymore since they have reached the maximum number of reports.",
+    "notAuthorized": "Who do you think you are? You are not authorized to do this!"
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -121,7 +126,6 @@
     "closeRequestDescription": "The user can now accept or deny the close request.\n\n> To revoke the close request, execute {command:close-request delete} or send another message you want to send to the user.",
     "ticketAutoCloseIfNoResponse": "The ticket will be automatically closed if the user doesn't respond until <t:{closeTime}> (<t:{closeTime}:R>).",
     "acceptOrDenyCloseRequest": "Accept or deny the close request.",
-    "comment": "Comment",
     "autoClose": "Automatically close",
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Close ticket instead?",
@@ -130,6 +134,8 @@
     "finishOpenTicket": "Finish open your ticket first!"
   },
   "reports": {
+    "reportsChannelDesc": "The channel where created reports will be sent to.",
+    "channelConfigWithID": "",
     "reportIsBeingCreated": "Report is being created. Please wait.",
     "reportMessage": "Report Message",
     "reportUser": "Report User",
@@ -148,7 +154,7 @@
     ],
     "reportTitle": "Report | `{id}`",
     "reportedUser": "Reported User",
-    "reportedUserDetails": [
+    "reportUserDetails": [
       "- Username: [@{username}](https://discord.com/users/{userid})",
       "- User ID: `{userid}`",
       "- Avatar URL: [Link]({avatarurl})",
@@ -156,12 +162,65 @@
       "- Joined Server: {joinedguild}"
     ],
     "reportedBy": "Reported by",
-    "reportedByDetails": [
-      "- Username: [@{username}](https://discord.com/users/{userid})",
-      "- User ID: `{userid}`",
-      "- Avatar URL: [Link]({avatarurl})",
-      "- Joined Discord: {joineddiscord}",
-      "- Joined Server: {joinedguild}"
+    "proofs": "Proofs",
+    "actionsExplanation": [
+      "Mods can take action on a report: **ban**, **kick**, **timeout** or **ignore**. **Ignoring** is always an option.",
+      "This setting is enabled by default.",
+      "If this setting is disabled, mods can only decide between **resolve** (without any action) and **ignore**.",
+      "We recommend disabling this setting if you want to handle reports yourself."
+    ],
+    "guidedReportsSetupInstructions": [
+      "You will now be guided through the setup process step-by-step.",
+      "You can always change each setting later with the command {command:config reports}.",
+      "If you want to skip a step, click the button **Skip**.",
+      "-# If you are already familiar with the bot, you can also use the command {command:setup reports quick}.",
+      "",
+      "Press the button below to start the setup."
+    ],
+    "changeConfigWithCommand": "You can change the configuration with the command {command:config reports}.",
+    "pingsExplanation": "The roles and users configured here will be pinged when a report is created.",
+    "immunesExplanation": "The users and roles configured here will be immune to reports.",
+    "modsExplanation": "The users and roles configured here will be able to take action on reports.",
+    "specialChannelsExplanation": [
+      "You can configure special channels to either exclude set channels from reports or to include only set channels in reports.",
+      "That means, if you exclude channels, no one will be able to report messages in these channels.",
+      "If you include channels, reports on messages can only be created in these channels.",
+      "You can change the setting (excluded/included) below and select the channels below."
+    ],
+    "limitsExplanation": [
+      "You can limit the following numbers:",
+      "- Maximum open reports a user can create \\*",
+      "- Maximum reports a user can receive",
+      "- Maximum open reports in the server",
+      "",
+      "-# \\* Example: The limit is `5` and a user has already created `5` reports. They can't create more reports until at least one of the reports is resolved."
+    ],
+    "notificationLevelExplanation": [
+      "You can configure if and how much information an author of a report will receive.",
+      "The following levels are available:",
+      "- `None`: No information will be sent.",
+      "- `Anonym`: Only a generic \"Action Taken\" message will be sent.",
+      "- `Only Report`: Like `Anonym`, but the Report ID will also be sent.",
+      "- `Only Action`: Like `Anonym`, but the action taken will also be sent.",
+      "- `Full`: The Report ID and the action taken will be sent."
+    ],
+    "NotiLevel-None": "None",
+    "NotiLevel-Anonym": "Anonym",
+    "NotiLevel-OnlyReport": "Only Report",
+    "NotiLevel-OnlyAction": "Only Action",
+    "NotiLevel-Full": "Full",
+    "NotiLevel-defaultLevel": "Default Level",
+    "onlyThatSomeActionHasBeenTaken": "Only that an action has been taken.",
+    "OnlyActionNotWhichReport": "Only the action taken, not which report.",
+    "excludedChannels": "Excluded Channels",
+    "includedChannels": "Included Channels",
+    "reportsNotPossibleInTheseChannels": "Reports are not possible in these channels",
+    "reportsOnlyPossibleInTheseChannels": "Reports are only possible in these channels",
+    "reportLimits": "Report Limits",
+    "reportLimitsDetails": [
+      "- **Max Open Reports per User (create):** `{maxOpenReportsCreate}`",
+      "- **Max Open Reports per User (receive):** `{maxReportsReceived}`",
+      "- **Max Open Reports in Guild:** `{maxReportsOpenInGuild}`"
     ]
   },
   "commands": {
@@ -231,9 +290,20 @@
     "closeRequestDeleted": "Close request deleted.",
     "tickets-paused": "Tickets paused.",
     "reports-paused": "Reports paused.",
-    "resumeAt": "Resume at <t:{at}> (<t:{at}:R>).",
     "tickets-resumed": "Tickets resumed.",
-    "reports-resumed": "Reports resumed."
+    "reports-resumed": "Reports resumed.",
+    "resumeAt": "Resume at <t:{at}> (<t:{at}:R>).",
+    "toggleReportActions": "Toggle Report Actions",
+    "setupReports": "Setup Reports",
+    "reportConfig": "Report Configuration",
+    "reportChannelConfig": "Report Channel Configuration",
+    "setupReportLimits": "Set Report Limits",
+    "setupImmunes": "Set Immune users and roles",
+    "setupMods": "Set Moderators",
+    "setupSpecialChannels": "Setup Special Channels",
+    "setupNotificationLevel": "Set Notification Level",
+    "thatsTheLastStep": "That's the last step. Your previously selected settings will be applied after you're done with this step.",
+    "setupComplete": "Setup complete!"
   },
   "labels": {
     "confirm": "Confirm",
@@ -329,7 +399,26 @@
     "yes": "Yes",
     "no": "No",
     "accept": "Accept",
-    "deny": "Deny"
+    "deny": "Deny",
+    "maxOpenReportsCreate": "Maximum open reports a user can create",
+    "perUserCreate": "Open Reports per User (create)",
+    "maxReportsReceived": "Maximum reports a user can receive",
+    "perUserReceive": "Open Reports per User (receive)",
+    "maxReportsOpenInGuild": "Maximum open reports in the server",
+    "openInGuild": "Open Reports in Guild",
+    "configure": "Configure",
+    "excludeSelectedChannels": "Exclude selected channels",
+    "includeSelectedChannels": "Include selected channels",
+    "timeout": "Timeout",
+    "kick": "Kick",
+    "ban": "Ban",
+    "ignore": "Ignore",
+    "resolve": "Resolve",
+    "deleteMessage": "Delete Message",
+    "takeAction": "Take Action",
+    "resolveWithoutAction": "Resolve (without action)",
+    "userinfo": "User Info",
+    "comment": "Comment"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
