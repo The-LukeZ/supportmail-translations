@@ -47,9 +47,7 @@ It's mostly used whenever a text has too many lines.
 | `"some text in qoutes"` | `\"some text\"` | Qoutes must be escaped because of JSON.      |
 | A new line              | `\n`            | It's the common standard.                    |
 | A backslash `\`         | `\\`            | Backslashes must be escaped because of JSON. |
-
-| A single asterisk `*`
-(!NOT for Discord markdown!) | `\\*` | Escaping the asterisk + the `\` because of JSON. |
+| A single asterisk `*`<br>(!NOT for Discord markdown!) | `\\*` | Escaping the asterisk + the `\` because of JSON. |
 
 For Discord Markdown, please refer to the following article: [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
 
