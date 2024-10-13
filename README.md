@@ -16,7 +16,7 @@ If you want to add another language,
 The locale system we use is the [ISO-639-1 standard](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 <details>
-<summary>If you don't know anything about JSON, please read this</summary>
+<summary>If you don't know anything about JSON, please read this (Click to expand)</summary>
 
 ### JSON
 
