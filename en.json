@@ -55,10 +55,14 @@
     "ongoingReportForThisMessage": "There is an ongoing report for this message. Please wait.",
     "noOngoingReportForThisUser": "There is no ongoing report for this user. Please wait.",
     "youCantReportMe": "You can't report me. What are you trying to achieve? 🤨",
-    "maxReportsInGuildReached": "Maximum reports in the guild reached. Try again later or contact the server staff.",
-    "maxReportsCreated": "Maximum number of reports created. Please wait until one of the reports is resolved.",
-    "maxReportsReceivedForUser": "You can report this user anymore since they have reached the maximum number of reports.",
-    "notAuthorized": "Who do you think you are? You are not authorized to do this!"
+    "maxReportsInGuildReached": "Maximum number of open reports in the guild reached. Try again later or contact the server staff.",
+    "maxReportsCreated": "Maximum number of open reports created. Please wait until one of the reports is resolved.",
+    "maxReportsReceivedForUser": "You can report this user anymore since they have reached the maximum number of open reports.",
+    "notAuthorized": "Who do you think you are? You are not authorized to do this!",
+    "reportNotFound": "Report not found.",
+    "reportAlreadyResolved": "Report already resolved.",
+    "reportAlreadyBeingEdited": "Report is already being edited. Please wait.",
+    "noMessageToDelete": "No message to delete."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -135,7 +139,6 @@
   },
   "reports": {
     "reportsChannelDesc": "The channel where created reports will be sent to.",
-    "channelConfigWithID": "",
     "reportIsBeingCreated": "Report is being created. Please wait.",
     "reportMessage": "Report Message",
     "reportUser": "Report User",
@@ -158,8 +161,8 @@
       "- Username: [@{username}](https://discord.com/users/{userid})",
       "- User ID: `{userid}`",
       "- Avatar URL: [Link]({avatarurl})",
-      "- Joined Discord: {joineddiscord}",
-      "- Joined Server: {joinedguild}"
+      "- Joined Discord: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
+      "- Joined Server: <t:{joinedguild}> (<t:{joinedguild}:R>)"
     ],
     "reportedBy": "Reported by",
     "proofs": "Proofs",
@@ -221,7 +224,19 @@
       "- **Max Open Reports per User (create):** `{maxOpenReportsCreate}`",
       "- **Max Open Reports per User (receive):** `{maxReportsReceived}`",
       "- **Max Open Reports in Guild:** `{maxReportsOpenInGuild}`"
-    ]
+    ],
+    "commentPlaceholder": "Any additional context to support your reason (text is good, image links are better)",
+    "reasonPlaceholder": "The reason for your report",
+    "actionSuccessful": "Action successfully executed",
+    "action-resolved": "Resolved",
+    "action-ignored": "Ignored",
+    "action-banned": "Banned",
+    "action-kicked": "Kicked",
+    "action-timeouted": "Timeouted",
+    "action-messageDeleted": "Message Deleted",
+    "newStatus": "New Status: `{status}`",
+    "messagesDeletedOfLast": "Messages of the last {durationPeriod} deleted.",
+    "timeoutUntil": "Until: <t:{timestamp}> (<t:{timestamp}:R>)"
   },
   "commands": {
     "successfullyLoggedOut": "Successfully logged out.",
@@ -410,15 +425,20 @@
     "excludeSelectedChannels": "Exclude selected channels",
     "includeSelectedChannels": "Include selected channels",
     "timeout": "Timeout",
+    "timeoutUser": "Timeout User",
     "kick": "Kick",
     "ban": "Ban",
+    "banUser": "Ban User",
     "ignore": "Ignore",
     "resolve": "Resolve",
     "deleteMessage": "Delete Message",
     "takeAction": "Take Action",
     "resolveWithoutAction": "Resolve (without action)",
     "userinfo": "User Info",
-    "comment": "Comment"
+    "comment": "Comment",
+    "duration": "Duration",
+    "deleteMessageHistory": "Delete Message History | Default: 7 days",
+    "timestringFormat": "Format: docs.supportmail.dev/e/timestring"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
