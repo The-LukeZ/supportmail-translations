@@ -32,7 +32,7 @@
     "ticketWasClosed": "Ticket was closed.",
     "youWantToCreateANewTicket": "You want to create a new ticket?",
     "setupInProgress": "Setup already in progress. Please wait.",
-    "missingPermissions": "Missing permissions",
+    "missingPermissions": "Missing permissions.",
     "invalidPositions": "Invalid positions! Every position has to be unique and between `1` and `5`.",
     "anonymDisabled": "Anonymity is disabled.",
     "postClosed_ReopenToContinue": "This post has been closed. Reopen it to continue the conversation.\n-# The post will be archived again in 10 seconds. PLease do not respond in closed tickets!",
@@ -47,6 +47,8 @@
     "openTicketFound": "Open ticket found.",
     "invalidTime": "Invalid time.",
     "timeInPast": "Time is in the past.",
+    "ticketsPausedUntil": "Tickets are currently not enabled. Try again <t:{timestamp}:R>.",
+    "reportsPausedUntil": "Reports are currently not enabled. Try again <t:{timestamp}:R>.",
     "ticketsAlreadyPaused": "Tickets are already paused.",
     "reportsAlreadyPaused": "Reports are already paused.",
     "ticketsNotPaused": "Tickets are not paused.",
@@ -62,7 +64,10 @@
     "reportNotFound": "Report not found.",
     "reportAlreadyResolved": "Report already resolved.",
     "reportAlreadyBeingEdited": "Report is already being edited. Please wait.",
-    "noMessageToDelete": "No message to delete."
+    "noMessageToDelete": "No message to delete.",
+    "youCantTakeActionOnYourself": "You can't take action on yourself.",
+    "memberNotFound": "Member not found.",
+    "messageNotFound": "Message not found."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -438,7 +443,9 @@
     "comment": "Comment",
     "duration": "Duration",
     "deleteMessageHistory": "Delete Message History | Default: 7 days",
-    "timestringFormat": "Format: docs.supportmail.dev/e/timestring"
+    "timestringFormat": "Format: docs.supportmail.dev/e/timestring",
+    "1-100": "Min: 1 | Max: 100",
+    "1-1000": "Min: 1 | Max: 1000"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
