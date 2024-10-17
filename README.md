@@ -95,11 +95,15 @@ For Discord Markdown, please refer to the following article: [Markdown Text 101 
 ## Rules
 
 - Don't change variables
-- Don't change the JSON keys
+  Especially not the commands (`{command:help}`) - if a user clicks on a command placeholder, the localized version will be automatically used
+- Don't change the JSON keys (`{ "key": "value" }`)
 
 ## Tips
 
 - Use a program like [Visual Studio Code](https://code.visualstudio.com/download) to edit JSON files and have syntax highlighting to avoid mistakes.
+
+  If you don't want to download that, you can change the Domain from `github.com` to `github.dev` in the URL of the file you want to edit. This will open the file in a web editor where you also have syntax highlighting and can commit and push the changes directly.
+
 - If you have an issue or a question, please ask in the [Discord channel](https://ptb.discord.com/channels/1064594649668395128/1294623837614379069).
 
   _(You need the **Translator** role to have access to this channel which can be requested by sending a DM to @thelukez)_

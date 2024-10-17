@@ -10,7 +10,8 @@
     "ok": "OK.",
     "premiumRequired": "You need SupportMail Premium for this!",
     "managePremiumHere": "Manage premium with {command:premium}.",
-    "default": "Default"
+    "default": "Default",
+    "areYouSure": "Are you sure?"
   },
   "errors": {
     "unknownError": "An unknown error occured. Please contact the developer.",
@@ -67,7 +68,14 @@
     "noMessageToDelete": "No message to delete.",
     "youCantTakeActionOnYourself": "You can't take action on yourself.",
     "memberNotFound": "Member not found.",
-    "messageNotFound": "Message not found."
+    "messageNotFound": "Message not found.",
+    "noSubscriptionsFound": "No subscriptions found.",
+    "multipleSubscriptionsForGuild": "Multiple subscriptions for one guild found.\n-# Please contact the [support](<https://discord.gg/rFkVQx3vpj>).",
+    "alreadySubscribed": "This server already has an active subscription.",
+    "ongoingPaymentProcess": "There is an ongoing payment process. Please wait.",
+    "noOngoingPaymentProcess": "No ongoing payment process found.",
+    "noSubscriptionFoundWhileCheckout": "No subscription found.\n-# Please wait at least until you receive the invoice in your e-mail inbox.",
+    "subscriptionNotYours": "This subscription is not yours. How did you even get here?"
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -323,7 +331,67 @@
     "setupSpecialChannels": "Setup Special Channels",
     "setupNotificationLevel": "Set Notification Level",
     "thatsTheLastStep": "That's the last step. Your previously selected settings will be applied after you're done with this step.",
-    "setupComplete": "Setup complete!"
+    "setupComplete": "Setup complete!",
+    "yourSubscriptions": "Your Subscriptions",
+    "subscriptionInfo-OtherBuyer": [
+      "You have not bought **Gold** for this server but someone <@{buyerId}> did.",
+      "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
+    ],
+    "alreadySubscribed": [
+      "This server already has **Gold** because of <@{buyerId}>.",
+      "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
+    ],
+    "subscriptionInfo-DM": [
+      "- Guild ID: `{guildId}`",
+      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
+      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
+      "- Next Payment: <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)"
+    ],
+    "subscriptionInfo-Guild": [
+      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
+      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
+      "- Next Payment: <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)",
+      "- Subscription ID: `{subscriptionId}`",
+      "- Customer ID: `{customerId}`"
+    ],
+    "subscriptionInfo-Expired": [
+      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
+      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
+      "- Subscription expired: <t:{expiredTS}> (<t:{expiredTS}:R>)",
+      "- Subscription ID: `{subscriptionId}`"
+    ],
+    "subscriptionInfo-Cancelled": [
+      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
+      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
+      "- Subscription cancelled: <t:{cancelledTS}> (<t:{cancelledTS}:R>)",
+      "- Subscription ID: `{subscriptionId}`"
+    ],
+    "selectGuildToCancelSubFor": "Select the server to cancel the subscription for",
+    "moreSubscriptionsFoundWithCount": [
+      "{count} more subscriptions found. To manage these, go to the server and use the command again.",
+      "If you don't have access to the server anymore, please contact the support."
+    ],
+    "subscriptionCanceled": [
+      "Subscription successfully canceled.",
+      "-# _The server will keep the benefits until the end of the billing period._",
+      "### You can always re-subscribe with {command:premium}."
+    ],
+    "checkoutCreated": "Checkout created",
+    "checkoutInstructions": [
+      "Please complete the checkout within 15 minutes.",
+      "If you don't complete the checkout within 15 minutes, the checkout will be canceled.",
+      "",
+      "Press the button **Check Payment Status** below after you're done over at Stripe."
+    ],
+    "legalNotice": "Terms and Conditions",
+    "checkoutLegalNotice": [
+      "By completing the checkout, you agree to the [Terms of Service](https://supportmail.dev/legal/terms) and the [Privacy Policy](https://supportmail.dev/legal/privacy).",
+      "You also agree to the [Refund Policy](https://supportmail.dev/legal/refund-policy).",
+      "-# This policy states, amongst other things, that you can only request a refund within 14 days of purchase without giving a reason."
+    ],
+    "checkoutCompleted": "Checkout completed",
+    "confirmSubCancellation": "Are you sure you want to cancel the subscription?",
+    "cancellationCancelled": "Cancellation cancelled."
   },
   "labels": {
     "confirm": "Confirm",
@@ -445,7 +513,8 @@
     "deleteMessageHistory": "Delete Message History | Default: 7 days",
     "timestringFormat": "Format: docs.supportmail.dev/e/timestring",
     "1-100": "Min: 1 | Max: 100",
-    "1-1000": "Min: 1 | Max: 1000"
+    "1-1000": "Min: 1 | Max: 1000",
+    "cancelSubscription": "Cancel Subscription"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
