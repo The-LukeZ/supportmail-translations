@@ -84,7 +84,8 @@
     "alreadyBlacklisted": "User/Role already blacklisted.",
     "userNotBlacklisted": "User not blacklisted.",
     "roleNotBlacklisted": "Role not blacklisted.",
-    "noBlacklistEntriesFound": "No blacklist entries found."
+    "noBlacklistEntriesFound": "No blacklist entries found.",
+    "missingAdminPerms": "Missing administator permissions."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -414,7 +415,10 @@
       "- **Module:** `{module}`",
       "- **Since:** <t:{createdtimestamp}> (<t:{createdtimestamp}:R>)"
     ],
-    "maybeTheProvidedPageNumberIsWrong": "Maybe the provided page number is wrong."
+    "maybeTheProvidedPageNumberIsWrong": "Maybe the provided page number is wrong.",
+    "blacklistClearConfirmation": "Are you sure you want to clear `{count}` blacklist entries for `{module}`?",
+    "blacklistClearSuccess": "Successfully cleared `{count}` blacklist entries for `{module}`.",
+    "blacklistClearCanceled": "Clearing canceled."
   },
   "labels": {
     "confirm": "Confirm",
