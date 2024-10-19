@@ -11,7 +11,11 @@
     "premiumRequired": "You need SupportMail Premium for this!",
     "managePremiumHere": "Manage premium with {command:premium}.",
     "default": "Default",
-    "areYouSure": "Are you sure?"
+    "areYouSure": "Are you sure?",
+    "blModule-tickets": "Tickets",
+    "blModule-reports": "Reports",
+    "blModule-all": "All",
+    "moduleWithPH": "Module(s): {module}"
   },
   "errors": {
     "unknownError": "An unknown error occured. Please contact the developer.",
@@ -75,7 +79,12 @@
     "ongoingPaymentProcess": "There is an ongoing payment process. Please wait.",
     "noOngoingPaymentProcess": "No ongoing payment process found.",
     "noSubscriptionFoundWhileCheckout": "No subscription found.\n-# Please wait at least until you receive the invoice in your e-mail inbox.",
-    "subscriptionNotYours": "This subscription is not yours. How did you even get here?"
+    "subscriptionNotYours": "This subscription is not yours. How did you even get here?",
+    "noTargetOrTicketId": "No target or ticket ID given. You need to provide at least one!",
+    "alreadyBlacklisted": "User/Role already blacklisted.",
+    "userNotBlacklisted": "User not blacklisted.",
+    "roleNotBlacklisted": "Role not blacklisted.",
+    "noBlacklistEntriesFound": "No blacklist entries found."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -391,7 +400,21 @@
     ],
     "checkoutCompleted": "Checkout completed",
     "confirmSubCancellation": "Are you sure you want to cancel the subscription?",
-    "cancellationCancelled": "Cancellation cancelled."
+    "cancellationCancelled": "Cancellation cancelled.",
+    "blacklistRemoveDecide-user": "From which blacklist do you want to remove the user?",
+    "blacklistRemoveDecide-role": "From which blacklist do you want to remove the role?",
+    "blacklistEntryModuleUpdate": "Entry has been updated to `{module}`.",
+    "blacklistRemoveSuccessSingle": "Successfully removed {mention} from all blacklists.",
+    "blacklistRemoveSuccessMultiple": "Successfully removed {firstmention} and {morecount} more from the blacklist.",
+    "blacklistAddSuccess": "Successfully added {mention} to the blacklist.",
+    "blacklistEntryDetailsTitle": "Blacklist Entry Details",
+    "blacklistEntryDetails": [
+      "- {mention}",
+      "- **ID:** `{id}`",
+      "- **Module:** `{module}`",
+      "- **Since:** <t:{createdtimestamp}> (<t:{createdtimestamp}:R>)"
+    ],
+    "maybeTheProvidedPageNumberIsWrong": "Maybe the provided page number is wrong."
   },
   "labels": {
     "confirm": "Confirm",
@@ -514,7 +537,11 @@
     "timestringFormat": "Format: docs.supportmail.dev/e/timestring",
     "1-100": "Min: 1 | Max: 100",
     "1-1000": "Min: 1 | Max: 1000",
-    "cancelSubscription": "Cancel Subscription"
+    "cancelSubscription": "Cancel Subscription",
+    "all-brackets": "(All)",
+    "blacklistEntries": "Blacklist Entries",
+    "selectToRemove": "Select entries to remove",
+    "page": "Page {num}"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
