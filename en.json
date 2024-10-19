@@ -418,7 +418,8 @@
     "maybeTheProvidedPageNumberIsWrong": "Maybe the provided page number is wrong.",
     "blacklistClearConfirmation": "Are you sure you want to clear `{count}` blacklist entries for `{module}`?",
     "blacklistClearSuccess": "Successfully cleared `{count}` blacklist entries for `{module}`.",
-    "blacklistClearCanceled": "Clearing canceled."
+    "blacklistClearCanceled": "Clearing canceled.",
+    "blView-MinMaxPages": "Min: 1 | Max: {max}"
   },
   "labels": {
     "confirm": "Confirm",
@@ -545,7 +546,9 @@
     "all-brackets": "(All)",
     "blacklistEntries": "Blacklist Entries",
     "selectToRemove": "Select entries to remove",
-    "page": "Page {num}"
+    "page": "Page {num}",
+    "newPageNumber": "New Page Number",
+    "setPageNumber": "Set Page Number"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
