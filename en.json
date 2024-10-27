@@ -15,7 +15,8 @@
     "blModule-tickets": "Tickets",
     "blModule-reports": "Reports",
     "blModule-all": "All",
-    "moduleWithPH": "Module(s): {module}"
+    "moduleWithPH": "Module(s): {module}",
+    "configurationsWereResetNotification": "Configurations were reset."
   },
   "errors": {
     "unknownError": "An unknown error occured. Please contact the developer.",
@@ -85,7 +86,10 @@
     "userNotBlacklisted": "User not blacklisted.",
     "roleNotBlacklisted": "Role not blacklisted.",
     "noBlacklistEntriesFound": "No blacklist entries found.",
-    "missingAdminPerms": "Missing administator permissions."
+    "missingAdminPerms": "Missing administator permissions.",
+    "tagNotFound": "Tag not found.",
+    "noTagsFound": "No tags found.",
+    "commandCantBeUsedInDMs": "This command can't be used in DMs."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -419,7 +423,17 @@
     "blacklistClearConfirmation": "Are you sure you want to clear `{count}` blacklist entries for `{module}`?",
     "blacklistClearSuccess": "Successfully cleared `{count}` blacklist entries for `{module}`.",
     "blacklistClearCanceled": "Clearing canceled.",
-    "blView-MinMaxPages": "Min: 1 | Max: {max}"
+    "blView-MinMaxPages": "Min: 1 | Max: {max}",
+    "tagDeleted": "Tag deleted.",
+    "tagEdited": "Tag edited.",
+    "tagCreated": "Tag created.",
+    "tagNamePlaceholder": "a-z, 0-9, _ and spaces ",
+    "tagMention": "-# > _{authormention} tagged {targetmention}:_",
+    "tagSent": "Tag sent",
+    "tagSentAnonymously": "Sent anonymously.",
+    "configurationsReset": "Configurations were reset.",
+    "resetConfigurations": "Reset Configurations",
+    "resetConfigsInstructions": "Select the configs you want to reset below. Those take effect immediately."
   },
   "labels": {
     "confirm": "Confirm",
@@ -548,7 +562,16 @@
     "selectToRemove": "Select entries to remove",
     "page": "Page {num}",
     "newPageNumber": "New Page Number",
-    "setPageNumber": "Set Page Number"
+    "setPageNumber": "Set Page Number",
+    "tags": "Tags",
+    "tagId": "Tag-ID",
+    "tagName": "Tag Name",
+    "tagContent": "Tag content",
+    "addTag": "Add Tag",
+    "editTag": "Edit Tag",
+    "selectTagToView": "Select the tag to view",
+    "selectTagToDelete": "Select the tag to delete",
+    "selectConfigsToReset": "Select the configurations to reset"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
