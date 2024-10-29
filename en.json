@@ -89,7 +89,9 @@
     "missingAdminPerms": "Missing administator permissions.",
     "tagNotFound": "Tag not found.",
     "noTagsFound": "No tags found.",
-    "commandCantBeUsedInDMs": "This command can't be used in DMs."
+    "commandCantBeUsedInDMs": "This command can't be used in DMs.",
+    "debuggingCooldown-roles": "Roles were already debugged a few minutes ago.\n> Please try again {timestamp}.",
+    "debuggingCooldown-users": "Users were already debugged a few minutes ago.\n> Please try again {timestamp}."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -589,7 +591,9 @@
     "SEND_MESSAGES_IN_THREADS": "SEND_MESSAGES_IN_THREADS",
     "USE_EXTERNAL_EMOJIS": "USE_EXTERNAL_EMOJIS",
     "VIEW_AUDIT_LOG": "VIEW_AUDIT_LOG",
-    "VIEW_CHANNEL": "VIEW_CHANNEL"
+    "VIEW_CHANNEL": "VIEW_CHANNEL",
+    "ATTACH_FILES": "ATTACH_FILES",
+    "MENTION_EVERYONE": "MENTION_EVERYONE"
   },
   "logs": {
     "type": {
