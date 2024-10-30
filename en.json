@@ -91,7 +91,8 @@
     "noTagsFound": "No tags found.",
     "commandCantBeUsedInDMs": "This command can't be used in DMs.",
     "debuggingCooldown-roles": "Roles were already debugged a few minutes ago.\n> Please try again {timestamp}.",
-    "debuggingCooldown-users": "Users were already debugged a few minutes ago.\n> Please try again {timestamp}."
+    "debuggingCooldown-users": "Users were already debugged a few minutes ago.\n> Please try again {timestamp}.",
+    "tagLimitReached": "Tag limit reached."
   },
   "tickets": {
     "serverteam": "Serverteam",
