@@ -164,7 +164,9 @@
     "closeInsteadQuestion": "Close ticket instead?",
     "responseInTicket": "Response in Ticket",
     "checkYourDM": "Please check your DMs.",
-    "finishOpenTicket": "Finish open your ticket first!"
+    "finishOpenTicket": "Finish open your ticket first!",
+    "usersCanCreateTicketsAnon": "Users can create tickets anonymously. Read more about it [here]()",
+    "usersCannotCreateTicketsAnon": "Users cannot create tickets anonymously."
   },
   "reports": {
     "reportsChannelDesc": "The channel where created reports will be sent to.",
@@ -435,7 +437,9 @@
     "tagSentAnonymously": "Sent anonymously.",
     "configurationsReset": "Configurations were reset.",
     "resetConfigurations": "Reset Configurations",
-    "resetConfigsInstructions": "Select the configs you want to reset below. Those take effect immediately."
+    "resetConfigsInstructions": "Select the configs you want to reset below. Those take effect immediately.",
+    "anonymousTickets-enabled": "Anonymous tickets enabled",
+    "anonymousTickets-disabled": "Anonymous tickets disabled"
   },
   "labels": {
     "confirm": "Confirm",
