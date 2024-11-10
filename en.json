@@ -75,6 +75,8 @@
     "memberNotFound": "Member not found.",
     "messageNotFound": "Message not found.",
     "noSubscriptionsFound": "No subscriptions found.",
+    "subscriptionNotFound": "Subscription not found.",
+    "noPermissionsToManageSub": "You don't have permissions to manage this subscription.",
     "multipleSubscriptionsForGuild": "Multiple subscriptions for one guild found.\n-# Please contact the [support](<https://discord.gg/rFkVQx3vpj>).",
     "alreadySubscribed": "This server already has an active subscription.",
     "ongoingPaymentProcess": "There is an ongoing payment process. Please wait.",
@@ -403,6 +405,7 @@
       "### You can always re-subscribe with {command:premium}."
     ],
     "checkoutCreated": "Checkout created",
+    "stillEligibleForRefund": "You're still eligible for a refund.",
     "checkoutInstructions": [
       "Please complete the checkout within 15 minutes.",
       "If you don't complete the checkout within 15 minutes, the checkout will be canceled.",
@@ -435,7 +438,7 @@
     "blacklistClearConfirmation": "Are you sure you want to clear `{count}` blacklist entries for `{module}`?",
     "blacklistClearSuccess": "Successfully cleared `{count}` blacklist entries for `{module}`.",
     "blacklistClearCanceled": "Clearing canceled.",
-    "blView-MinMaxPages": "Min: 1 | Max: {max}",
+    "MinMaxPages": "Min: 1 | Max: {max}",
     "tagDeleted": "Tag deleted.",
     "tagEdited": "Tag edited.",
     "tagCreated": "Tag created.",
@@ -585,7 +588,8 @@
     "editTag": "Edit Tag",
     "selectTagToView": "Select the tag to view",
     "selectTagToDelete": "Select the tag to delete",
-    "selectConfigsToReset": "Select the configurations to reset"
+    "selectConfigsToReset": "Select the configurations to reset",
+    "selectSubscriptionToManage": "Select the subscription to manage"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
