@@ -89,6 +89,7 @@
     "roleNotBlacklisted": "Role not blacklisted.",
     "noBlacklistEntriesFound": "No blacklist entries found.",
     "missingAdminPerms": "Missing administator permissions.",
+    "missingWebhookPerms": "Missing permissions for `MANAGE_WEBHOOKS`.",
     "tagNotFound": "Tag not found.",
     "noTagsFound": "No tags found.",
     "commandCantBeUsedInDMs": "This command can't be used in DMs.",
@@ -450,7 +451,9 @@
     "resetConfigurations": "Reset Configurations",
     "resetConfigsInstructions": "Select the configs you want to reset below. Those take effect immediately.",
     "anonymousTickets-enabled": "Anonymous tickets enabled",
-    "anonymousTickets-disabled": "Anonymous tickets disabled"
+    "anonymousTickets-disabled": "Anonymous tickets disabled",
+    "successfullyFollowedChannels": "Successfully followed the selected channels.",
+    "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually."
   },
   "labels": {
     "confirm": "Confirm",
