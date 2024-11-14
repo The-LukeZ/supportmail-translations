@@ -100,7 +100,8 @@
     "feedbackCouldNotBeRecorded": "Your Feedback could not be recorded.",
     "cantReorderOneQuestion": "Are you trying to be fancy and reorder one question? Bold move. But you can't do that.",
     "notLoggedInOrNoMutuals": "You are not logged in or you don't share any servers with me.\n-# Use {command:login} to log in.",
-    "feedbackNotSetup": "Feedback is not set up."
+    "feedbackNotSetup": "Feedback is not set up.",
+    "serverNotFoundOrNotConfigured": "Server not found or not configured."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -181,7 +182,7 @@
     "responseInTicket": "Response in Ticket",
     "checkYourDM": "Please check your DMs.",
     "finishOpenTicket": "Finish open your ticket first!",
-    "usersCanCreateTicketsAnon": "Users can create tickets anonymously. Read more about it [here]()",
+    "usersCanCreateTicketsAnon": "Users can create tickets anonymously. Read more about it [here](https://docs.supportmail.dev/f/tickets/anonymous)",
     "usersCannotCreateTicketsAnon": "Users cannot create tickets anonymously.",
     "feedbackDetails": ["- **User:** {usermention}", "- Rating: {rating}"],
     "feedbackAnswers": "Feedback Answers",
@@ -461,7 +462,8 @@
     "anonymousTickets-enabled": "Anonymous tickets enabled",
     "anonymousTickets-disabled": "Anonymous tickets disabled",
     "successfullyFollowedChannels": "Successfully followed the selected channels.",
-    "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually."
+    "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually.",
+    "runCommandAgainAfterLogin": "Please run the command again after you logged in."
   },
   "labels": {
     "ticketid": "Ticket ID: {id}",
