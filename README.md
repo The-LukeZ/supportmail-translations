@@ -58,9 +58,10 @@ We can nest JSON objects as much as we want but in this project, we only nest on
 
 ### Variables
 
-- Normal variables: `{variableName}`<br>
+- Normal variables: `{variableName}`\
   Example: `{username}` will parse into `thelukez`.
-- Command placeholders: `{command:commandname}`<br>
+
+- Command placeholders: `{command:commandname}`\
   Example: `{command:help}` will parse to a clickable `/help`.
 
 Note that you can also write command placeholders with spaces like `{command:config tickets}` which parses to `/config tickets`.
@@ -83,12 +84,12 @@ It's mostly used whenever a text has too many lines.
 
 ### Examples and important rules
 
-| What is wanted later                                  | How to write it | Explanaition                                     |
-| ----------------------------------------------------- | --------------- | ------------------------------------------------ |
-| `"some text in qoutes"`                               | `\"some text\"` | Qoutes must be escaped because of JSON.          |
-| A new line                                            | `\n`            | It's the common standard.                        |
-| A backslash `\`                                       | `\\`            | Backslashes must be escaped because of JSON.     |
-| A single asterisk `*`<br>(!NOT for Discord markdown!) | `\\*`           | Escaping the asterisk + the `\` because of JSON. |
+| What is wanted later                                     | How to write it | Explanaition                                     |
+| -------------------------------------------------------- | --------------- | ------------------------------------------------ |
+| `"some text in qoutes"`                                  | `\"some text\"` | Qoutes must be escaped because of JSON.          |
+| A new line                                               | `\n`            | It's the common standard.                        |
+| A backslash `\`                                          | `\\`            | Backslashes must be escaped because of JSON.     |
+| A single asterisk `*`<br>(**NOT for Discord markdown!**) | `\\*`           | Escaping the asterisk + the `\` because of JSON. |
 
 For Discord Markdown, please refer to the following article: [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
 

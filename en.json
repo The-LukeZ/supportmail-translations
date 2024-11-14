@@ -95,7 +95,12 @@
     "commandCantBeUsedInDMs": "This command can't be used in DMs.",
     "debuggingCooldown-roles": "Roles were already debugged a few minutes ago.\n> Please try again {timestamp}.",
     "debuggingCooldown-users": "Users were already debugged a few minutes ago.\n> Please try again {timestamp}.",
-    "tagLimitReached": "Tag limit reached."
+    "tagLimitReached": "Tag limit reached.",
+    "ticketNotClosed": "Ticket not closed.",
+    "feedbackCouldNotBeRecorded": "Your Feedback could not be recorded.",
+    "cantReorderOneQuestion": "Are you trying to be fancy and reorder one question? Bold move. But you can't do that.",
+    "notLoggedInOrNoMutuals": "You are not logged in or you don't share any servers with me.\n-# Use {command:login} to log in.",
+    "feedbackNotSetup": "Feedback is not set up."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -177,7 +182,10 @@
     "checkYourDM": "Please check your DMs.",
     "finishOpenTicket": "Finish open your ticket first!",
     "usersCanCreateTicketsAnon": "Users can create tickets anonymously. Read more about it [here]()",
-    "usersCannotCreateTicketsAnon": "Users cannot create tickets anonymously."
+    "usersCannotCreateTicketsAnon": "Users cannot create tickets anonymously.",
+    "feedbackDetails": ["- **User:** {usermention}", "- Rating: {rating}"],
+    "feedbackAnswers": "Feedback Answers",
+    "feedbackThankYou": "### Thanks for sharing your thoughts!\nUnfortunately, we won't be able to respond to your feedback."
   },
   "reports": {
     "reportsChannelDesc": "The channel where created reports will be sent to.",
@@ -456,6 +464,7 @@
     "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually."
   },
   "labels": {
+    "ticketid": "Ticket ID: {id}",
     "confirm": "Confirm",
     "changeServer": "Change Server",
     "cancel": "Cancel",
@@ -592,7 +601,8 @@
     "selectTagToView": "Select the tag to view",
     "selectTagToDelete": "Select the tag to delete",
     "selectConfigsToReset": "Select the configurations to reset",
-    "selectSubscriptionToManage": "Select the subscription to manage"
+    "selectSubscriptionToManage": "Select the subscription to manage",
+    "feedback": "Feedback"
   },
   "tips": {
     "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
