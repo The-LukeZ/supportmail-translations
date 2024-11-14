@@ -113,8 +113,7 @@
     "selectServerTitle": "Please select a server",
     "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one.",
     "blacklistedDesc": "-# You can't create new tickets in this server.",
-    "ticketPostMessage": "### <@{userid}> said:\n\n{text}",
-    "ticketPostMessageAnonym": "### {alias} said:\n\n{text}",
+    "messageAuthor": "Author: {author}",
     "modmailExplanation": "What is Modmail? Click here to learn more.",
     "userFeedback": "User Feedback",
     "userFeedbackWillBeSentHere": "User feedback will be sent in here.",
@@ -162,7 +161,7 @@
     "userDetailsAnonym": [
       "- **Alias:** {alias}",
       "-# This is just an nickname/alias chosen by the bot. The real username is not visible.",
-      "  However, the user can still be blacklisted from creating tickets by providing this ticket id when using {command:blacklist add}."
+      "  However, the user can still be blacklisted from creating tickets by providing this ticket id (`ticketid`) when using {command:blacklist add}."
     ],
     "userRoles": "User Roles",
     "closedAutomaticallyToDMFailed": "Ticket closed automatically. Failed to send the message to the user.",
