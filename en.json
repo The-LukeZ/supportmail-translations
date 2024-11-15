@@ -101,7 +101,8 @@
     "cantReorderOneQuestion": "Are you trying to be fancy and reorder one question? Bold move. But you can't do that.",
     "notLoggedInOrNoMutuals": "You are not logged in or you don't share any servers with me.\n-# Use {command:login} to log in.",
     "feedbackNotSetup": "Feedback is not set up.",
-    "serverNotFoundOrNotConfigured": "Server not found or not configured."
+    "serverNotFoundOrNotConfigured": "Server not found or not configured.",
+    "noPreviousCommentsFound": "No previous comments found."
   },
   "tickets": {
     "serverteam": "Serverteam",
