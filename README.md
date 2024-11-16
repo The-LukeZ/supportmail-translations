@@ -1,6 +1,6 @@
 # Supportmail Locales (aka Translations)
 
-Translations for SupportMail
+Translations for [SupportMail](https://supportmail.dev)
 
 ## Currently supported languages
 
@@ -8,7 +8,7 @@ Translations for SupportMail
 - German (`de`)
 - French (`fr`)
 
-## Contribute
+## [Contribute](https://github.com//The-LukeZ/supportmail-locales/)
 
 If you want to add another language,
 
