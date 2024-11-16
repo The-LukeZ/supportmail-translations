@@ -2,6 +2,12 @@
 
 Translations for SupportMail
 
+## Currently supported languages
+
+- English (`en`)
+- German (`de`)
+- French (`fr`)
+
 ## Contribute
 
 If you want to add another language,

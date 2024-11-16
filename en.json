@@ -464,9 +464,11 @@
     "successfullyFollowedChannels": "Successfully followed the selected channels.",
     "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually.",
     "runCommandAgainAfterLogin": "Please run the command again after you logged in.",
+    "newLanguageColumn": "New Language:",
     "newLanguageSet": [
-      "### New language set.",
-      "Please note that the language is only used when you interact with the bot by sending messages. When you use Buttons, Select Menus oder Forms the language of your Discord App is used."
+      "New language set.",
+      "Note that this language is only used when you interact with the bot by sending messages. When you use buttons, select menus, or forms, the language of your Discord App will be used.",
+      "-# Please also note that not all languages are supported. See the [list of supported languages](<https://github.com/The-LukeZ/supportmail-locales?tab=readme-ov-file#currently-supported-languages>)."
     ],
     "tipsActivated": "Tips activated.\nI will now sometimes add little tips to my messages in our DM channel.",
     "tipsDeactivated": "Tips deactivated.\nI will no longer add tips to my messages in our DM channel.",
