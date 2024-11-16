@@ -463,7 +463,25 @@
     "anonymousTickets-disabled": "Anonymous tickets disabled",
     "successfullyFollowedChannels": "Successfully followed the selected channels.",
     "oldFollowedChannelsAreNotReset": "Please note, that any previously followed channels are not reset. You have to unfollow them manually.",
-    "runCommandAgainAfterLogin": "Please run the command again after you logged in."
+    "runCommandAgainAfterLogin": "Please run the command again after you logged in.",
+    "newLanguageSet": [
+      "### New language set.",
+      "Please note that the language is only used when you interact with the bot by sending messages. When you use Buttons, Select Menus oder Forms the language of your Discord App is used."
+    ],
+    "tipsActivated": "Tips activated.\nI will now sometimes add little tips to my messages in our DM channel.",
+    "tipsDeactivated": "Tips deactivated.\nI will no longer add tips to my messages in our DM channel.",
+    "autoRedirectActivated": [
+      "Auto-Redirect activated.",
+      "Your direct messages will now be automatically redirected to the last active ticket.",
+      "",
+      "> **Note:** If you want to create a new ticket and you already have an open ticket, you must use the {command:ticket-create} command."
+    ],
+    "autoRedirectDeactivated": [
+      "Auto-Redirect deactivated.",
+      "You will now have to confirm where your message should be sent to.",
+      "",
+      "> **Note:** If you reply to a message from an open ticket, your message will still be sent directly to the ticket."
+    ]
   },
   "labels": {
     "ticketid": "Ticket ID: {id}",
