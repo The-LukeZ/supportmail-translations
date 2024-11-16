@@ -627,7 +627,6 @@
     "feedback": "Feedback"
   },
   "tips": {
-    "turnOffTips": "-# Did you know that you can turn off tips by using {command:preferences tips}?",
     "selectAtMost5": "You can select at most 5.",
     "youShouldCloseTicket": "You should close the ticket with {command:close} ."
   },
