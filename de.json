@@ -60,6 +60,7 @@
     "reportsAlreadyPaused": "Reports sind bereits pausiert.",
     "ticketsNotPaused": "Tickets sind nicht pausiert.",
     "reportsNotPaused": "Reports sind nicht pausiert.",
+    "ongoingTicketCreationProcess": "Du erstellst bereits ein Ticket auf einem anderen Server. Bitte beende diesen Vorgang zuerst oder breche ihn ab.",
     "sendingReportFailed": "Senden des Reports fehlgeschlagen.",
     "ongoingReportForThisMessage": "Diese Nachricht wird bereits gemeldet. Bitte warte.",
     "youCantReportMe": "Du kannst mich nicht melden. Was willst du damit erreichen? 🤨",

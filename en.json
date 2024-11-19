@@ -60,6 +60,7 @@
     "reportsAlreadyPaused": "Reports are already paused.",
     "ticketsNotPaused": "Tickets are not paused.",
     "reportsNotPaused": "Reports are not paused.",
+    "ongoingTicketCreationProcess": "You are already creating a ticket on another server. Please finish this process first or cancel it.",
     "sendingReportFailed": "Sending the Report failed.",
     "ongoingReportForThisMessage": "There is an ongoing report for this message. Please wait.",
     "youCantReportMe": "You can't report me. What are you trying to achieve? 🤨",
