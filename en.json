@@ -113,7 +113,6 @@
     "selectServerTitle": "Please select a server",
     "selectServerDesc": "Select a server where you want to continue in an open ticket or create a new one.",
     "blacklistedDesc": "-# You can't create new tickets in this server.",
-    "messageAuthor": "Author: {author}",
     "modmailExplanation": "What is Modmail? Click here to learn more.",
     "userFeedback": "User Feedback",
     "userFeedbackWillBeSentHere": "User feedback will be sent in here.",
@@ -189,7 +188,6 @@
     "reportsChannelDesc": "The channel where created reports will be sent to.",
     "reportIsBeingCreated": "Report is being created. Please wait.",
     "reportMessage": "Report Message",
-    "reportUser": "Report User",
     "reason": "Reason",
     "comment": "Comment",
     "reportCreated": "Report created",
@@ -244,7 +242,7 @@
       "- Maximum reports a user can receive",
       "- Maximum open reports in the server",
       "",
-      "-# \\* Example: The limit is `5` and a user has already created `5` reports. They can't create more reports until at least one of the reports is resolved."
+      "-# \\* Example: The limit for open created reports per user is `5` and a user has already created `5` reports. This means that he cannot create any more until at least one of them has been resolved."
     ],
     "notificationLevelExplanation": [
       "You can configure if and how much information an author of a report will receive.",
