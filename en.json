@@ -29,6 +29,7 @@
     "reportsAlreadySetup": "Reports are already set up.",
     "userFeedbackAlreadySetup": "User feedback is already set up.",
     "ticketsNotEnabled": "Tickets are not enabled in this server.",
+    "ticketsNotEnabledOrSetup": "Tickets are not enabled or set up in this server.",
     "reportsNotEnabled": "Reports are not enabled in this server.",
     "youTimedOut": "You timed out.",
     "completeEachStepIn10Mins": "You have to complete each step in **10** minutes.",
@@ -102,7 +103,8 @@
     "notLoggedInOrNoMutuals": "You are not logged in or you don't share any servers with me.\n-# Use {command:login} to log in.",
     "feedbackNotSetup": "Feedback is not set up.",
     "serverNotFoundOrNotConfigured": "Server not found or not configured.",
-    "noPreviousCommentsFound": "No previous comments found."
+    "noPreviousCommentsFound": "No previous comments found.",
+    "forumChannelNotFound": "Forum channel not found."
   },
   "tickets": {
     "serverteam": "Serverteam",
@@ -164,11 +166,11 @@
     "userRoles": "User Roles",
     "closedAutomaticallyToDMFailed": "Ticket closed automatically. Failed to send the message to the user.",
     "ticketClosed": "Ticket closed",
-    "closeRequestCancelled": "Close request cancelled.",
+    "closeRequestCancelled": "Close request canceled.",
     "closeComment": "Close Comment",
     "closeCommentIsPrivate": "The comment is private.",
     "deleteCloseReqAndCloseTicket": "Delete close request and close ticket?",
-    "closeCancelled": "Close cancelled.",
+    "closeCancelled": "Close canceled.",
     "closeRequest": "Close Request",
     "closeRequestDescription": "The user can now accept or deny the close request.\n\n> To revoke the close request, execute {command:close-request delete} or send another message you want to send to the user.",
     "ticketAutoCloseIfNoResponse": "The ticket will be automatically closed if the user doesn't respond until <t:{closeTime}> (<t:{closeTime}:R>).",
@@ -368,65 +370,42 @@
     "setupComplete": "Setup complete!",
     "yourSubscriptions": "Your Subscriptions",
     "subscriptionInfo-OtherBuyer": [
-      "You have not bought **Gold** for this server but someone <@{buyerId}> did.",
+      "You have not bought **Gold** for this server but <@{buyerId}> did.",
       "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
     ],
     "alreadySubscribed": [
       "This server already has **Gold** because of <@{buyerId}>.",
       "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
     ],
-    "subscriptionInfo-DM": [
-      "- Guild ID: `{guildId}`",
-      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
-      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
-      "- Next Payment: <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)"
-    ],
-    "subscriptionInfo-Guild": [
+    "subscriptionInfo": [
       "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
       "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
       "- Next Payment: <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)",
       "- Subscription ID: `{subscriptionId}`",
       "- Customer ID: `{customerId}`"
     ],
-    "subscriptionInfo-Expired": [
-      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
-      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
-      "- Subscription expired: <t:{expiredTS}> (<t:{expiredTS}:R>)",
-      "- Subscription ID: `{subscriptionId}`"
-    ],
-    "subscriptionInfo-Cancelled": [
-      "- Subscribed since: <t:{createdTS}> (<t:{createdTS}:R>)",
-      "- Last Payment: <t:{lastPaymentTS}> (<t:{lastPaymentTS}:R>)",
-      "- Subscription cancelled: <t:{cancelledTS}> (<t:{cancelledTS}:R>)",
-      "- Subscription ID: `{subscriptionId}`"
-    ],
-    "selectGuildToCancelSubFor": "Select the server to cancel the subscription for",
-    "moreSubscriptionsFoundWithCount": [
-      "{count} more subscriptions found. To manage these, go to the server and use the command again.",
-      "If you don't have access to the server anymore, please contact the support."
-    ],
+    "subscriptionCancelledInfo": "Subscription canceled.\nPremium expires at <t:{expiresAt}> (<t:{expiresAt}:R>).",
     "subscriptionCanceled": [
       "Subscription successfully canceled.",
       "-# _The server will keep the benefits until the end of the billing period._",
-      "### You can always re-subscribe with {command:premium}."
+      "### You can reactivate Premium at any time by purchasing **Gold** again for this server as soon as the current billing period has expired."
     ],
     "checkoutCreated": "Checkout created",
     "stillEligibleForRefund": "You're still eligible for a refund.",
     "checkoutInstructions": [
-      "Please complete the checkout within 15 minutes.",
-      "If you don't complete the checkout within 15 minutes, the checkout will be canceled.",
-      "",
-      "Press the button **Check Payment Status** below after you're done over at Stripe."
+      "Please complete the checkout within a reasonable amount of time.",
+      "Please **do not** share this link with anyone else as it is unique to you.",
+      "-# This checkout session holds your Discord data - if anyone else completes the checkout with this link, it will look like you bought the subscription."
     ],
     "legalNotice": "Terms and Conditions",
     "checkoutLegalNotice": [
       "By completing the checkout, you agree to the [Terms of Service](https://supportmail.dev/legal/terms) and the [Privacy Policy](https://supportmail.dev/legal/privacy).",
       "You also agree to the [Refund Policy](https://supportmail.dev/legal/refund-policy).",
-      "-# This policy states, amongst other things, that you can only request a refund within 14 days of purchase without giving a reason."
+      "-# This policy states, amongst other things, that you can only request a refund within 14 days of purchase."
     ],
     "checkoutCompleted": "Checkout completed",
     "confirmSubCancellation": "Are you sure you want to cancel the subscription?",
-    "cancellationCancelled": "Cancellation cancelled.",
+    "cancellationCancelled": "Cancellation canceled.",
     "blacklistRemoveDecide-user": "From which blacklist do you want to remove the user?",
     "blacklistRemoveDecide-role": "From which blacklist do you want to remove the role?",
     "blacklistEntryModuleUpdate": "Entry has been updated to `{module}`.",
@@ -466,8 +445,6 @@
       "Note that this language is only used when you interact with the bot by sending messages. When you use buttons, select menus, or forms, the language of your Discord App will be used.",
       "-# Please also note that not all languages are supported. See the [list of supported languages](<https://github.com/The-LukeZ/supportmail-locales?tab=readme-ov-file#currently-supported-languages>)."
     ],
-    "tipsActivated": "Tips activated.\nI will now sometimes add little tips to my messages in our DM channel.",
-    "tipsDeactivated": "Tips deactivated.\nI will no longer add tips to my messages in our DM channel.",
     "autoRedirectActivated": [
       "Auto-Redirect activated.",
       "Your direct messages will now be automatically redirected to the last active ticket.",
@@ -479,7 +456,9 @@
       "You will now have to confirm where your message should be sent to.",
       "",
       "> **Note:** If you reply to a message from an open ticket, your message will still be sent directly to the ticket."
-    ]
+    ],
+    "fixingTicketSetup": "Fixing Ticket Setup...",
+    "fixedTicketSetup": "Fixed Ticket Setup"
   },
   "labels": {
     "ticketid": "Ticket ID: {id}",
@@ -603,6 +582,7 @@
     "timestringFormat": "Format: docs.supportmail.dev/e/timestring",
     "1-100": "Min: 1 | Max: 100",
     "1-1000": "Min: 1 | Max: 1000",
+    "startCheckout": "Start Checkout",
     "cancelSubscription": "Cancel Subscription",
     "all-brackets": "(All)",
     "blacklistEntries": "Blacklist Entries",
