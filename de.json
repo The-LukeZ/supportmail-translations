@@ -18,6 +18,7 @@
     "moduleWithPH": "Modul(e): {module}",
     "configurationsWereResetNotification": "Konfigurationen wurden zurückgesetzt."
   },
+
   "errors": {
     "unknownError": "Ein unbekannter Fehler ist aufgetreten. Bitte kontaktiere den Entwickler.",
     "anErrorOccured": "Ein Fehler ist aufgetreten!",
@@ -105,6 +106,7 @@
     "serverNotFoundOrNotConfigured": "Server nicht gefunden oder nicht konfiguriert.",
     "noPreviousCommentsFound": "Keine vorherigen Einträge gefunden."
   },
+
   "tickets": {
     "serverteam": "Serverteam",
     "createNewTicket": "Neues Ticket erstellen",
@@ -187,6 +189,7 @@
     "feedbackAnswers": "Antworten",
     "feedbackThankYou": "### Danke, dass Du uns deine Gedanken mitgeteilt hast!\nBeachte, dass wir leider nicht können wir auf dein Feedback antworten können."
   },
+
   "reports": {
     "reportsChannelDesc": "Der Kanal, an den die erstellten Meldungen gesendet werden sollen.",
     "reportIsBeingCreated": "Die Meldung wird gerade erstellt. Bitte warte.",
@@ -287,6 +290,7 @@
     "messagesDeletedOfLast": "Meldungen der letzten {durationPeriod} gelöscht.",
     "timeoutUntil": "Bis: <t:{timestamp}> (<t:{timestamp}:R>)"
   },
+
   "commands": {
     "successfullyLoggedOut": "Erfolgreich abgemeldet.",
     "reportChannelInfo": "Der Kanal, in dem die Meldungen gesendet werden sollen.",
@@ -461,6 +465,7 @@
     "fixingTicketSetup": "Ticket Setup wird repariert...",
     "fixedTicketSetup": "Ticket Setup wurde repariert"
   },
+
   "labels": {
     "ticketid": "Ticket ID: {id}",
     "confirm": "Confirm",
@@ -602,10 +607,12 @@
     "selectSubscriptionToManage": "Select the subscription to manage",
     "feedback": "Feedback"
   },
+
   "tips": {
     "selectAtMost5": "You can select at most 5.",
     "youShouldCloseTicket": "You should close the ticket with {command:close} ."
   },
+
   "permissions": {
     "CREATE_PUBLIC_THREADS": "CREATE_PUBLIC_THREADS",
     "EMBED_LINKS": "EMBED_LINKS",
@@ -621,6 +628,72 @@
     "ATTACH_FILES": "ATTACH_FILES",
     "MENTION_EVERYONE": "MENTION_EVERYONE"
   },
+
+  "help": {
+    "commandsOverview": "Commands Overview",
+    "moreInformation": "For more information, visit the [SupportMail Documentation](https://docs.supportmail.dev/) and ask in the [Support Server](https://discord.gg/rFkVQx3vpj) if there are still questions.",
+    "helpUsTranslate": "-# :checkered_flag: If you want to help us translate the Documentation, please join our Suppport Server as well and ask in the [translator chat](https://discord.com/channels/1064594649668395128/1294623837614379069)",
+    "resourceCouldNotBeTranslated": "-# This resource could not be translated yet.",
+    "readTheFollowingArticles": "### Please read the following articles to get more information:",
+    "commands": [
+      "- {command:ticket-create} - Create a new ticket",
+      "- {command:report user} - Report a user",
+      "- {command:report message} - Report a message",
+      "- {command:login} - Log in to the bot",
+      "- {command:logout} - Log out of the bot",
+      "- {command:preferences} - Set your preferences",
+      "",
+      "- {command:tag} - Send a tag",
+      "- {command:close} - Close a ticket",
+      "- {command:close-request create} - Request to close a ticket",
+      "- {command:close-request delete} - Delete a close request",
+      "- {command:blacklist add} - Add a user/role to a blacklist",
+      "- {command:blacklist remove} - Remove a user/role from a blacklist",
+      "  -# There are more subcommands available - type `/blacklist` to view them.",
+      "",
+      "- `/setup tickets` - Setup the bot",
+      "- `/setup reports` - Setup reports",
+      "  -# These commands have additional subcommands. Use them to get more information and [read the docs](<https://docs.supportmail.dev/f/tickets/setup>).",
+      "",
+      "- {command:config tickets} - Configure Tickets",
+      "- {command:config reports} - Configure Reports",
+      "- `/config tags` - Manage Tags",
+      "  -# There are more subcommands available - type `/blacklist` to view them.",
+      "- {command:config blacklist} - Manage Blacklist settings and reset entries",
+      "- {command:debug} - Debug specific settings (e.g. roles, users, configs)"
+    ],
+    "tickets": [
+      "- [What is Modmail?](https://docs.supportmail.dev/f/tickets#what-is-the-modmail-concept)",
+      "- [How to create a ticket](https://docs.supportmail.dev/f/tickets/create-ticket)",
+      "- [How to interact with tickets](https://docs.supportmail.dev/f/tickets/interact-with-tickets)",
+      "- [How to handle tickets in multiple servers](https://docs.supportmail.dev/f/tickets/multiple-servers)",
+      "",
+      "- [Configurable Settings](https://docs.supportmail.dev/f/tickets#configuration-explanations)",
+      "- [Setup Tickets](https://docs.supportmail.dev/f/tickets/setup)",
+      "- [Configure Tickets](https://docs.supportmail.dev/f/tickets/configuration)"
+    ],
+    "reports": [
+      "- [What are Reports?](https://docs.supportmail.dev/f/reports#what-are-reports)",
+      "- [How to report someone or a message](https://docs.supportmail.dev/f/reports#how-to-report-someone-or-some-message)",
+      "",
+      "- [Configurable Settings](https://docs.supportmail.dev/f/reports#alert-channel)",
+      "- [Setup Reports](https://docs.supportmail.dev/f/reports/setup)",
+      "- [Configure Reports](https://docs.supportmail.dev/f/reports/configuration)",
+      "",
+      "- [Report Limits](https://docs.supportmail.dev/f/reports#report-limits)",
+      "- [Report Actions](https://docs.supportmail.dev/f/reports#report-actions)"
+    ],
+    "about": [
+      "### Thank you for using SupportMail!",
+      "",
+      "SupportMail is a Discord bot designed to make your life easier with modmail-style ticket management and reports.",
+      "The idea was not new, but I (thelukez, the owner) wanted to create a bot that supports more than one language, is easy to use, customizable, modern and has all the important features available for free. It was originally planned for a CS2 server I was going to open in 2023, but that never happened.",
+      "It started as a Python Project but was later rewritten in TypeScript (2024) to make it more efficient and to be able to offer more features.",
+      "",
+      "I've always been very open to feedback and suggestions, so if you have any, feel free to join the [Support Server](https://discord.gg/rFkVQx3vpj) and let me know."
+    ]
+  },
+
   "logs": {
     "type": {
       "ticket": "Tickets",
