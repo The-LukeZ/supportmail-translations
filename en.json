@@ -668,7 +668,7 @@
       "- [How to interact with tickets](https://docs.supportmail.dev/f/tickets#interact-with-tickets)",
       "- [How to handle tickets in multiple servers](https://docs.supportmail.dev/f/tickets#multiple-servers)",
       "",
-      "- [Configurable Settings](https://docs.supportmail.dev/f/tickets#configuration-explanations)",
+      "- [Configurable Settings](https://docs.supportmail.dev/f/tickets#configuration-options)",
       "- [Setup Tickets](https://docs.supportmail.dev/f/tickets/setup)",
       "- [Configure Tickets](https://docs.supportmail.dev/f/tickets/configuration)"
     ],
@@ -676,7 +676,7 @@
       "- [What are Reports?](https://docs.supportmail.dev/f/reports#what-are-reports)",
       "- [How to report someone or a message](https://docs.supportmail.dev/f/reports#how-to-report-someone-or-some-message)",
       "",
-      "- [Configurable Settings](https://docs.supportmail.dev/f/reports#alert-channel)",
+      "- [Configurable Settings](https://docs.supportmail.dev/f/reports#configuration-options)",
       "- [Setup Reports](https://docs.supportmail.dev/f/reports/setup)",
       "- [Configure Reports](https://docs.supportmail.dev/f/reports/configuration)",
       "",
