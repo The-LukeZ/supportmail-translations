@@ -664,9 +664,9 @@
     ],
     "tickets": [
       "- [What is Modmail?](https://docs.supportmail.dev/f/tickets#what-is-the-modmail-concept)",
-      "- [How to create a ticket](https://docs.supportmail.dev/f/tickets/create-ticket)",
-      "- [How to interact with tickets](https://docs.supportmail.dev/f/tickets/interact-with-tickets)",
-      "- [How to handle tickets in multiple servers](https://docs.supportmail.dev/f/tickets/multiple-servers)",
+      "- [How to create a ticket](https://docs.supportmail.dev/f/tickets#create-ticket)",
+      "- [How to interact with tickets](https://docs.supportmail.dev/f/tickets#interact-with-tickets)",
+      "- [How to handle tickets in multiple servers](https://docs.supportmail.dev/f/tickets#multiple-servers)",
       "",
       "- [Configurable Settings](https://docs.supportmail.dev/f/tickets#configuration-explanations)",
       "- [Setup Tickets](https://docs.supportmail.dev/f/tickets/setup)",
