@@ -84,6 +84,7 @@
     "alreadySubscribed": "Dieser Server hat bereits ein aktives Abo.",
     "ongoingPaymentProcess": "Der Zahlungsvorgang ist noch nicht abgeschlossen. Bitte warte.",
     "noOngoingPaymentProcess": "Kein laufender Zahlungsvorgang gefunden.",
+    "creatingCheckoutFailed": "Erstellen des Checkouts fehlgeschlagen.",
     "noSubscriptionFoundWhileCheckout": "Kein Abo gefunden.\n-# Bitte warte mindestens so lange, bis die Rechnung in deinem E-Mail-Posteingang ist.",
     "subscriptionNotYours": "Dieses Abonnement gehört dir nicht. Wie bist du überhaupt hierher gekommen?",
     "noTargetOrTicketId": "Kein Ziel und keine Ticket-ID angegeben. Du musst mindestens eins davon eingeben!",
@@ -463,7 +464,16 @@
       "> **beachte:** Wenn du auf eine Nachricht aus einem offenen Ticket antwortest, wird deine Nachricht weiterhin automatisch direkt an das Ticket gesendet."
     ],
     "fixingTicketSetup": "Ticket Setup wird repariert...",
-    "fixedTicketSetup": "Ticket Setup wurde repariert"
+    "fixedTicketSetup": "Ticket Setup wurde repariert",
+    "selectPlan": "Wähle einen Plan",
+    "selectPlanDescription": [
+      "Der Unterschied zwischen den Plänen liegt in der Länge des Abrechnungszeitraums und dem Preis.",
+      "",
+      "- **2 Wochen:** `2,00 €`",
+      "- **2 Monate:** `7,50 €`",
+      "- **6 Monate:** `23,50 €`",
+      "- **1 Jahr:** `45,00 €`"
+    ]
   },
 
   "labels": {
@@ -604,7 +614,11 @@
     "selectTagToDelete": "Wähle den Tag zum Löschen",
     "selectConfigsToReset": "Wähle die Konfigurationen zum Zurücksetzen",
     "selectSubscriptionToManage": "Wähle das Abonnement, welches du verwalten willst",
-    "feedback": "Feedback"
+    "feedback": "Feedback",
+    "2weeks": "2 Wochen",
+    "2months": "2 Monate",
+    "6months": "6 Monate",
+    "1year": "1 Jahr"
   },
 
   "tips": {

@@ -84,6 +84,7 @@
     "alreadySubscribed": "This server already has an active subscription.",
     "ongoingPaymentProcess": "There is an ongoing payment process. Please wait.",
     "noOngoingPaymentProcess": "No ongoing payment process found.",
+    "creatingCheckoutFailed": "Creating the checkout failed.",
     "noSubscriptionFoundWhileCheckout": "No subscription found.\n-# Please wait at least until you receive the invoice in your e-mail inbox.",
     "subscriptionNotYours": "This subscription is not yours. How did you even get here?",
     "noTargetOrTicketId": "No target or ticket ID given. You need to provide at least one!",
@@ -462,7 +463,16 @@
       "> **Note:** If you reply to a message from an open ticket, your message will still be sent directly to the ticket."
     ],
     "fixingTicketSetup": "Fixing Ticket Setup...",
-    "fixedTicketSetup": "Fixed Ticket Setup"
+    "fixedTicketSetup": "Fixed Ticket Setup",
+    "selectPlan": "Select Plan",
+    "selectPlanDescription": [
+      "The difference between the plans is the length of the billing period and the price.",
+      "",
+      "- **2 Weeks:** 2.00 €",
+      "- **2 Months:** 7.50 €",
+      "- **6 Months:** 23.50 €",
+      "- **1 Year:** 45.00 €"
+    ]
   },
 
   "labels": {
@@ -604,7 +614,11 @@
     "selectTagToDelete": "Select the tag to delete",
     "selectConfigsToReset": "Select the configurations to reset",
     "selectSubscriptionToManage": "Select the subscription to manage",
-    "feedback": "Feedback"
+    "feedback": "Feedback",
+    "2weeks": "2 weeks",
+    "2months": "2 months",
+    "6months": "6 months",
+    "1year": "1 year"
   },
 
   "tips": {
