@@ -289,7 +289,11 @@
     "action-messageDeleted": "Message Deleted",
     "newStatus": "New Status: `{status}`",
     "messagesDeletedOfLast": "Messages of the last {durationPeriod} deleted.",
-    "timeoutUntil": "Until: <t:{timestamp}> (<t:{timestamp}:R>)"
+    "timeoutUntil": "Until: <t:{timestamp}> (<t:{timestamp}:R>)",
+    "reportResolved": "Report resolved.",
+    "reportResolvedWithTimestamp": "Your report from <t:{timestamp}:R> has been resolved.",
+    "reportResolved-Action": "The action taken was: `{action}`",
+    "reportResolved-ReportId": "The report ID was: `{reportId}`"
   },
 
   "commands": {

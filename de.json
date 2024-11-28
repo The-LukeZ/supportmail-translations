@@ -289,7 +289,11 @@
     "action-messageDeleted": "Nachricht gelöscht",
     "newStatus": "Neuer Status: `{status}`",
     "messagesDeletedOfLast": "Meldungen der letzten {durationPeriod} gelöscht.",
-    "timeoutUntil": "Bis: <t:{timestamp}> (<t:{timestamp}:R>)"
+    "timeoutUntil": "Bis: <t:{timestamp}> (<t:{timestamp}:R>)",
+    "reportResolved": "Meldung angenommen",
+    "reportResolvedWithTimestamp": "Dein report von <t:{timestamp}:R> wurde angenommen.",
+    "reportResolved-Action": "Die ergriffene Maßnahme: `{action}`",
+    "reportResolved-ReportId": "Die betreffende Meldungs-ID: `{reportId}`"
   },
 
   "commands": {
