@@ -158,7 +158,7 @@
     "userDetails": [
       "- **User:** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>",
       "- **User ID:** `{id}`",
-      "- **Joined Discord:** {joinedDiscord}",
+      "- **Account Created:** {joinedDiscord}",
       "- **Joined Server:** {joinedGuild}"
     ],
     "userDetailsAnonym": [
@@ -214,7 +214,7 @@
       "- Username: [@{username}](https://discord.com/users/{userid})",
       "- User ID: `{userid}`",
       "- Avatar URL: [Link]({avatarurl})",
-      "- Joined Discord: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
+      "- Account created: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
       "- Joined Server: <t:{joinedguild}> (<t:{joinedguild}:R>)"
     ],
     "reportedBy": "Reported by",
@@ -293,7 +293,15 @@
     "reportResolved": "Report resolved.",
     "reportResolvedWithTimestamp": "Your report from <t:{timestamp}:R> has been resolved.",
     "reportResolved-Action": "The action taken was: `{action}`",
-    "reportResolved-ReportId": "The report ID was: `{reportId}`"
+    "reportResolved-ReportId": "The report ID was: `{reportId}`",
+    "reportedUserDetails": [
+      "User: [@{username}](<https://discord.com/users/{userid}/>) | <@{userid}>",
+      "User ID: `{userid}`",
+      "Username: {username}",
+      "[Avatar URL]({avatarurl})",
+      "Account created: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
+      "Joined Server: <t:{joinedguild}> (<t:{joinedguild}:R>)"
+    ]
   },
 
   "commands": {
@@ -622,7 +630,8 @@
     "2weeks": "2 weeks",
     "2months": "2 months",
     "6months": "6 months",
-    "1year": "1 year"
+    "1year": "1 year",
+    "roles": "Roles"
   },
 
   "tips": {
