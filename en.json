@@ -36,6 +36,7 @@
     "completeEachStepIn10Mins": "You have to complete each step in **10** minutes.",
     "FinishIn15Mins": "You have to finish editing in 15 minutes.",
     "noValidMessageLinkGiven": "No valid message link given.",
+    "noValidChannelLinkGiven": "No valid channel link given.",
     "imageLinkInvalid": "Image link invalid.",
     "ticketWasClosed": "Ticket was closed.",
     "youWantToCreateANewTicket": "You want to create a new ticket?",

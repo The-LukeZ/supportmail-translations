@@ -36,6 +36,7 @@
     "completeEachStepIn10Mins": "Du musst jeden Schritt in **10** Minuten erledigen.",
     "FinishIn15Mins": "Sie müssen die Bearbeitung in 15 Minuten abschließen.",
     "noValidMessageLinkGiven": "Kein gültiger Nachrichtenlink angegeben.",
+    "noValidChannelLinkGiven": "Kein gültiger Kanallink angegeben.",
     "imageLinkInvalid": "Bildlink ungültig.",
     "ticketWasClosed": "Ticket wurde bereits geschlossen.",
     "youWantToCreateANewTicket": "Möchtest du ein neues Ticket erstellen?",
