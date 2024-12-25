@@ -107,7 +107,8 @@
     "feedbackNotSetup": "Feedback is not set up.",
     "serverNotFoundOrNotConfigured": "Server not found or not configured.",
     "noPreviousCommentsFound": "No previous comments found.",
-    "forumChannelNotFound": "Forum channel not found."
+    "forumChannelNotFound": "Forum channel not found.",
+    "channelOrTypeInvalid": "Channel not found or channel type invalid."
   },
 
   "tickets": {
