@@ -108,7 +108,8 @@
     "serverNotFoundOrNotConfigured": "Server not found or not configured.",
     "noPreviousCommentsFound": "No previous comments found.",
     "forumChannelNotFound": "Forum channel not found.",
-    "channelOrTypeInvalid": "Channel not found or channel type invalid."
+    "channelOrTypeInvalid": "Channel not found or channel type invalid.",
+    "noValidUserGiven": "No valid user given."
   },
 
   "tickets": {

@@ -107,7 +107,8 @@
     "feedbackNotSetup": "Nutzer-Feedback ist nicht eingerichtet.",
     "serverNotFoundOrNotConfigured": "Server nicht gefunden oder nicht konfiguriert.",
     "noPreviousCommentsFound": "Keine vorherigen Einträge gefunden.",
-    "channelOrTypeInvalid": "Kanal nicht gefunden oder Kanal-Typ ungültig."
+    "channelOrTypeInvalid": "Kanal nicht gefunden oder Kanal-Typ ungültig.",
+    "noValidUserGiven": "Kein gültiger Nutzer angegeben."
   },
 
   "tickets": {
