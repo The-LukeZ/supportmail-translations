@@ -488,7 +488,8 @@
       "- **2 Monate:** `7,50 €`",
       "- **6 Monate:** `23,50 €`",
       "- **1 Jahr:** `45,00 €`"
-    ]
+    ],
+    "viewTagTitle": "Tag Details zu `{name}`"
   },
 
   "labels": {

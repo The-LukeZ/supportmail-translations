@@ -487,7 +487,8 @@
       "- **2 Months:** 7.50 €",
       "- **6 Months:** 23.50 €",
       "- **1 Year:** 45.00 €"
-    ]
+    ],
+    "viewTagTitle": "Viewing Details of Tag `{name}`"
   },
 
   "labels": {
