@@ -413,7 +413,7 @@
     "checkoutCreated": "Checkout created",
     "stillEligibleForRefund": "You're still eligible for a refund.",
     "checkoutInstructions": [
-      "Please complete the checkout within a reasonable amount of time.",
+      "Please complete the checkout within 15 minutes - otherwise, the session will expire.",
       "Please **do not** share this link with anyone else as it is unique to you.",
       "-# This checkout session holds your Discord data - if anyone else completes the checkout with this link, it will look like you bought the subscription."
     ],

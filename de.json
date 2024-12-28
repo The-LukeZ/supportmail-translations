@@ -414,9 +414,9 @@
     "checkoutCreated": "Checkout erstellt",
     "stillEligibleForRefund": "Du kannst immer noch eine Rückerstattung beantragen.",
     "checkoutInstructions": [
-      "Bitte schließe das Checkout in einer angemessenen Zeit ab.",
-      "Bitte gib den Link **nicht** an andere weiter, da er auf dich zugeschnitten ist.",
-      "-# In dieser Checkout-Sitzung sind deine Discord-Daten gespeichert - wenn jemand anderes den Checkout über diesen Link abschließt, sieht es so aus, als hättest du das Abonnement gekauft."
+      "Bitte schließe das Checkout innerhalb von 15 Minuten ab - danach verfällt die Session.",
+      "Bitte gib den Link **nicht** an andere weiter, da er für dich persönlich erstellt wurde.",
+      "-# In dieser Checkout-Session sind deine Discord-Daten gespeichert - wenn jemand anderes den Checkout über diesen Link abschließt, sieht es so aus, als hättest du das Abonnement abgeschlossen."
     ],
     "legalNotice": "Bedingungen und Konditionen",
     "checkoutLegalNotice": [
