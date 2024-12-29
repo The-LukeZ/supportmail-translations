@@ -76,7 +76,7 @@
     "reportAlreadyBeingEdited": "Der Report wird bereits bearbeitet. Bitte warte.",
     "noMessageToDelete": "Es gibt keine Nachricht zum löschen.",
     "youCantTakeActionOnYourself": "Du kannst keine Maßnahmen gegen dich selbst ergreifen.",
-    "memberNotFound": "Mitglied nicht gefunden.",
+    "memberNotFound": "Nutzer nicht gefunden. (Nicht mehr im Server)",
     "messageNotFound": "Nachricht nicht gefunden.",
     "noSubscriptionsFound": "Keine Abos gefunden.",
     "subscriptionNotFound": "Abo nicht gefunden.",
@@ -108,7 +108,8 @@
     "serverNotFoundOrNotConfigured": "Server nicht gefunden oder nicht konfiguriert.",
     "noPreviousCommentsFound": "Keine vorherigen Einträge gefunden.",
     "channelOrTypeInvalid": "Kanal nicht gefunden oder Kanal-Typ ungültig.",
-    "noValidUserGiven": "Kein gültiger Nutzer angegeben."
+    "noValidUserGiven": "Kein gültiger Nutzer angegeben.",
+    "missingData-TicketIdPostLink": "Fehlende Daten: Ticket-ID oder Ticket-Post-Link."
   },
 
   "tickets": {

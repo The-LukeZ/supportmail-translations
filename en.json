@@ -76,7 +76,7 @@
     "reportAlreadyBeingEdited": "Report is already being edited. Please wait.",
     "noMessageToDelete": "No message to delete.",
     "youCantTakeActionOnYourself": "You can't take action on yourself.",
-    "memberNotFound": "Member not found.",
+    "memberNotFound": "Member not found. (Not in Server anymore)",
     "messageNotFound": "Message not found.",
     "noSubscriptionsFound": "No subscriptions found.",
     "subscriptionNotFound": "Subscription not found.",
@@ -109,7 +109,8 @@
     "noPreviousCommentsFound": "No previous comments found.",
     "forumChannelNotFound": "Forum channel not found.",
     "channelOrTypeInvalid": "Channel not found or channel type invalid.",
-    "noValidUserGiven": "No valid user given."
+    "noValidUserGiven": "No valid user given.",
+    "missingData-TicketIdPostLink": "Missing data: Ticket ID or Ticket-Post Link."
   },
 
   "tickets": {
@@ -191,7 +192,8 @@
     "usersCannotCreateTicketsAnon": "Users cannot create tickets anonymously.",
     "feedbackDetails": ["- **User:** {usermention}", "- Rating: {rating}"],
     "feedbackAnswers": "Feedback Answers",
-    "feedbackThankYou": "### Thanks for sharing your thoughts!\nUnfortunately, we won't be able to respond to your feedback."
+    "feedbackThankYou": "### Thanks for sharing your thoughts!\nUnfortunately, we won't be able to respond to your feedback.",
+    "ticketReopened": "Ticket reopened"
   },
 
   "reports": {
