@@ -1,5 +1,0 @@
-files:
-  - source: /en.json
-    ignore:
-      - /dist/**
-    translation: /dist/%locale%.%file_extension%

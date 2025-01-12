@@ -110,7 +110,10 @@
     "forumChannelNotFound": "Forum channel not found.",
     "channelOrTypeInvalid": "Channel not found or channel type invalid.",
     "noValidUserGiven": "No valid user given.",
-    "missingData-TicketIdPostLink": "Missing data: Ticket ID or Ticket-Post Link."
+    "missingData-TicketIdPostLink": "Missing data: Ticket ID or Ticket-Post Link.",
+    "panelNotEdited": "Panel not edited",
+    "cannotDM": "Sending the DM failed.",
+    "cannotDMDescription": "Please check if you can receive DMs from server members."
   },
 
   "tickets": {
@@ -391,10 +394,6 @@
     "thatsTheLastStep": "That's the last step. Your previously selected settings will be applied after you're done with this step.",
     "setupComplete": "Setup complete!",
     "yourSubscriptions": "Your Subscriptions",
-    "subscriptionInfo-OtherBuyer": [
-      "You have not bought **Gold** for this server but <@{buyerId}> did.",
-      "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
-    ],
     "alreadySubscribed": [
       "This server already has **Gold** because of <@{buyerId}>.",
       "-# The current billing period ends on <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
@@ -726,68 +725,5 @@
       "",
       "I've always been very open to feedback and suggestions, so if you have any, feel free to join the [Support Server](https://discord.gg/rFkVQx3vpj) and let me know."
     ]
-  },
-
-  "logs": {
-    "type": {
-      "ticket": "Tickets",
-      "report": "Reports",
-      "blacklist": "Blacklist"
-    },
-    "ticket": {
-      "created": "Ticket created",
-      "updated": "Ticket updated",
-      "closed": "Ticket closed",
-      "closeRequested": "Close requested",
-      "closeRequestAccepted": "Close request accepted",
-      "closeRequestDenied": "Close request denied",
-      "closeRequestDeleted": "Close request deleted",
-      "pingsUpdated": "Pings updated",
-      "messageForwardingToggled": "Message forwarding toggled",
-      "anonymityUpdated": "Anonymity updated",
-      "allowedBotsUpdated": "Allowed bots updated",
-      "userFeedbackUpdated": "User feedback updated",
-      "ticketPaused": "Tickets paused",
-      "ticketResumed": "Tickets resumed"
-    },
-    "report": {
-      "created": "Report created",
-      "updated": "Report updated",
-      "deleted": "Report deleted",
-      "reportChannelUpdated": "Report channel updated",
-      "pingsUpdated": "Pings updated",
-      "immunityUpdated": "Immunity updated",
-      "modRolesUpdated": "Mod roles updated",
-      "channelsUpdated": "Channels updated",
-      "buttonsToggled": "Buttons toggled",
-      "paused": "Reports paused",
-      "resumed": "Reports resumed"
-    },
-    "blacklist": {
-      "add": "User added to blacklist",
-      "remove": "User removed from blacklist",
-      "clear": "Blacklist cleared"
-    },
-    "data": {
-      "author": "Author",
-      "user": "User",
-      "ticket": "Ticket",
-      "report": "Report",
-      "channel": "Channel",
-      "post": "Post",
-      "message": "Message",
-      "oldStatus": "Old Status",
-      "newStatus": "New Status",
-      "oldChannels": "Old Channels",
-      "newChannels": "New Channels",
-      "oldSetting": "Old Setting",
-      "newSetting": "New Setting",
-      "oldConfig": "Old Configuratio",
-      "newConfig": "New Configuration",
-      "excluded": "Excluded",
-      "included": "Included",
-      "until": "Until",
-      "none": "`/`"
-    }
   }
 }
