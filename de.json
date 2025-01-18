@@ -12,9 +12,9 @@
     "managePremiumHere": "Verwalte Premium mit {command:premium}.",
     "default": "Standard",
     "areYouSure": "Bist du dir sicher",
-    "blModule-tickets": "Tickets",
-    "blModule-reports": "Reports",
-    "blModule-all": "Alle",
+    "feature-tickets": "Tickets",
+    "feature-reports": "Reports",
+    "feature-all": "Alle",
     "moduleWithPH": "Modul(e): {module}",
     "configurationsWereResetNotification": "Konfigurationen wurden zurückgesetzt."
   },
@@ -279,7 +279,7 @@
     "reportLimits": "Grenzwerte von Meldungen",
     "reportLimitsDetails": [
       "- **Max. offene Meldungen pro Nutzer (ausgehend):** `{maxOpenReportsCreate}`",
-      "- **Max. offene Meldungen pro Nutzer (eingehend):** `{maxReportsReceived}`",
+      "- **Max. offene Meldungen pro Nutzer (eingehend):** `{maxReportsReceive}`",
       "- **Max. offene Meldungen im Server:** `{maxReportsOpenInGuild}`"
     ],
     "commentPlaceholder": "Zusätzlicher Kontext zur Untermauerung der Begründung (Text ist gut, Bildlinks sind besser)",
@@ -659,6 +659,43 @@
     "VIEW_CHANNEL": "KANAL_SEHEN",
     "ATTACH_FILES": "DATEIEN_ANHÄNGEN",
     "MENTION_EVERYONE": "JEDEN_ERWÄHNEN"
+  },
+
+  "config": {
+    "submoduleNotFound": "Das Submodul wurde nicht gefunden.",
+    "pings": "Pings",
+    "customMessagesNote": "Aufgrund der Beschaffenheit des Systems ist es derzeit nur möglich, {command:config tickets} zu verwenden, um die benutzerdefinierten Nachrichten zu überprüfen und zu bearbeiten.",
+    "userFeedbackNotEnabled": "Nutzer-Feedback ist derzeit nicht aktiviert.",
+    "userFeedback": "Nuter können Feedback geben, nachdem ein Ticket geschlossen wurde.\nDas Feedback wird dann in {channel} gesendet.",
+    "question": [
+      "**Frage:** {label}",
+      "**Min:** `{minChars}`",
+      "**Max:** `{maxChars}`",
+      "**Style:** `{style}`",
+      "**Erforderlich:** {required}",
+      "**Platzhalter:**",
+      ">>> {placeholder}"
+    ],
+    "tickets-overview": [
+      "- **Aktiviert:** {enabled}",
+      "- **Ticket Forum:** {channel}",
+      "- **Automatische Weiterleitung von Nachrichten:** {autoForwarding}",
+      "- **Anonyme Tickets:** {anonymTickets}",
+      "- **Anonyme Antworten:** {anonymReplies}",
+      "- **Alias:** {alias}"
+    ],
+    "reports-overview": [
+      "- **Aktiviert:** {enabled}",
+      "- **Meldungs-Kanal:** {channel}",
+      "- **Meldungs-Aktionen:** {reportActions}",
+      "- **Benachrichtigungsstufe:** {notificationLevel}"
+    ],
+    "pausedUntil-tickets": "Die Erstellung von Tickets ist derzeit pausiert.",
+    "pausedUntil-reports": "Die Erstellung von Meldungen ist derzeit pausiert.",
+    "channels-in": "Eingeschlossene Kanäle",
+    "channels-ex": "Ausgeschlossene Kanäle",
+    "immune": "Immune Nutzer und Rollen",
+    "mods": "Moderatoren (sie können Maßnahmen zu Meldungen ergreifen)"
   },
 
   "help": {

@@ -12,9 +12,9 @@
     "managePremiumHere": "Manage premium with {command:premium}.",
     "default": "Default",
     "areYouSure": "Are you sure?",
-    "blModule-tickets": "Tickets",
-    "blModule-reports": "Reports",
-    "blModule-all": "All",
+    "feature-tickets": "Tickets",
+    "feature-reports": "Reports",
+    "feature-all": "All",
     "moduleWithPH": "Module(s): {module}",
     "configurationsWereResetNotification": "Configurations were reset."
   },
@@ -283,7 +283,7 @@
     "reportLimits": "Report Limits",
     "reportLimitsDetails": [
       "- **Max Open Reports per User (create):** `{maxOpenReportsCreate}`",
-      "- **Max Open Reports per User (receive):** `{maxReportsReceived}`",
+      "- **Max Open Reports per User (receive):** `{maxReportsReceive}`",
       "- **Max Open Reports in Guild:** `{maxReportsOpenInGuild}`"
     ],
     "commentPlaceholder": "Any additional context to support your reason (text is good, image links are better)",
@@ -659,6 +659,43 @@
     "VIEW_CHANNEL": "VIEW_CHANNEL",
     "ATTACH_FILES": "ATTACH_FILES",
     "MENTION_EVERYONE": "MENTION_EVERYONE"
+  },
+
+  "config": {
+    "submoduleNotFound": "The submodule could not be found.",
+    "pings": "Pings",
+    "customMessagesNote": "Due to the nature of the system, you currently have to use {command:config tickets} to review and edit the custom messages.",
+    "userFeedbackNotEnabled": "User feedback is not enabled.",
+    "userFeedback": "Users can give feedback after a ticket has been closed.\nThe feedback will then be sent into {channel}.",
+    "question": [
+      "**Label:** {label}",
+      "**Min:** `{minChars}`",
+      "**Max:** `{maxChars}`",
+      "**Style:** `{style}`",
+      "**Required:** {required}",
+      "**Placeholder:**",
+      ">>> {placeholder}"
+    ],
+    "tickets-overview": [
+      "- **Enabled:** {enabled}",
+      "- **Ticket Forum:** {channel}",
+      "- **Auto Forwarding:** {autoForwarding}",
+      "- **Anonymous Tickets:** {anonymTickets}",
+      "- **Anonymous Replies:** {anonymReplies}",
+      "- **Alias:** {alias}"
+    ],
+    "reports-overview": [
+      "- **Enabled:** {enabled}",
+      "- **Alert Channel:** {channel}",
+      "- **Report Actions Enabled:** {reportActions}",
+      "- **Notification Level:** {notificationLevel}"
+    ],
+    "pausedUntil-tickets": "Ticket creation is currently paused.",
+    "pausedUntil-reports": "Report creation is currently paused.",
+    "channels-in": "Included Channels",
+    "channels-ex": "Excluded Channels",
+    "immune": "Immune Users/Roles",
+    "mods": "Moderators (they can take action on reports)"
   },
 
   "help": {
