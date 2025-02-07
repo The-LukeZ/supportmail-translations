@@ -320,10 +320,7 @@
     "selectCustomMessage": "Select a custom message",
     "anonymConfig": "Anonymity Configuration",
     "responsesAreNotAnonymByDefault": "Responses are not anonymous by default.",
-    "anonym-enabled": [
-      "Ticket responses will be sent anonymously.",
-      "- **Alias:** `{alias}`"
-    ],
+    "anonym-enabled": ["Ticket responses will be sent anonymously.", "- **Alias:** `{alias}`"],
     "anonym-disabled": "Ticket responses will be sent with the team member's username.",
     "ticketPingConfig": "Ticket Ping Configuration",
     "reportPingConfig": "Report Pings",

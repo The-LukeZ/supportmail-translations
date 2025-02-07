@@ -316,10 +316,7 @@
     "selectCustomMessage": "Wähle eine Nachricht aus",
     "anonymConfig": "Anonymitätseinstellungen",
     "responsesAreNotAnonymByDefault": "Antworten werden standardmäßig nicht anonym gesendet.",
-    "anonym-enabled": [
-      "Antoworten werden anonym gesendet.",
-      "- **Alias:** `{alias}`"
-    ],
+    "anonym-enabled": ["Antoworten werden anonym gesendet.", "- **Alias:** `{alias}`"],
     "anonym-disabled": "Antworten werden nicht anonym gesendet.",
     "ticketPingConfig": "Ticket Pings",
     "reportPingConfig": "Meldungs Pings",
