@@ -53,7 +53,7 @@
     "ticketNotClosed": "Ticket non fermé.",
     "closeRequestNotFound": "Demande de fermeture non trouvée.",
     "timestringError": "Erreur de chaîne temporelle : `{error}`",
-    "ticketNotCloseRequested": "Fermeture du ticket non demandée. Quelque chose ne va pas ici...",
+    "ticketNotCloseRequested": "La fermeture du ticket n'a pas été demandée. Quelque chose ne va pas ici...",
     "openTicketFound": "Ticket ouvert trouvé.",
     "invalidTime": "Temps invalide.",
     "timeInPast": "Le temps est déjà passé.",

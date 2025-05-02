@@ -53,7 +53,7 @@
     "ticketNotClosed": "Ticket nicht geschlossen.",
     "closeRequestNotFound": "Schließanfrage nicht gefunden.",
     "timestringError": "Timestring-Fehler: `{error}`",
-    "ticketNotCloseRequested": "Keine SChließanfrage für dieses Ticket gefunden. Irgendetwas fühlt sich hier falsch an...",
+    "ticketNotCloseRequested": "Keine Schließanfrage für dieses Ticket gefunden. Irgendetwas fühlt sich hier falsch an...",
     "openTicketFound": "Offenes Ticket gefunden.",
     "invalidTime": "Ungültige Zeit.",
     "timeInPast": "Die Zeit liegt in der Vergangenheit.",
