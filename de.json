@@ -487,7 +487,17 @@
       "- **6 Monate:** `23,50 €`",
       "- **1 Jahr:** `45,00 €`"
     ],
-    "viewTagTitle": "Tag Details zu `{name}`"
+    "viewTagTitle": "Tag Details zu `{name}`",
+    "commandConfig-Channels": "Kanäle",
+    "commandConfig-Roles": "Rollen",
+    "commandConfig-Users": "Nutzer",
+    "commandConfig-Permissions": "Berechtigungen",
+    "selectBlacklistToClear": "# Wähle die Blacklist, die du leeren möchtest",
+    "reallyResetBlacklist": [
+      "### Bist du dir sicher, dass du die Blacklist `{module}` zurücksetzen möchtest?",
+      "-# Diese Aktion kann nicht rückgängig gemacht werden."
+    ],
+    "blacklistCleared": "Blacklist erfolgreich geleert. `{count}` Einträge von `{module}` entfernt."
   },
 
   "labels": {
@@ -634,7 +644,8 @@
     "6months": "6 Monate",
     "1year": "1 Jahr",
     "roles": "Rollen",
-    "goToCheckout": "Zur Kasse gehen"
+    "goToCheckout": "Zur Kasse gehen",
+    "selectConfigToEdit": "Wähle eine Konfiguration zum Bearbeiten"
   },
 
   "tips": {
@@ -643,19 +654,45 @@
   },
 
   "permissions": {
+    "ADD_REACTIONS": "REAKTIONEN_HINZUFÜGEN",
+    "ADMINISTRATOR": "ADMINISTRATOR",
+    "ATTACH_FILES": "DATEIEN_ANHÄNGEN",
+    "BAN_MEMBERS": "MITGLIEDER_BANNEN",
+    "CONNECT": "VERBINDEN",
+    "CREATE_EVENTS": "EVENTS_ERSTELLEN",
+    "CREATE_GUILD_EXPRESSIONS": "SERVER_AUSDRÜCKE_ERSTELLEN",
+    "CREATE_INSTANT_INVITE": "SOFORTIGE_EINLADUNG_ERSTELLEN",
     "CREATE_PUBLIC_THREADS": "ÖFFENTLICHE_THREADS_ERSTELLEN",
     "EMBED_LINKS": "LINKS_EINBETTEN",
+    "KICK_MEMBERS": "MITGLIEDER_KICKEN",
     "MANAGE_CHANNELS": "KANÄLE_VERWALTEN",
+    "MANAGE_EVENTS": "EVENTS_VERWALTEN",
     "MANAGE_GUILD": "SERVER_VERWALTEN",
+    "MANAGE_GUILD_EXPRESSIONS": "SERVER_AUSDRÜCKE_VERWALTEN",
     "MANAGE_MESSAGES": "NACHRICHTEN_VERWALTEN",
+    "MANAGE_NICKNAMES": "NICKNAMES_VERWALTEN",
+    "MANAGE_ROLES": "ROLLEN_VERWALTEN",
+    "MANAGE_THREADS": "THREADS_VERWALTEN",
+    "MANAGE_WEBHOOKS": "WEBHOOKS_VERWALTEN",
+    "MENTION_EVERYONE": "JEDEN_ERWÄHNEN",
+    "MODERATE_MEMBERS": "MITGLIEDER_MODERIEREN",
+    "MOVE_MEMBERS": "MITGLIEDER_VERSCHIEBEN",
+    "MUTE_MEMBERS": "MITGLIEDER_STUMMSCHALTEN",
     "READ_MESSAGE_HISTORY": "NACHRICHTENVERLAUF_LESEN",
+    "REQUEST_TO_SPEAK": "REDEANFRAGE_STELLEN",
     "SEND_MESSAEGS": "NACHRICHTEN_SENDEN",
     "SEND_MESSAGES_IN_THREADS": "NACHRICHTEN_IN_THREADS_SENDEN",
+    "SEND_POLLS": "UMFRAGEN_SENDEN",
+    "SEND_VOICE_MESSAGES": "SPRACHNACHRICHTEN_SENDEN",
+    "STREAM": "STREAMEN",
+    "USE_APPLICATION_COMMANDS": "ANWENDUNGSBEFEHLE_VERWENDEN",
+    "USE_EMBEDDED_ACTIVITIES": "EINGEBETTETE_AKTIVITÄTEN_VERWENDEN",
+    "USE_EXTERNAL_APPS": "EXTERNE_APPS_VERWENDEN",
     "USE_EXTERNAL_EMOJIS": "EXTERNE_EMOJIS_VERWENDEN",
-    "VIEW_AUDIT_LOG": "AUDIT_LOG_SEHEN",
-    "VIEW_CHANNEL": "KANAL_SEHEN",
-    "ATTACH_FILES": "DATEIEN_ANHÄNGEN",
-    "MENTION_EVERYONE": "JEDEN_ERWÄHNEN"
+    "VIEW_AUDIT_LOG": "AUDIT_LOG_ANZEIGEN",
+    "VIEW_CHANNEL": "KANAL_ANZEIGEN",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "CREATOR_MONETARISIERUNGS_ANALYTIK_ANZEIGEN",
+    "VIEW_GUILD_INSIGHTS": "SERVER_EINBLICKE_ANZEIGEN"
   },
 
   "config": {
