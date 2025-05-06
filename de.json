@@ -41,7 +41,6 @@
     "ticketWasClosed": "Ticket wurde bereits geschlossen.",
     "youWantToCreateANewTicket": "Möchtest du ein neues Ticket erstellen?",
     "setupInProgress": "Es ist bereits eine Einrichtung im Gange. Bitte warte.",
-    "missingPermissions": "Fehlende Berechtigungen.",
     "invalidPositions": "Ungültige Positionen! Jede Position darf nur einmal vorkommen und muss zwischen `1` und `5` liegen.",
     "anonymDisabled": "Anonymitätseinstellung ist deaktiviert.",
     "postClosed_ReopenToContinue": "Dieser Post wurde bereits geschlossen. Öffne ihn erneut, um die Unterhaltung fortzusetzen.\n-# Der Post wird in 10 Sekunden erneut archiviert. Bitte antworte nicht in geschlossenen Tickets.",
@@ -109,7 +108,10 @@
     "noPreviousCommentsFound": "Keine vorherigen Einträge gefunden.",
     "channelOrTypeInvalid": "Kanal nicht gefunden oder Kanal-Typ ungültig.",
     "noValidUserGiven": "Kein gültiger Nutzer angegeben.",
-    "missingData-TicketIdPostLink": "Fehlende Daten: Ticket-ID oder Ticket-Post-Link."
+    "missingData-TicketIdPostLink": "Fehlende Daten: Ticket-ID oder Ticket-Post-Link.",
+    "missingPermissions": "Fehlende Berechtigungen.",
+    "cantUseCommandInThisChannel": "Du kannst diesen Befehl nicht in diesem Kanal verwenden.",
+    "notAllowedToUseCommand": "Du bist nicht berechtigt, diesen Befehl zu verwenden."
   },
 
   "tickets": {
@@ -645,7 +647,11 @@
     "1year": "1 Jahr",
     "roles": "Rollen",
     "goToCheckout": "Zur Kasse gehen",
-    "selectConfigToEdit": "Wähle eine Konfiguration zum Bearbeiten"
+    "selectConfigToEdit": "Wähle eine Konfiguration zum Bearbeiten",
+    "resetThisConfig": "Setze diese Konfiguration zurück ({config})",
+    "config-channels": "Kanäle",
+    "config-roles": "Rollen",
+    "config-users": "Nutzer"
   },
 
   "tips": {

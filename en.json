@@ -41,7 +41,6 @@
     "ticketWasClosed": "Ticket was closed.",
     "youWantToCreateANewTicket": "You want to create a new ticket?",
     "setupInProgress": "Setup already in progress. Please wait.",
-    "missingPermissions": "Missing permissions.",
     "invalidPositions": "Invalid positions! Every position has to be unique and between `1` and `5`.",
     "anonymDisabled": "Anonymity is disabled.",
     "postClosed_ReopenToContinue": "This post has been closed. Reopen it to continue the conversation.\n-# The post will be archived again in 10 seconds. PLease do not respond in closed tickets!",
@@ -113,7 +112,10 @@
     "missingData-TicketIdPostLink": "Missing data: Ticket ID or Ticket-Post Link.",
     "panelNotEdited": "Panel not edited",
     "cannotDM": "Sending the DM failed.",
-    "cannotDMDescription": "Please check if you can receive DMs from server members."
+    "cannotDMDescription": "Please check if you can receive DMs from server members.",
+    "missingPermissions": "Missing permissions.",
+    "cantUseCommandInThisChannel": "You can't use this command in this channel.",
+    "notAllowedToUseCommand": "You are not allowed to use this command."
   },
 
   "tickets": {
@@ -645,7 +647,11 @@
     "1year": "1 year",
     "roles": "Roles",
     "goToCheckout": "Go to Checkout",
-    "selectConfigToEdit": "Select the configuration to edit"
+    "selectConfigToEdit": "Select the configuration to edit",
+    "resetThisConfig": "Reset this Config ({config})",
+    "config-channels": "Channels",
+    "config-roles": "Roles",
+    "config-users": "Users"
   },
 
   "tips": {

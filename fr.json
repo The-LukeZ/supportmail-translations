@@ -41,7 +41,6 @@
     "ticketWasClosed": "Le ticket a été fermé.",
     "youWantToCreateANewTicket": "Voulez-vous créer un nouveau ticket ?",
     "setupInProgress": "La configuration est déjà en cours. Veuillez patienter.",
-    "missingPermissions": "Permissions manquantes.",
     "invalidPositions": "Positions invalides ! Chaque position doit être unique et comprise entre `1` et `5`.",
     "anonymDisabled": "L'anonymat est désactivé.",
     "postClosed_ReopenToContinue": "Ce post a été fermé. Rouvrez-le pour continuer la conversation.\n-# Le post sera de nouveau archivé dans 10 secondes. Veuillez ne pas répondre dans des tickets fermés!",
@@ -113,7 +112,10 @@
     "missingData-TicketIdPostLink": "Données manquantes : identifiant de ticket ou lien du post du ticket.",
     "panelNotEdited": "Panneau non modifié",
     "cannotDM": "L'envoi du DM a échoué.",
-    "cannotDMDescription": "Veuillez vérifier si vous pouvez recevoir des DM de la part des membres du serveur."
+    "cannotDMDescription": "Veuillez vérifier si vous pouvez recevoir des DM de la part des membres du serveur.",
+    "missingPermissions": "Permissions manquantes.",
+    "cantUseCommandInThisChannel": "Vous ne pouvez pas utiliser cette commande dans ce canal.",
+    "notAllowedToUseCommand": "Vous n'êtes pas autorisé à utiliser cette commande."
   },
 
   "tickets": {
@@ -638,17 +640,11 @@
     "1year": "1 an",
     "roles": "Rôles",
     "goToCheckout": "Aller au checkout",
-    "commandConfig-Channels": "Canaux",
-    "commandConfig-Roles": "Rôles",
-    "commandConfig-Users": "Utilisateurs",
-    "commandConfig-Permissions": "Permissions",
-    "selectConfigToReset": "# Sélectionnez la configuration que vous souhaitez réinitialiser",
-    "selectBlacklistToClear": "Sélectionnez la liste noire que vous souhaitez vider",
-    "reallyResetBlacklist": [
-      "### Êtes-vous sûr de vouloir réinitialiser la liste noire `{module}` ?",
-      "-# Cette action ne peut pas être annulée."
-    ],
-    "blacklistCleared": "Liste noire vidée. Les entrées `{count}` ont été supprimées de `{module}`."
+    "selectConfigToEdit": "Sélectionnez la configuration à modifier",
+    "resetThisConfig": "Réinitialiser cette configuration ({config})",
+    "config-channels": "Canaux",
+    "config-roles": "Rôles",
+    "config-users": "Utilisateurs"
   },
 
   "tips": {
