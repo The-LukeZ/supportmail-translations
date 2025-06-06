@@ -115,7 +115,11 @@
     "cannotDMDescription": "Veuillez vérifier si vous pouvez recevoir des DM de la part des membres du serveur.",
     "missingPermissions": "Permissions manquantes.",
     "cantUseCommandInThisChannel": "Vous ne pouvez pas utiliser cette commande dans ce canal.",
-    "notAllowedToUseCommand": "Vous n'êtes pas autorisé à utiliser cette commande."
+    "notAllowedToUseCommand": "Vous n'êtes pas autorisé à utiliser cette commande.",
+    "communityRequiredForTickets": [
+      "Vous devez activer la fonctionnalité Communauté sur ce serveur pour configurer les tickets.",
+      "-# Vous pouvez l'activer dans les paramètres du serveur."
+    ]
   },
 
   "tickets": {

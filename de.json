@@ -111,7 +111,11 @@
     "missingData-TicketIdPostLink": "Fehlende Daten: Ticket-ID oder Ticket-Post-Link.",
     "missingPermissions": "Fehlende Berechtigungen.",
     "cantUseCommandInThisChannel": "Du kannst diesen Befehl nicht in diesem Kanal verwenden.",
-    "notAllowedToUseCommand": "Du bist nicht berechtigt, diesen Befehl zu verwenden."
+    "notAllowedToUseCommand": "Du bist nicht berechtigt, diesen Befehl zu verwenden.",
+    "communityRequiredForTickets": [
+      "Du musst Community in diesem Server aktiviert haben, um Tickets einzurichten.",
+      "-# Du kannst es in den Servereinstellungen aktivieren."
+    ]
   },
 
   "tickets": {
