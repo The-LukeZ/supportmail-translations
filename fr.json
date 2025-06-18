@@ -2,7 +2,7 @@
   "global": {
     "currentlyNotLoggedIn": "Vous n'êtes actuellement pas connecté.",
     "loginRequired": "Connexion requise !",
-    "loginWithDiscordDesc": "Vous devez vous connecter avec Discord. En raison de récents changements, il est désormais plus difficile d'accéder aux serveurs communs sans être connecté. Veuillez cliquer sur le bouton de connexion pour continuer ou [ici](https://api.supportmail.dev/discord/login).",
+    "loginWithDiscordDesc": "Vous devez vous connecter avec Discord. C'est le moyen le plus simple de déterminer nos serveurs communs. Veuillez cliquer sur le bouton de connexion pour continuer ou [ici](https://api.supportmail.dev/discord/login).",
     "contactServerAdmin": "Veuillez contacter un administrateur du serveur.",
     "reportToDeveloper": "Veuillez signaler ce problème au [développeur](https://discord.gg/rFkVQx3vpj).",
     "blacklistedTitle": ":warning: Vous êtes sur liste noire !",
