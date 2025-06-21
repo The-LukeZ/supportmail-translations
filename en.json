@@ -119,7 +119,8 @@
     "communityRequiredForTickets": [
       "You need to have Community enabled in this server to setup Tickets.",
       "-# You can enable it in the server settings."
-    ]
+    ],
+    "ticketsAnonymNotEnabled": "Anonymous ticket creation is not enabled in this server."
   },
 
   "tickets": {
@@ -177,7 +178,7 @@
     "userDetailsAnonym": [
       "- **Alias:** {alias}",
       "-# This is just an nickname/alias chosen by the bot. The real username is not visible.",
-      "  However, the user can still be blacklisted from creating tickets by providing this ticket id (`ticketid`) when using {command:blacklist add}."
+      "-# However, the user can still be blacklisted from creating tickets by providing this ticket id (`{ticketid}`) when using {command:blacklist add}."
     ],
     "userRoles": "User Roles",
     "closedAutomaticallyToDMFailed": "Ticket closed automatically. Failed to send the message to the user.",

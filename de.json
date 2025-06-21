@@ -115,7 +115,8 @@
     "communityRequiredForTickets": [
       "Du musst Community in diesem Server aktiviert haben, um Tickets einzurichten.",
       "-# Du kannst es in den Servereinstellungen aktivieren."
-    ]
+    ],
+    "ticketsAnonymNotEnabled": "Die anonyme Ticket-Erstellung ist auf diesem Server nicht aktiviert."
   },
 
   "tickets": {
@@ -174,7 +175,7 @@
     "userDetailsAnonym": [
       "- **Alias:** {alias}",
       "-# Dies ist nur ein vom Bot gewählter Nickname/Alias. Der echte Nutzername ist nicht sichtbar.",
-      "  Der Nutzer kann jedoch nach wie vor für die Erstellung von Tickets gesperrt werden, indem diese Ticket-ID (`ticketid`) bei der Verwendung von {command:blacklist add} angegeben wird."
+      "-# Der Nutzer kann jedoch nach wie vor für die Erstellung von Tickets gesperrt werden, indem diese Ticket-ID (`{ticketid}`) bei der Verwendung von {command:blacklist add} angegeben wird."
     ],
     "userRoles": "Nutzer Rollen",
     "closedAutomaticallyToDMFailed": "Ticket automatisch geschlossen. Die Nachricht konnte nicht an den Nutzer gesendet werden.",
