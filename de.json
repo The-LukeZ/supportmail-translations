@@ -32,6 +32,7 @@
     "ticketsNotEnabled": "Tickets sind auf diesem Server nicht aktiviert.",
     "ticketsNotEnabledOrSetup": "Tickets sind auf diesem Server nicht aktiviert oder nicht eingerichtet.",
     "reportsNotEnabled": "Reports sind auf diesem Server nicht aktiviert.",
+    "reportsNotEnabledOrConfigured": "Reports sind auf diesem Server nicht aktiviert oder nicht eingerichtet.",
     "youTimedOut": "Die Zeit ist abgelaufen.",
     "completeEachStepIn10Mins": "Du musst jeden Schritt in **10** Minuten erledigen.",
     "FinishIn15Mins": "Sie müssen die Bearbeitung in 15 Minuten abschließen.",
@@ -56,8 +57,8 @@
     "openTicketFound": "Offenes Ticket gefunden.",
     "invalidTime": "Ungültige Zeit.",
     "timeInPast": "Die Zeit liegt in der Vergangenheit.",
-    "ticketsPausedUntil": "Tickets sind gerade deaktiviert. Versuche es erneut <t:{timestamp}:R>.",
-    "reportsPausedUntil": "Reports sind gerade deaktiviert. Versuche es erneut <t:{timestamp}:R>.",
+    "ticketsPausedUntil": "Tickets sind gerade deaktiviert. Versuche es erneut {timestamp}.",
+    "reportsPausedUntil": "Reports sind gerade deaktiviert. Versuche es erneut {timestamp}.",
     "ticketsAlreadyPaused": "Tickets sind bereits pausiert.",
     "reportsAlreadyPaused": "Reports sind bereits pausiert.",
     "ticketsNotPaused": "Tickets sind nicht pausiert.",
@@ -311,7 +312,7 @@
       "Nutzername: {username}",
       "[Avatar URL]({avatarurl})",
       "Account erstellt: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
-      "Server beigetreten: <t:{joinedguild}> (<t:{joinedguild}:R>)"
+      "Server beigetreten: {joinedguild}"
     ]
   },
 

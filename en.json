@@ -32,6 +32,7 @@
     "ticketsNotEnabled": "Tickets are not enabled in this server.",
     "ticketsNotEnabledOrSetup": "Tickets are not enabled or set up in this server.",
     "reportsNotEnabled": "Reports are not enabled in this server.",
+    "reportsNotEnabledOrConfigured": "Reports are not enabled or configured in this server.",
     "youTimedOut": "You timed out.",
     "completeEachStepIn10Mins": "You have to complete each step in **10** minutes.",
     "FinishIn15Mins": "You have to finish editing in 15 minutes.",
@@ -315,7 +316,7 @@
       "Username: {username}",
       "[Avatar URL]({avatarurl})",
       "Account created: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
-      "Joined Server: <t:{joinedguild}> (<t:{joinedguild}:R>)"
+      "Joined Server: {joinedguild}"
     ]
   },
 

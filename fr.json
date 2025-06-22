@@ -32,6 +32,7 @@
     "ticketsNotEnabled": "Les tickets ne sont pas activés sur ce serveur.",
     "ticketsNotEnabledOrSetup": "Les tickets ne sont pas activés ou configurés sur ce serveur.",
     "reportsNotEnabled": "Les rapports ne sont pas activés sur ce serveur.",
+    "reportsNotEnabledOrConfigured": "Les rapports ne sont pas activés ou configurés sur ce serveur.",
     "youTimedOut": "Vous avez dépassé le temps imparti.",
     "completeEachStepIn10Mins": "Vous devez compléter chaque étape en **10** minutes.",
     "FinishIn15Mins": "Vous devez terminer l'édition en 15 minutes.",
@@ -315,7 +316,7 @@
       "Nom d'utilisateur : {username}",
       "[URL de l'avatar]({avatarurl})",
       "Compte créé : <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
-      "A rejoint le serveur : <t:{joinedguild}> (<t:{joinedguild}:R>)"
+      "A rejoint le serveur : {joinedguild}"
     ]
   },
 
