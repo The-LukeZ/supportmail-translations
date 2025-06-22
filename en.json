@@ -121,7 +121,8 @@
       "You need to have Community enabled in this server to setup Tickets.",
       "-# You can enable it in the server settings."
     ],
-    "ticketsAnonymNotEnabled": "Anonymous ticket creation is not enabled in this server."
+    "ticketsAnonymNotEnabled": "Anonymous ticket creation is not enabled in this server.",
+    "commandConfigNotFound": "Command config not found."
   },
 
   "tickets": {

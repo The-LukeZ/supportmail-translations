@@ -121,7 +121,8 @@
       "Vous devez activer la fonctionnalité Communauté sur ce serveur pour configurer les tickets.",
       "-# Vous pouvez l'activer dans les paramètres du serveur."
     ],
-    "ticketsAnonymNotEnabled": "La création de tickets anonymes n'est pas activée sur ce serveur."
+    "ticketsAnonymNotEnabled": "La création de tickets anonymes n'est pas activée sur ce serveur.",
+    "commandConfigNotFound": "Configuration de commande non trouvée."
   },
 
   "tickets": {

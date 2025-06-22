@@ -117,7 +117,8 @@
       "Du musst Community in diesem Server aktiviert haben, um Tickets einzurichten.",
       "-# Du kannst es in den Servereinstellungen aktivieren."
     ],
-    "ticketsAnonymNotEnabled": "Die anonyme Ticket-Erstellung ist auf diesem Server nicht aktiviert."
+    "ticketsAnonymNotEnabled": "Die anonyme Ticket-Erstellung ist auf diesem Server nicht aktiviert.",
+    "commandConfigNotFound": "Befehlskonfiguration nicht gefunden."
   },
 
   "tickets": {
