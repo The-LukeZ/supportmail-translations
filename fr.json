@@ -500,7 +500,10 @@
       "- **6 Mois :** 23,50 €",
       "- **1 An :** 45,00 €"
     ],
-    "viewTagTitle": "Affichage des détails du tag `{name}`"
+    "viewTagTitle": "Affichage des détails du tag `{name}`",
+    "checkingPermissions": "Vérification des autorisations...",
+    "creatingChannels": "Création des canaux...",
+    "updatingDatabase": "Mise à jour de la base de données..."
   },
 
   "labels": {
@@ -657,7 +660,8 @@
     "notificationLevel-1": "Anonyme",
     "notificationLevel-2": "Seulement Rapport",
     "notificationLevel-3": "Seulement Action",
-    "notificationLevel-4": "Complet"
+    "notificationLevel-4": "Complet",
+    "editLimits": "Modifier les limites"
   },
 
   "tips": {

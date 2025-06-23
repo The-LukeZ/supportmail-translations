@@ -510,7 +510,10 @@
       "### Are you sure you want to reset the `{module}` blacklist?",
       "-# This action cannot be undone."
     ],
-    "blacklistCleared": "Blacklist cleared. `{count}` entries removed from `{module}`."
+    "blacklistCleared": "Blacklist cleared. `{count}` entries removed from `{module}`.",
+    "checkingPermissions": "Checking Permissions...",
+    "creatingChannels": "Creating Channels...",
+    "updatingDatabase": "Updating Database..."
   },
 
   "labels": {
@@ -667,7 +670,8 @@
     "notificationLevel-1": "Anonym",
     "notificationLevel-2": "Only Report",
     "notificationLevel-3": "Only Action",
-    "notificationLevel-4": "Full"
+    "notificationLevel-4": "Full",
+    "editLimits": "Edit Limits"
   },
 
   "tips": {

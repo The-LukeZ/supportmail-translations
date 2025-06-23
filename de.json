@@ -511,7 +511,10 @@
       "### Bist du dir sicher, dass du die Blacklist `{module}` zurücksetzen möchtest?",
       "-# Diese Aktion kann nicht rückgängig gemacht werden."
     ],
-    "blacklistCleared": "Blacklist erfolgreich geleert. `{count}` Einträge von `{module}` entfernt."
+    "blacklistCleared": "Blacklist erfolgreich geleert. `{count}` Einträge von `{module}` entfernt.",
+    "checkingPermissions": "Überprüfe Berechtigungen...",
+    "creatingChannels": "Erstelle Kanäle...",
+    "updatingDatabase": "Aktualisiere Datenbank..."
   },
 
   "labels": {
@@ -667,7 +670,8 @@
     "notificationLevel-1": "Anonym",
     "notificationLevel-2": "Nur Report",
     "notificationLevel-3": "Nur Maßnahme",
-    "notificationLevel-4": "Komplett"
+    "notificationLevel-4": "Komplett",
+    "editLimits": "Limits bearbeiten"
   },
 
   "tips": {
