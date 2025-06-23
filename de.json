@@ -118,7 +118,8 @@
       "-# Du kannst es in den Servereinstellungen aktivieren."
     ],
     "ticketsAnonymNotEnabled": "Die anonyme Ticket-Erstellung ist auf diesem Server nicht aktiviert.",
-    "commandConfigNotFound": "Befehlskonfiguration nicht gefunden."
+    "commandConfigNotFound": "Befehlskonfiguration nicht gefunden.",
+    "noEmbedSet": "Kein Embed gesetzt."
   },
 
   "tickets": {
@@ -325,8 +326,12 @@
     "selectCustomMessage": "Wähle eine Nachricht aus",
     "anonymConfig": "Anonymitätseinstellungen",
     "responsesAreNotAnonymByDefault": "Antworten werden standardmäßig nicht anonym gesendet.",
-    "anonym-enabled": ["Antoworten werden anonym gesendet.", "- **Alias:** `{alias}`"],
-    "anonym-disabled": "Antworten werden nicht anonym gesendet.",
+    "anonymConfigDesc": [
+      "Lies mehr über die Anonymitätsfunktion [hier](https://docs.supportmail.dev/f/tickets#automatic-forwarding).",
+      "",
+      "- **Anonyme Antworten des Teams**: `{replies}`",
+      "- **Anonyme Tickets**: `{users}`"
+    ],
     "ticketPingConfig": "Ticket Pings",
     "reportPingConfig": "Meldungs Pings",
     "ticketBotsConfig": "Erlaubte Bots in Tickets",
@@ -531,6 +536,8 @@
     "startGuidedSetup": "Starte die geführte Einrichtung",
     "editAlias": "Alias bearbeiten",
     "alias": "Alias",
+    "anonTickets": "Anonyme Tickets",
+    "anonStaffReplies": "Anonyme Antworten des Teams",
     "editMessageDetails": "Bearbeite die Nachrichtendetails",
     "resetCustomMessage": "Setze die Nachricht zurück",
     "closeMessage": "Schließnachricht",
