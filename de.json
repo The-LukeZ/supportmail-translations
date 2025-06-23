@@ -655,7 +655,12 @@
     "resetThisConfig": "Setze diese Konfiguration zurück ({config})",
     "config-channels": "Kanäle",
     "config-roles": "Rollen",
-    "config-users": "Nutzer"
+    "config-users": "Nutzer",
+    "notificationLevel-0": "Keins",
+    "notificationLevel-1": "Anonym",
+    "notificationLevel-2": "Nur Report",
+    "notificationLevel-3": "Nur Maßnahme",
+    "notificationLevel-4": "Komplett"
   },
 
   "tips": {

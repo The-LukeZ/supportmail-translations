@@ -655,7 +655,12 @@
     "resetThisConfig": "Reset this Config ({config})",
     "config-channels": "Channels",
     "config-roles": "Roles",
-    "config-users": "Users"
+    "config-users": "Users",
+    "notificationLevel-0": "None",
+    "notificationLevel-1": "Anonym",
+    "notificationLevel-2": "Only Report",
+    "notificationLevel-3": "Only Action",
+    "notificationLevel-4": "Full"
   },
 
   "tips": {

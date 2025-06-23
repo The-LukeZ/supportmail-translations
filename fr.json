@@ -648,7 +648,12 @@
     "resetThisConfig": "Réinitialiser cette configuration ({config})",
     "config-channels": "Canaux",
     "config-roles": "Rôles",
-    "config-users": "Utilisateurs"
+    "config-users": "Utilisateurs",
+    "notificationLevel-0": "Aucun",
+    "notificationLevel-1": "Anonyme",
+    "notificationLevel-2": "Seulement Rapport",
+    "notificationLevel-3": "Seulement Action",
+    "notificationLevel-4": "Complet"
   },
 
   "tips": {
