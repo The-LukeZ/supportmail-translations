@@ -126,7 +126,9 @@
     "tagCreateFailed": "Tag-Erstellung fehlgeschlagen.",
     "forumChannelNotFound": "Forum-Kanal nicht gefunden.",
     "cannotDM": "Senden der DM fehlgeschlagen.",
-    "cannotDMDescription": "Bitte überprüfe, ob du DMs von Servermitgliedern empfangen kannst."
+    "cannotDMDescription": "Bitte überprüfe, ob du DMs von Servermitgliedern empfangen kannst.",
+    "panelNotEdited": "Panel nicht bearbeitet.",
+    "panelNotSent": "Panel nicht gesendet."
   },
 
   "tickets": {
@@ -411,10 +413,6 @@
     "thatsTheLastStep": "Das ist der letzte Schritt. Die zuvor ausgewählten Einstellungen werden übernommen, nachdem dieser Schritt abgeschlossen wurde.",
     "setupComplete": "Einrichtung abgeschlossen",
     "yourSubscriptions": "Deine Abos",
-    "subscriptionInfo-OtherBuyer": [
-      "Du hast kein **Gold** für diesen Server gekauft, aber <@{buyerId}> hat es.",
-      "-# Der aktuelle Abrechnungszeitraum endet am <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
-    ],
     "alreadySubscribed": [
       "Dieser Server hat bereits **Gold** wegen <@{buyerId}>.",
       "-# Der aktuelle Abrechnungszeitraum endet am <t:{nextPaymentTS}> (<t:{nextPaymentTS}:R>)."
@@ -574,8 +572,6 @@
     "green": "Grün",
     "grey": "Grau",
     "red": "Rot",
-    "panelNotEdited": "Panel nicht bearbeitet",
-    "panelnotSent": "Panel nicht gesendet",
     "panelSent": "Panel gesendet",
     "panelEdited": "Panel bearbeitet",
     "seeDM": "Siehe DM",
@@ -832,68 +828,5 @@
       "",
       "Ich war schon immer sehr offen für Feedback und Vorschläge, wenn du also welche hast, dann melde dich auf dem [Support Server] (https://discord.gg/rFkVQx3vpj) und lass es mich wissen."
     ]
-  },
-
-  "logs": {
-    "type": {
-      "ticket": "Tickets",
-      "report": "Reports",
-      "blacklist": "Blacklist"
-    },
-    "ticket": {
-      "created": "Ticket created",
-      "updated": "Ticket updated",
-      "closed": "Ticket closed",
-      "closeRequested": "Close requested",
-      "closeRequestAccepted": "Close request accepted",
-      "closeRequestDenied": "Close request denied",
-      "closeRequestDeleted": "Close request deleted",
-      "pingsUpdated": "Pings updated",
-      "messageForwardingToggled": "Message forwarding toggled",
-      "anonymityUpdated": "Anonymity updated",
-      "allowedBotsUpdated": "Allowed bots updated",
-      "userFeedbackUpdated": "User feedback updated",
-      "ticketPaused": "Tickets paused",
-      "ticketResumed": "Tickets resumed"
-    },
-    "report": {
-      "created": "Report created",
-      "updated": "Report updated",
-      "deleted": "Report deleted",
-      "reportChannelUpdated": "Report channel updated",
-      "pingsUpdated": "Pings updated",
-      "immunityUpdated": "Immunity updated",
-      "modRolesUpdated": "Mod roles updated",
-      "channelsUpdated": "Channels updated",
-      "buttonsToggled": "Buttons toggled",
-      "paused": "Reports paused",
-      "resumed": "Reports resumed"
-    },
-    "blacklist": {
-      "add": "User added to blacklist",
-      "remove": "User removed from blacklist",
-      "clear": "Blacklist cleared"
-    },
-    "data": {
-      "author": "Author",
-      "user": "User",
-      "ticket": "Ticket",
-      "report": "Report",
-      "channel": "Channel",
-      "post": "Post",
-      "message": "Message",
-      "oldStatus": "Old Status",
-      "newStatus": "New Status",
-      "oldChannels": "Old Channels",
-      "newChannels": "New Channels",
-      "oldSetting": "Old Setting",
-      "newSetting": "New Setting",
-      "oldConfig": "Old Configuratio",
-      "newConfig": "New Configuration",
-      "excluded": "Excluded",
-      "included": "Included",
-      "until": "Until",
-      "none": "`/`"
-    }
   }
 }

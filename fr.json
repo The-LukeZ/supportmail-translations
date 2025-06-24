@@ -112,6 +112,7 @@
     "noValidUserGiven": "Aucun utilisateur valide fourni.",
     "missingData-TicketIdPostLink": "Données manquantes : identifiant de ticket ou lien du post du ticket.",
     "panelNotEdited": "Panneau non modifié",
+    "panelNotSent": "Panneau non envoyé",
     "cannotDM": "L'envoi du DM a échoué.",
     "cannotDMDescription": "Veuillez vérifier si vous pouvez recevoir des DM de la part des membres du serveur.",
     "missingPermissions": "Permissions manquantes.",
@@ -509,7 +510,14 @@
     "viewTagTitle": "Affichage des détails du tag `{name}`",
     "checkingPermissions": "Vérification des autorisations...",
     "creatingChannels": "Création des canaux...",
-    "updatingDatabase": "Mise à jour de la base de données..."
+    "updatingDatabase": "Mise à jour de la base de données...",
+    "commandConfig-Channels": "Canaux",
+    "commandConfig-Roles": "Rôles",
+    "commandConfig-Users": "Utilisateurs",
+    "commandConfig-Permissions": "Permissions",
+    "selectBlacklistToClear": "Sélectionner la liste noire à effacer",
+    "reallyResetBlacklist": "Êtes-vous sûr de vouloir réinitialiser la liste noire ?",
+    "blacklistCleared": "Liste noire réinitialisée."
   },
 
   "labels": {
@@ -559,8 +567,6 @@
     "green": "Vert",
     "grey": "Gris",
     "red": "Rouge",
-    "panelNotEdited": "Panneau non modifié",
-    "panelnotSent": "Panneau non envoyé",
     "panelSent": "Panneau envoyé",
     "panelEdited": "Panneau modifié",
     "seeDM": "Voir les DM",
