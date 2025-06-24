@@ -123,7 +123,8 @@
     ],
     "ticketsAnonymNotEnabled": "La création de tickets anonymes n'est pas activée sur ce serveur.",
     "commandConfigNotFound": "Configuration de commande non trouvée.",
-    "noEmbedSet": "Aucun embed défini."
+    "noEmbedSet": "Aucun embed défini.",
+    "serverNotProvided": "Aucun serveur fourni."
   },
 
   "tickets": {
