@@ -125,7 +125,8 @@
     "commandConfigNotFound": "Configuration de commande non trouvée.",
     "noEmbedSet": "Aucun embed défini.",
     "serverNotProvided": "Aucun serveur fourni.",
-    "closeRequestExistsForThisTicket": "Une demande de fermeture existe déjà pour ce ticket."
+    "closeRequestExistsForThisTicket": "Une demande de fermeture existe déjà pour ce ticket.",
+    "maxQuestionsReached": "Vous avez atteint le nombre maximum de questions."
   },
 
   "tickets": {
@@ -208,7 +209,9 @@
     "feedbackDetails": ["- **Utilisateur :** {usermention}", "- Note : {rating}"],
     "feedbackAnswers": "Réponses au feedback",
     "feedbackThankYou": "### Merci d'avoir partagé vos impressions !\nMalheureusement, nous ne pourrons pas répondre à vos retours.",
-    "ticketReopened": "Ticket rouvert"
+    "ticketReopened": "Ticket rouvert",
+    "closeRequestDenied": "Demande de fermeture refusée",
+    "closeRequestAccepted": "Demande de fermeture acceptée"
   },
 
   "reports": {
@@ -339,7 +342,7 @@
       "- **Tickets anonymes**: `{users}`"
     ],
     "ticketPingConfig": "Configuration des pings pour les tickets",
-    "reportPingConfig": "Pings de signalement",
+    "reportPings": "Pings de signalement",
     "ticketBotsConfig": "Bots autorisés dans les tickets",
     "userFeedbackConfig": "Configuration du retour utilisateur",
     "setupTickets": "Configurer les tickets",

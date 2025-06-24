@@ -121,7 +121,8 @@
     "commandConfigNotFound": "Befehlskonfiguration nicht gefunden.",
     "noEmbedSet": "Kein Embed gesetzt.",
     "serverNotProvided": "Kein Server angegeben.",
-    "closeRequestExistsForThisTicket": "Eine Schließanfrage für dieses Ticket existiert bereits."
+    "closeRequestExistsForThisTicket": "Eine Schließanfrage für dieses Ticket existiert bereits.",
+    "maxQuestionsReached": "Du hast die maximale Anzahl an Fragen erreicht."
   },
 
   "tickets": {
@@ -204,7 +205,9 @@
     "usersCannotCreateTicketsAnon": "Nutzer können keine anonymen Tickets erstellen.",
     "feedbackDetails": ["- **Nutzer:** {usermention}", "- Bewertung: {rating}"],
     "feedbackAnswers": "Antworten",
-    "feedbackThankYou": "### Danke, dass Du uns deine Gedanken mitgeteilt hast!\nBeachte, dass wir leider nicht können wir auf dein Feedback antworten können."
+    "feedbackThankYou": "### Danke, dass Du uns deine Gedanken mitgeteilt hast!\nBeachte, dass wir leider nicht können wir auf dein Feedback antworten können.",
+    "closeRequestDenied": "Schließanfrage abgelehnt",
+    "closeRequestAccepted": "Schließanfrage angenommen"
   },
 
   "reports": {
@@ -335,7 +338,7 @@
       "- **Anonyme Tickets**: `{users}`"
     ],
     "ticketPingConfig": "Ticket Pings",
-    "reportPingConfig": "Meldungs Pings",
+    "reportPings": "Meldungs Pings",
     "ticketBotsConfig": "Erlaubte Bots in Tickets",
     "userFeedbackConfig": "Nutzer-Feedback Konfiguration",
     "setupTickets": "Richte Tickets ein",

@@ -125,7 +125,8 @@
     "commandConfigNotFound": "Command config not found.",
     "noEmbedSet": "No embed set yet.",
     "serverNotProvided": "No server provided.",
-    "closeRequestExistsForThisTicket": "A close request already exists for this ticket."
+    "closeRequestExistsForThisTicket": "A close request already exists for this ticket.",
+    "maxQuestionsReached": "You have reached the maximum number of questions."
   },
 
   "tickets": {
@@ -208,7 +209,9 @@
     "feedbackDetails": ["- **User:** {usermention}", "- Rating: {rating}"],
     "feedbackAnswers": "Feedback Answers",
     "feedbackThankYou": "### Thanks for sharing your thoughts!\nUnfortunately, we won't be able to respond to your feedback.",
-    "ticketReopened": "Ticket reopened"
+    "ticketReopened": "Ticket reopened",
+    "closeRequestDenied": "Close request denied",
+    "closeRequestAccepted": "Close request accepted"
   },
 
   "reports": {
@@ -339,7 +342,7 @@
       "- **Anonymous Tickets**: `{users}`"
     ],
     "ticketPingConfig": "Ticket Ping Configuration",
-    "reportPingConfig": "Report Pings",
+    "reportPings": "Report Pings",
     "ticketBotsConfig": "Allowed Bots in Tickets",
     "userFeedbackConfig": "User Feedback Configuration",
     "setupTickets": "Setup Tickets",
