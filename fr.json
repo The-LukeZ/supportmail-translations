@@ -126,7 +126,8 @@
     "noEmbedSet": "Aucun embed défini.",
     "serverNotProvided": "Aucun serveur fourni.",
     "closeRequestExistsForThisTicket": "Une demande de fermeture existe déjà pour ce ticket.",
-    "maxQuestionsReached": "Vous avez atteint le nombre maximum de questions."
+    "maxQuestionsReached": "Vous avez atteint le nombre maximum de questions.",
+    "tagCreateFailed": "Échec de la création du tag."
   },
 
   "tickets": {
@@ -631,7 +632,6 @@
     "timestringFormat": "Format : docs.supportmail.dev/e/timestring",
     "1-100": "Min : 1 | Max : 100",
     "1-1000": "Min : 1 | Max : 1000",
-    "startCheckout": "Démarrer le checkout",
     "cancelSubscription": "Annuler l'abonnement",
     "all-brackets": "(Tous)",
     "blacklistEntries": "Entrées de la liste noire",

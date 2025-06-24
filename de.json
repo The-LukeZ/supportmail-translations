@@ -122,7 +122,11 @@
     "noEmbedSet": "Kein Embed gesetzt.",
     "serverNotProvided": "Kein Server angegeben.",
     "closeRequestExistsForThisTicket": "Eine Schließanfrage für dieses Ticket existiert bereits.",
-    "maxQuestionsReached": "Du hast die maximale Anzahl an Fragen erreicht."
+    "maxQuestionsReached": "Du hast die maximale Anzahl an Fragen erreicht.",
+    "tagCreateFailed": "Tag-Erstellung fehlgeschlagen.",
+    "forumChannelNotFound": "Forum-Kanal nicht gefunden.",
+    "cannotDM": "Senden der DM fehlgeschlagen.",
+    "cannotDMDescription": "Bitte überprüfe, ob du DMs von Servermitgliedern empfangen kannst."
   },
 
   "tickets": {
@@ -206,6 +210,7 @@
     "feedbackDetails": ["- **Nutzer:** {usermention}", "- Bewertung: {rating}"],
     "feedbackAnswers": "Antworten",
     "feedbackThankYou": "### Danke, dass Du uns deine Gedanken mitgeteilt hast!\nBeachte, dass wir leider nicht können wir auf dein Feedback antworten können.",
+    "ticketReopened": "Ticket wieder geöffnet",
     "closeRequestDenied": "Schließanfrage abgelehnt",
     "closeRequestAccepted": "Schließanfrage angenommen"
   },
