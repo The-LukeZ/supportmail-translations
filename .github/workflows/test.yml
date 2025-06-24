@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm"
 
       # This isn't a package.json project, so we don't need to install dependencies
       # - name: Install dependencies
