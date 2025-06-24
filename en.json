@@ -128,7 +128,15 @@
     "serverNotProvided": "No server provided.",
     "closeRequestExistsForThisTicket": "A close request already exists for this ticket.",
     "maxQuestionsReached": "You have reached the maximum number of questions.",
-    "tagCreateFailed": "Tag creation failed."
+    "tagCreateFailed": "Tag creation failed.",
+    "userNotFound": "User not found.",
+    "maxNumberOfWebhooksReached": "Maximum number of webhooks reached. Please delete 1+ webhooks first.",
+    "webhookCreationFailed": "Webhook creation failed.",
+    "webhookNotFound": "Webhook not found.",
+    "failedToSendMessageUnexpectedError": "Failed to send the message. An unexpected error occurred.",
+    "failedToSendMessageWithErrorBelow": "Failed to send the message. The error is shown below.",
+    "youCannotSendMessagesToBots": "You cannot send messages to bots.",
+    "memberNotProvided": "You must provide a member."
   },
 
   "tickets": {
@@ -520,7 +528,8 @@
     "blacklistCleared": "Blacklist cleared. `{count}` entries removed from `{module}`.",
     "checkingPermissions": "Checking Permissions...",
     "creatingChannels": "Creating Channels...",
-    "updatingDatabase": "Updating Database..."
+    "updatingDatabase": "Updating Database...",
+    "messageSentToUser": "## ✅ Message sent to <@{userId}>."
   },
 
   "labels": {

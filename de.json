@@ -128,7 +128,15 @@
     "cannotDM": "Senden der DM fehlgeschlagen.",
     "cannotDMDescription": "Bitte überprüfe, ob du DMs von Servermitgliedern empfangen kannst.",
     "panelNotEdited": "Panel nicht bearbeitet.",
-    "panelNotSent": "Panel nicht gesendet."
+    "panelNotSent": "Panel nicht gesendet.",
+    "userNotFound": "Nutzer nicht gefunden.",
+    "maxNumberOfWebhooksReached": "Maximale Anzahl von Webhooks erreicht. Bitte lösche zuerst 1+ Webhooks.",
+    "webhookCreationFailed": "Webhook-Erstellung fehlgeschlagen.",
+    "webhookNotFound": "Webhook nicht gefunden.",
+    "failedToSendMessageUnexpectedError": "Die Nachricht konnte nicht gesendet werden. Ein unerwarteter Fehler ist aufgetreten.",
+    "failedToSendMessageWithErrorBelow": "Die Nachricht konnte nicht gesendet werden. Der Fehler wird unten angezeigt.",
+    "youCannotSendMessagesToBots": "Du kannst keine Nachrichten an Bots senden.",
+    "memberNotProvided": "Du musst einen Nutzer angeben."
   },
 
   "tickets": {
@@ -522,7 +530,8 @@
     "blacklistCleared": "Blacklist erfolgreich geleert. `{count}` Einträge von `{module}` entfernt.",
     "checkingPermissions": "Überprüfe Berechtigungen...",
     "creatingChannels": "Erstelle Kanäle...",
-    "updatingDatabase": "Aktualisiere Datenbank..."
+    "updatingDatabase": "Aktualisiere Datenbank...",
+    "messageSentToUser": "## ✅ Nachricht an <@{userId}> gesendet."
   },
 
   "labels": {

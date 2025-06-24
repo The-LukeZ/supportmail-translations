@@ -128,7 +128,15 @@
     "serverNotProvided": "Aucun serveur fourni.",
     "closeRequestExistsForThisTicket": "Une demande de fermeture existe déjà pour ce ticket.",
     "maxQuestionsReached": "Vous avez atteint le nombre maximum de questions.",
-    "tagCreateFailed": "Échec de la création du tag."
+    "tagCreateFailed": "Échec de la création du tag.",
+    "userNotFound": "Utilisateur non trouvé.",
+    "maxNumberOfWebhooksReached": "Nombre maximum de webhooks atteint. Veuillez supprimer 1+ webhooks d'abord.",
+    "webhookCreationFailed": "Échec de la création du webhook.",
+    "webhookNotFound": "Webhook non trouvé.",
+    "failedToSendMessageUnexpectedError": "Échec de l'envoi du message. Une erreur inattendue s'est produite.",
+    "failedToSendMessageWithErrorBelow": "Échec de l'envoi du message. L'erreur est indiquée ci-dessous.",
+    "youCannotSendMessagesToBots": "Vous ne pouvez pas envoyer de messages aux bots.",
+    "memberNotProvided": "Vous devez indiquer un membre."
   },
 
   "tickets": {
@@ -517,7 +525,8 @@
     "commandConfig-Permissions": "Permissions",
     "selectBlacklistToClear": "Sélectionner la liste noire à effacer",
     "reallyResetBlacklist": "Êtes-vous sûr de vouloir réinitialiser la liste noire ?",
-    "blacklistCleared": "Liste noire réinitialisée."
+    "blacklistCleared": "Liste noire réinitialisée.",
+    "messageSentToUser": "## ✅ Message envoyé à <@{userId}>."
   },
 
   "labels": {
