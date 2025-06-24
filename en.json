@@ -124,7 +124,8 @@
     "ticketsAnonymNotEnabled": "Anonymous ticket creation is not enabled in this server.",
     "commandConfigNotFound": "Command config not found.",
     "noEmbedSet": "No embed set yet.",
-    "serverNotProvided": "No server provided."
+    "serverNotProvided": "No server provided.",
+    "closeRequestExistsForThisTicket": "A close request already exists for this ticket."
   },
 
   "tickets": {
@@ -237,7 +238,7 @@
       "- Joined Server: <t:{joinedguild}> (<t:{joinedguild}:R>)"
     ],
     "reportedBy": "Reported by",
-    "proofs": "Proofs",
+    "attachment": "Attachment",
     "actionsExplanation": [
       "Mods can take action on a report: **ban**, **kick**, **timeout** or **ignore**. **Ignoring** is always an option.",
       "This setting is enabled by default.",

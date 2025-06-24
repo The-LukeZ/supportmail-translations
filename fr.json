@@ -124,7 +124,8 @@
     "ticketsAnonymNotEnabled": "La création de tickets anonymes n'est pas activée sur ce serveur.",
     "commandConfigNotFound": "Configuration de commande non trouvée.",
     "noEmbedSet": "Aucun embed défini.",
-    "serverNotProvided": "Aucun serveur fourni."
+    "serverNotProvided": "Aucun serveur fourni.",
+    "closeRequestExistsForThisTicket": "Une demande de fermeture existe déjà pour ce ticket."
   },
 
   "tickets": {
@@ -237,7 +238,7 @@
       "- A rejoint le serveur : <t:{joinedguild}> (<t:{joinedguild}:R>)"
     ],
     "reportedBy": "Signalé par",
-    "proofs": "Preuves",
+    "attachment": "Pièce jointe",
     "actionsExplanation": [
       "Les modérateurs peuvent prendre des mesures sur un signalement : **bannir**, **expulser**, **mettre en timeout** ou **ignorer**. **Ignorer** est toujours une option.",
       "Ce paramètre est activé par défaut.",

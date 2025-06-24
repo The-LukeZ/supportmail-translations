@@ -120,7 +120,8 @@
     "ticketsAnonymNotEnabled": "Die anonyme Ticket-Erstellung ist auf diesem Server nicht aktiviert.",
     "commandConfigNotFound": "Befehlskonfiguration nicht gefunden.",
     "noEmbedSet": "Kein Embed gesetzt.",
-    "serverNotProvided": "Kein Server angegeben."
+    "serverNotProvided": "Kein Server angegeben.",
+    "closeRequestExistsForThisTicket": "Eine Schließanfrage für dieses Ticket existiert bereits."
   },
 
   "tickets": {
@@ -233,7 +234,7 @@
       "- Server beigetreten: <t:{joinedguild}> (<t:{joinedguild}:R>)"
     ],
     "reportedBy": "Gemeldet von",
-    "proofs": "Beweise",
+    "attachment": "Anhang",
     "actionsExplanation": [
       "Moderatoren können nach einem Report Maßnahmen ergreifen: **Bann**, **Kick**, **Timeout** oder **Annehmen**. **Ignorieren** ist immer eine Option.",
       "Diese Einstellung ist standardmäßig aktiviert.",
