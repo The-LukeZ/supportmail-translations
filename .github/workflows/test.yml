@@ -20,9 +20,5 @@ jobs:
         with:
           node-version: "20"
 
-      # This isn't a package.json project, so we don't need to install dependencies
-      # - name: Install dependencies
-      #   run: pnpm install --frozen-lockfile
-
       - name: Run translation tests
         run: node test.js
