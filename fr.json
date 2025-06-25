@@ -346,7 +346,7 @@
     "anonymConfig": "Configuration de l'anonymat",
     "responsesAreNotAnonymByDefault": "Les réponses ne sont pas anonymes par défaut.",
     "anonymConfigDesc": [
-      "Pour en savoir plus sur la fonctionnalité d'anonymat, cliquez [ici](https://docs.supportmail.dev/f/tickets#automatic-forwarding).",
+      "Pour en savoir plus sur la fonctionnalité d'anonymat, cliquez [ici](https://docs.supportmail.dev/f/tickets#anonym-settings).",
       "",
       "- **Réponses anonymes du personnel**: `{replies}`",
       "- **Tickets anonymes**: `{users}`"
@@ -526,7 +526,8 @@
     "selectBlacklistToClear": "Sélectionner la liste noire à effacer",
     "reallyResetBlacklist": "Êtes-vous sûr de vouloir réinitialiser la liste noire ?",
     "blacklistCleared": "Liste noire réinitialisée.",
-    "messageSentToUser": "## ✅ Message envoyé à <@{userId}>."
+    "messageSentToUser": "## ✅ Message envoyé à <@{userId}>.",
+    "newMessage": "Nouvelle Message"
   },
 
   "labels": {

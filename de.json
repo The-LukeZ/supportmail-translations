@@ -347,7 +347,7 @@
     "anonymConfig": "Anonymitätseinstellungen",
     "responsesAreNotAnonymByDefault": "Antworten werden standardmäßig nicht anonym gesendet.",
     "anonymConfigDesc": [
-      "Lies mehr über die Anonymitätsfunktion [hier](https://docs.supportmail.dev/f/tickets#automatic-forwarding).",
+      "Lies mehr über die Anonymitätsfunktion [hier](https://docs.supportmail.dev/f/tickets#anonym-settings).",
       "",
       "- **Anonyme Antworten des Teams**: `{replies}`",
       "- **Anonyme Tickets**: `{users}`"
@@ -531,7 +531,8 @@
     "checkingPermissions": "Überprüfe Berechtigungen...",
     "creatingChannels": "Erstelle Kanäle...",
     "updatingDatabase": "Aktualisiere Datenbank...",
-    "messageSentToUser": "## ✅ Nachricht an <@{userId}> gesendet."
+    "messageSentToUser": "## ✅ Nachricht an <@{userId}> gesendet.",
+    "newMessage": "Neue Nachricht"
   },
 
   "labels": {
