@@ -136,7 +136,8 @@
     "failedToSendMessageUnexpectedError": "Échec de l'envoi du message. Une erreur inattendue s'est produite.",
     "failedToSendMessageWithErrorBelow": "Échec de l'envoi du message. L'erreur est indiquée ci-dessous.",
     "youCannotSendMessagesToBots": "Vous ne pouvez pas envoyer de messages aux bots.",
-    "memberNotProvided": "Vous devez indiquer un membre."
+    "memberNotProvided": "Vous devez indiquer un membre.",
+    "reasonRequired": "Vous devez fournir un motif."
   },
 
   "tickets": {
@@ -527,7 +528,9 @@
     "reallyResetBlacklist": "Êtes-vous sûr de vouloir réinitialiser la liste noire ?",
     "blacklistCleared": "Liste noire réinitialisée.",
     "messageSentToUser": "## ✅ Message envoyé à <@{userId}>.",
-    "newMessage": "Nouvelle Message"
+    "newMessage": "Nouvelle Message",
+    "reportDMMessage": "Signaler un message direct",
+    "reportDMReasonPlaceholder": "Pourquoi souhaitez-vous signaler ce message ?"
   },
 
   "labels": {
@@ -784,6 +787,7 @@
       "- {command:logout} - Se déconnecter du bot",
       "- {command:preferences} - Définir vos préférences",
       "",
+      "- {command:send} - Envoyer un message à un utilisateur (peut être utilisé dans des tickets sans l'option utilisateur)",
       "- {command:tag} - Envoyer un tag",
       "- {command:close} - Fermer un ticket",
       "- {command:close-request create} - Demander la fermeture d'un ticket",

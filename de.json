@@ -136,7 +136,8 @@
     "failedToSendMessageUnexpectedError": "Die Nachricht konnte nicht gesendet werden. Ein unerwarteter Fehler ist aufgetreten.",
     "failedToSendMessageWithErrorBelow": "Die Nachricht konnte nicht gesendet werden. Der Fehler wird unten angezeigt.",
     "youCannotSendMessagesToBots": "Du kannst keine Nachrichten an Bots senden.",
-    "memberNotProvided": "Du musst einen Nutzer angeben."
+    "memberNotProvided": "Du musst einen Nutzer angeben.",
+    "reasonRequired": "Du musst einen Grund angeben."
   },
 
   "tickets": {
@@ -532,7 +533,9 @@
     "creatingChannels": "Erstelle Kanäle...",
     "updatingDatabase": "Aktualisiere Datenbank...",
     "messageSentToUser": "## ✅ Nachricht an <@{userId}> gesendet.",
-    "newMessage": "Neue Nachricht"
+    "newMessage": "Neue Nachricht",
+    "reportDMMessage": "Direktnachricht melden",
+    "reportDMReasonPlaceholder": "Warum möchtest du diese Nachricht melden?"
   },
 
   "labels": {
@@ -789,6 +792,7 @@
       "- {command:logout} - Ausloggen",
       "- {command:preferences} - Setze deine Präferenzen",
       "",
+      "- {command:send} - Sende eine Nachricht an einen Nutzer (kann in Tickets ohne die Nutzeroption verwendet werden)",
       "- {command:tag} - Sende einen Tag",
       "- {command:close} - Schließe ein Ticket",
       "- {command:close-request create} - Erstelle eine Schließanfrage",

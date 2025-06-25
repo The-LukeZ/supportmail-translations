@@ -136,7 +136,8 @@
     "failedToSendMessageUnexpectedError": "Failed to send the message. An unexpected error occurred.",
     "failedToSendMessageWithErrorBelow": "Failed to send the message. The error is shown below.",
     "youCannotSendMessagesToBots": "You cannot send messages to bots.",
-    "memberNotProvided": "You must provide a member."
+    "memberNotProvided": "You must provide a member.",
+    "reasonRequired": "You must provide a reason."
   },
 
   "tickets": {
@@ -530,7 +531,9 @@
     "creatingChannels": "Creating Channels...",
     "updatingDatabase": "Updating Database...",
     "messageSentToUser": "## ✅ Message sent to <@{userId}>.",
-    "newMessage": "New Message"
+    "newMessage": "New Message",
+    "reportDMMessage": "Report Direct Message",
+    "reportDMReasonPlaceholder": "Why do you want to report this message?"
   },
 
   "labels": {
@@ -787,6 +790,7 @@
       "- {command:logout} - Log out of the bot",
       "- {command:preferences} - Set your preferences",
       "",
+      "- {command:send} - Send a message to a user (can be used in tickets without the user option)",
       "- {command:tag} - Send a tag",
       "- {command:close} - Close a ticket",
       "- {command:close-request create} - Request to close a ticket",
