@@ -86,7 +86,6 @@ function validateLocales() {
 
   console.log("\n" + "=".repeat(50));
   console.log("📈 Summary:");
-  console.log(`Total keys in en.json: ${enKeys.size}`);
   locales.forEach((locale) => {
     console.log(`Total keys in ${locale}.json: ${Object.keys(flattenedData[locale]).length}`);
   });
