@@ -533,7 +533,8 @@
     "messageSentToUser": "## ✅ Message sent to <@{userId}>.",
     "newMessage": "New Message",
     "reportDMMessage": "Report Direct Message",
-    "reportDMReasonPlaceholder": "Why do you want to report this message?"
+    "reportDMReasonPlaceholder": "Why do you want to report this message?",
+    "reportDMMessageSuccess": "### Report successfully created.\nPlease note that we cannot provide you with any feedback on this report."
   },
 
   "labels": {

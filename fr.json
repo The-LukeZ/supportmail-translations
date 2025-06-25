@@ -530,7 +530,8 @@
     "messageSentToUser": "## ✅ Message envoyé à <@{userId}>.",
     "newMessage": "Nouvelle Message",
     "reportDMMessage": "Signaler un message direct",
-    "reportDMReasonPlaceholder": "Pourquoi souhaitez-vous signaler ce message ?"
+    "reportDMReasonPlaceholder": "Pourquoi souhaitez-vous signaler ce message ?",
+    "reportDMMessageSuccess": "### Rapport créé avec succès.\nVeuillez noter que nous ne pouvons pas vous fournir de retour d'information sur ce rapport."
   },
 
   "labels": {

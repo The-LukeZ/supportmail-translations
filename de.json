@@ -535,7 +535,8 @@
     "messageSentToUser": "## ✅ Nachricht an <@{userId}> gesendet.",
     "newMessage": "Neue Nachricht",
     "reportDMMessage": "Direktnachricht melden",
-    "reportDMReasonPlaceholder": "Warum möchtest du diese Nachricht melden?"
+    "reportDMReasonPlaceholder": "Warum möchtest du diese Nachricht melden?",
+    "reportDMMessageSuccess": "### Report erfolgreich erstellt.\nBitte beachte, dass wir dir keine Rückmeldung zu diesem Report geben können."
   },
 
   "labels": {
