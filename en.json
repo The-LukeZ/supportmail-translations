@@ -76,6 +76,7 @@
     "reportAlreadyBeingEdited": "Report is already being edited. Please wait.",
     "noMessageToDelete": "No message to delete.",
     "youCantTakeActionOnYourself": "You can't take action on yourself.",
+    "youCantHandleYourOwnReport": "You can't handle your own report.",
     "memberNotFound": "Member not found. (Not in Server anymore)",
     "messageNotFound": "Message not found.",
     "noSubscriptionsFound": "No subscriptions found.",
@@ -137,7 +138,9 @@
     "failedToSendMessageWithErrorBelow": "Failed to send the message. The error is shown below.",
     "youCannotSendMessagesToBots": "You cannot send messages to bots.",
     "memberNotProvided": "You must provide a member.",
-    "reasonRequired": "You must provide a reason."
+    "reasonRequired": "You must provide a reason.",
+    "reportRateLimitExceeded": "You're reporting too quickly! Please wait a few minutes before trying again.",
+    "reportIdGenerationFailed": "Failed to generate unique Report ID."
   },
 
   "tickets": {
@@ -523,7 +526,16 @@
     "newMessage": "New Message",
     "reportDMMessage": "Report Direct Message",
     "reportDMReasonPlaceholder": "Why do you want to report this message?",
-    "reportDMMessageSuccess": "### Report successfully created.\nPlease note that we cannot provide you with any feedback on this report."
+    "reportDMMessageSuccess": "### Report successfully created.\nPlease note that we cannot provide you with any feedback on this report.",
+    "userStatsDetails": [
+      "- **Tickets Created:** `{ticketsCreated}`",
+      "- **Reports Created:** `{reportsCreated}`",
+      "- **Reports Received:** `{reportsReceived}`",
+      "### __Blacklist Stats__",
+      "- **Tickets:** `{blacklistTickets}`",
+      "- **Reports:** `{blacklistReports}`",
+      "- **Tags:** `{blacklistTags}`"
+    ]
   },
 
   "labels": {
@@ -673,7 +685,8 @@
     "config-channels": "Channels",
     "config-roles": "Roles",
     "config-users": "Users",
-    "editLimits": "Edit Limits"
+    "editLimits": "Edit Limits",
+    "userStats": "User Stats"
   },
 
   "tips": {
