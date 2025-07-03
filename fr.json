@@ -528,7 +528,7 @@
       "- **Tickets Créés:** `{ticketsCreated}`",
       "- **Signalements Créés:** `{reportsCreated}`",
       "- **Signalements Reçus:** `{reportsReceived}`",
-      "### __Statistiques de la Liste Noire__",
+      "**__Statistiques de la Liste Noire__**",
       "- **Tickets:** `{blacklistTickets}`",
       "- **Signalements:** `{blacklistReports}`",
       "- **Tags:** `{blacklistTags}`"
