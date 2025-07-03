@@ -682,7 +682,7 @@
     "config-roles": "Roles",
     "config-users": "Users",
     "editLimits": "Edit Limits",
-    "selectNotificationTypesPh": "Select the notification types a report should receive"
+    "selectNotificationTypesPh": "The details a report author receives when a report is handled"
   },
 
   "tips": {
@@ -759,7 +759,7 @@
       "- **Enabled:** {enabled}",
       "- **Alert Channel:** {channel}",
       "- **Report Actions Enabled:** {reportActions}",
-      "- **Notification Level:** {notificationLevel}"
+      "- **Notifications:** {notifications}"
     ],
     "pausedUntil-tickets": "Ticket creation is currently paused.",
     "pausedUntil-reports": "Report creation is currently paused.",

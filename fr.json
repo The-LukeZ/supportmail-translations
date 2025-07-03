@@ -678,7 +678,8 @@
     "config-channels": "Canaux",
     "config-roles": "Rôles",
     "config-users": "Utilisateurs",
-    "editLimits": "Modifier les limites"
+    "editLimits": "Modifier les limites",
+    "selectNotificationTypesPh": "Les informations que l'auteur d'un rapport reçoit lorsqu'un rapport est traité"
   },
 
   "tips": {

@@ -683,7 +683,8 @@
     "config-channels": "Kanäle",
     "config-roles": "Rollen",
     "config-users": "Nutzer",
-    "editLimits": "Limits bearbeiten"
+    "editLimits": "Limits bearbeiten",
+    "selectNotificationTypesPh": "Die Details, die ein Report-Autor erhält, wenn ein Report bearbeitet wird"
   },
 
   "tips": {
