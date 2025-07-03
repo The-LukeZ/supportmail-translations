@@ -285,15 +285,7 @@
       "",
       "-# \\* Example: The limit for open created reports per user is `5` and a user has already created `5` reports. This means that he cannot create any more until at least one of them has been resolved."
     ],
-    "notificationLevelExplanation": [
-      "You can configure if and how much information an author of a report will receive.",
-      "The following levels are available:",
-      "- `None`: No information will be sent.",
-      "- `Anonym`: Only a generic \"Action Taken\" message will be sent.",
-      "- `Only Report`: Like `Anonym`, but the Report ID will also be sent.",
-      "- `Only Action`: Like `Anonym`, but the action taken will also be sent.",
-      "- `Full`: The Report ID and the action taken will be sent."
-    ],
+    "notificationSettingsDesc": "You can individually select which information a report author receives when a report is handled.",
     "reportNotificationType-actionTaken": "Action Taken",
     "reportNotificationType-reportSummary": "Report Summary",
     "reportNotificationType-moderatorInfo": "Moderator Info",
@@ -414,7 +406,7 @@
     "setupImmunes": "Set Immune users and roles",
     "setupMods": "Set Moderators",
     "setupSpecialChannels": "Setup Special Channels",
-    "setupNotificationLevel": "Set Notification Level",
+    "setupNotificationSettings": "Set Notification Settings",
     "thatsTheLastStep": "That's the last step. Your previously selected settings will be applied after you're done with this step.",
     "setupComplete": "Setup complete!",
     "yourSubscriptions": "Your Subscriptions",
