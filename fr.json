@@ -528,10 +528,11 @@
       "- **Tickets Créés:** `{ticketsCreated}`",
       "- **Signalements Créés:** `{reportsCreated}`",
       "- **Signalements Reçus:** `{reportsReceived}`",
+      "",
       "**__Statistiques de la Liste Noire__**",
-      "- **Tickets:** `{blacklistTickets}`",
-      "- **Signalements:** `{blacklistReports}`",
-      "- **Tags:** `{blacklistTags}`"
+      "- **Tickets:** {blacklistTickets}",
+      "- **Signalements:** {blacklistReports}",
+      "- **Tags:** {blacklistTags}"
     ]
   },
 

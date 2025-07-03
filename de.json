@@ -533,6 +533,7 @@
       "- **Tickets erstellt:** `{ticketsCreated}`",
       "- **Meldungen erstellt:** `{reportsCreated}`",
       "- **Meldungen erhalten:** `{reportsReceived}`",
+      "",
       "**__Blacklist Stats__**",
       "- **Tickets:** `{blacklistTickets}`",
       "- **Meldungen:** `{blacklistReports}`",
