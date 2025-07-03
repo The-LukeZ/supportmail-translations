@@ -673,8 +673,7 @@
     "config-channels": "Channels",
     "config-roles": "Roles",
     "config-users": "Users",
-    "editLimits": "Edit Limits",
-    "selectNotificationTypesPh": "The details a report author receives when a report is handled"
+    "editLimits": "Edit Limits"
   },
 
   "tips": {
