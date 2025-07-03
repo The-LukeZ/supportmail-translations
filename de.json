@@ -295,12 +295,9 @@
       "- `Nur Maßnahme`: Wie `Anonym`, jedoch nur zusätzlich mit der Maßnahme, welche durchgeführt wurde.",
       "- `Alles`: Alle Informationen werden übermittelt. (Meldung und Maßnahme)"
     ],
-    "NotiLevel-None": "Keine",
-    "NotiLevel-Anonym": "Anonym",
-    "NotiLevel-OnlyReport": "Nur Meldung",
-    "NotiLevel-OnlyAction": "Nur Maßnahme",
-    "NotiLevel-Full": "Alles",
-    "NotiLevel-defaultLevel": "Standard Stufe",
+    "reportNotificationType-actionTaken": "Ergriffene Maßnahme",
+    "reportNotificationType-reportSummary": "Meldungszusammenfassung",
+    "reportNotificationType-moderatorInfo": "Moderator-Info",
     "onlyThatSomeActionHasBeenTaken": "Nur, dass eine Maßnahme ergriffen wurde.",
     "OnlyActionNotWhichReport": "Nur die durchgeführte Maßnahme, nicht die Meldung.",
     "excludedChannels": "Ausgeschlossene Kanäle",
@@ -686,11 +683,6 @@
     "config-channels": "Kanäle",
     "config-roles": "Rollen",
     "config-users": "Nutzer",
-    "notificationLevel-0": "Keins",
-    "notificationLevel-1": "Anonym",
-    "notificationLevel-2": "Nur Report",
-    "notificationLevel-3": "Nur Maßnahme",
-    "notificationLevel-4": "Komplett",
     "editLimits": "Limits bearbeiten"
   },
 

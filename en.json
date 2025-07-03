@@ -294,12 +294,9 @@
       "- `Only Action`: Like `Anonym`, but the action taken will also be sent.",
       "- `Full`: The Report ID and the action taken will be sent."
     ],
-    "NotiLevel-None": "None",
-    "NotiLevel-Anonym": "Anonym",
-    "NotiLevel-OnlyReport": "Only Report",
-    "NotiLevel-OnlyAction": "Only Action",
-    "NotiLevel-Full": "Full",
-    "NotiLevel-defaultLevel": "Default Level",
+    "reportNotificationType-actionTaken": "Action Taken",
+    "reportNotificationType-reportSummary": "Report Summary",
+    "reportNotificationType-moderatorInfo": "Moderator Info",
     "onlyThatSomeActionHasBeenTaken": "Only that an action has been taken.",
     "OnlyActionNotWhichReport": "Only the action taken, not which report.",
     "excludedChannels": "Excluded Channels",
@@ -684,12 +681,8 @@
     "config-channels": "Channels",
     "config-roles": "Roles",
     "config-users": "Users",
-    "notificationLevel-0": "None",
-    "notificationLevel-1": "Anonym",
-    "notificationLevel-2": "Only Report",
-    "notificationLevel-3": "Only Action",
-    "notificationLevel-4": "Full",
-    "editLimits": "Edit Limits"
+    "editLimits": "Edit Limits",
+    "selectNotificationTypesPh": "Select the notification types a report should receive"
   },
 
   "tips": {
