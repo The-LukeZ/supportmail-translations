@@ -748,7 +748,7 @@
       "- **Activé :** {enabled}",
       "- **Canal du signalement :** {channel}",
       "- **Actions sur signalement activées :** {reportActions}",
-      "- **Niveau de notification :** {notificationLevel}"
+      "- **Paramètres de notification :** {notifications}"
     ],
     "pausedUntil-tickets": "La création de tickets est actuellement en pause.",
     "pausedUntil-reports": "La création de signalements est actuellement en pause.",

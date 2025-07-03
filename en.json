@@ -286,9 +286,9 @@
       "-# \\* Example: The limit for open created reports per user is `5` and a user has already created `5` reports. This means that he cannot create any more until at least one of them has been resolved."
     ],
     "notificationSettingsDesc": "You can individually select which information a report author receives when a report is handled.",
-    "reportNotificationType-actionTaken": "Action Taken",
-    "reportNotificationType-reportSummary": "Report Summary",
-    "reportNotificationType-moderatorInfo": "Moderator Info",
+    "notificationType-actionTaken": "Action Taken",
+    "notificationType-reportSummary": "Report Summary",
+    "notificationType-moderatorInfo": "Moderator Info",
     "onlyThatSomeActionHasBeenTaken": "Only that an action has been taken.",
     "OnlyActionNotWhichReport": "Only the action taken, not which report.",
     "excludedChannels": "Excluded Channels",

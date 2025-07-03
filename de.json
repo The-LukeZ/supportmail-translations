@@ -753,7 +753,7 @@
       "- **Aktiviert:** {enabled}",
       "- **Meldungs-Kanal:** {channel}",
       "- **Meldungs-Aktionen:** {reportActions}",
-      "- **Benachrichtigungsstufe:** {notificationLevel}"
+      "- **Benachrichtigungseinstellungen:** {notifications}"
     ],
     "pausedUntil-tickets": "Die Erstellung von Tickets ist derzeit pausiert.",
     "pausedUntil-reports": "Die Erstellung von Meldungen ist derzeit pausiert.",
