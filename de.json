@@ -67,15 +67,16 @@
     "sendingReportFailed": "Senden des Reports fehlgeschlagen.",
     "ongoingReportForThisMessage": "Diese Nachricht wird bereits gemeldet. Bitte warte.",
     "youCantReportMe": "Du kannst mich nicht melden. Was willst du damit erreichen? 🤨",
-    "maxReportsInGuildReached": "Maximale Anzahl offener Reports im Server erreicht. Versuche es später noch einmal oder kontaktiere das Serverteam.",
-    "maxReportsCreated": "Maximale Anzahl offnener Reports erriecht. Bitte warte bis mindestens ein Report angenommen wurde.",
-    "maxReportsReceivedForUser": "Du kannst diesen Nutzer nicht mehr melden, da er die maximale Anzahl offener Reports erreicht hat.",
+    "maxReportsInGuildReached": "Maximale Anzahl offener Meldungen im Server erreicht. Versuche es später noch einmal oder kontaktiere das Serverteam.",
+    "maxReportsCreated": "Maximale Anzahl offener Meldungen erreicht. Bitte warte bis mindestens eine Meldung angenommen wurde.",
+    "maxReportsReceivedForUser": "Du kannst diesen Nutzer nicht mehr melden, da er die maximale Anzahl offener Meldungen erreicht hat.",
     "notAuthorized": "Was glaubst du, wer du bist? Du bist nicht dazu berechtigt, dies zu tun!",
-    "reportNotFound": "Report nicht gefunden.",
-    "reportAlreadyResolved": "Report bereits angenommen.",
-    "reportAlreadyBeingEdited": "Der Report wird bereits bearbeitet. Bitte warte.",
+    "reportNotFound": "Meldung nicht gefunden.",
+    "reportAlreadyResolved": "Meldung bereits angenommen.",
+    "reportAlreadyBeingEdited": "Die Meldung wird bereits bearbeitet. Bitte warte.",
     "noMessageToDelete": "Es gibt keine Nachricht zum löschen.",
     "youCantTakeActionOnYourself": "Du kannst keine Maßnahmen gegen dich selbst ergreifen.",
+    "youCantHandleYourOwnReport": "Du kannst deine eigene Meldung nicht bearbeiten.",
     "memberNotFound": "Nutzer nicht gefunden. (Nicht mehr im Server)",
     "messageNotFound": "Nachricht nicht gefunden.",
     "noSubscriptionsFound": "Keine Abos gefunden.",
@@ -137,7 +138,8 @@
     "failedToSendMessageWithErrorBelow": "Die Nachricht konnte nicht gesendet werden. Der Fehler wird unten angezeigt.",
     "youCannotSendMessagesToBots": "Du kannst keine Nachrichten an Bots senden.",
     "memberNotProvided": "Du musst einen Nutzer angeben.",
-    "reasonRequired": "Du musst einen Grund angeben."
+    "reasonRequired": "Du musst einen Grund angeben.",
+    "reportRateLimitExceeded": "Du meldest zu schnell! Bitte warte ein paar Minuten, bevor du es erneut versuchst."
   },
 
   "tickets": {
@@ -255,7 +257,7 @@
     "reportedBy": "Gemeldet von",
     "attachment": "Anhang",
     "actionsExplanation": [
-      "Moderatoren können nach einem Report Maßnahmen ergreifen: **Bann**, **Kick**, **Timeout** oder **Annehmen**. **Ignorieren** ist immer eine Option.",
+      "Moderatoren können nach einer Meldung Maßnahmen ergreifen: **Bann**, **Kick**, **Timeout** oder **Annehmen**. **Ignorieren** ist immer eine Option.",
       "Diese Einstellung ist standardmäßig aktiviert.",
       "Wenn diese Einstellung deaktiviert ist, können Moderatoren nur zwischen **Annehmen** (ohne jegliche Aktion) und **ignorieren** entscheiden.",
       "Wir empfehlen, diese Einstellung zu deaktivieren, wenn man Reports selbst, auf eine andere Art und Weise, bearbeiten möchte."
@@ -286,7 +288,7 @@
       "",
       "-# \\* Beispiel: Das Limit für offene erstelle Meldungen pro Nutzer ist `5` und ein Nutzer hat bereits `5` Meldungen erstellt. Das heißt, er kann nun keine weiteren Meldungen erstellen, bis mindestens eine der Meldungen aufgelöst ist."
     ],
-    "notificationSettingsDesc": "Du kannst einzeln auswählen, welche Infos ein Report-Autor erhalten soll, wenn ein Report bearbeitet wird.",
+    "notificationSettingsDesc": "Du kannst einzeln auswählen, welche Infos ein Meldungs-Autor erhalten soll, wenn eine Meldung bearbeitet wird.",
     "notificationType-actionTaken": "Ergriffene Maßnahme",
     "notificationType-reportSummary": "Meldungszusammenfassung",
     "notificationType-moderatorInfo": "Moderator-Info",
@@ -315,7 +317,7 @@
     "messagesDeletedOfLast": "Meldungen der letzten {durationPeriod} gelöscht.",
     "timeoutUntil": "Bis: <t:{timestamp}> (<t:{timestamp}:R>)",
     "reportResolved": "Meldung angenommen",
-    "reportResolvedWithTimestamp": "Dein report von <t:{timestamp}:R> wurde angenommen.",
+    "reportResolvedWithTimestamp": "Deine Meldung von <t:{timestamp}:R> wurde angenommen.",
     "reportResolved-Action": "Die ergriffene Maßnahme: `{action}`",
     "reportResolved-ReportId": "Die betreffende Meldungs-ID: `{reportId}`",
     "reportedUserDetails": [
@@ -403,7 +405,7 @@
     "setupReports": "Richte Meldungen ein",
     "reportConfig": "Meldungs-Konfiguration",
     "reportChannelConfig": "Meldungs-Kanal",
-    "setupReportLimits": "Set Report Limits",
+    "setupReportLimits": "Setze Meldungs-Limits",
     "setupImmunes": "Setze immune Nutzer und Rollen",
     "setupMods": "Setze Moderatoren",
     "setupSpecialChannels": "Setze spezielle Kanäle",
@@ -525,7 +527,16 @@
     "newMessage": "Neue Nachricht",
     "reportDMMessage": "Direktnachricht melden",
     "reportDMReasonPlaceholder": "Warum möchtest du diese Nachricht melden?",
-    "reportDMMessageSuccess": "### Report erfolgreich erstellt.\nBitte beachte, dass wir dir keine Rückmeldung zu diesem Report geben können."
+    "reportDMMessageSuccess": "### Meldung erfolgreich erstellt.\nBitte beachte, dass wir dir keine Rückmeldung zu dieser Meldung geben können.",
+    "userStatsDetails": [
+      "- **Tickets erstellt:** `{ticketsCreated}`",
+      "- **Meldungen erstellt:** `{reportsCreated}`",
+      "- **Meldungen erhalten:** `{reportsReceived}`",
+      "### __Blacklist Stats__",
+      "- **Tickets:** `{blacklistTickets}`",
+      "- **Meldungen:** `{blacklistReports}`",
+      "- **Tags:** `{blacklistTags}`"
+    ]
   },
 
   "labels": {
@@ -675,7 +686,8 @@
     "config-channels": "Kanäle",
     "config-roles": "Rollen",
     "config-users": "Nutzer",
-    "editLimits": "Limits bearbeiten"
+    "editLimits": "Limits bearbeiten",
+    "userStats": "Nutzerstatistiken"
   },
 
   "tips": {
