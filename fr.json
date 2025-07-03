@@ -76,6 +76,7 @@
     "reportAlreadyBeingEdited": "Le signalement est déjà en cours d'édition. Veuillez patienter.",
     "noMessageToDelete": "Aucun message à supprimer.",
     "youCantTakeActionOnYourself": "Vous ne pouvez pas agir sur vous-même.",
+    "youCantHandleYourOwnReport": "Vous ne pouvez pas gérer votre propre signalement.",
     "memberNotFound": "Membre non trouvé. (Plus présent sur le serveur)",
     "messageNotFound": "Message non trouvé.",
     "noSubscriptionsFound": "Aucun abonnement trouvé.",
@@ -137,7 +138,8 @@
     "failedToSendMessageWithErrorBelow": "Échec de l'envoi du message. L'erreur est indiquée ci-dessous.",
     "youCannotSendMessagesToBots": "Vous ne pouvez pas envoyer de messages aux bots.",
     "memberNotProvided": "Vous devez indiquer un membre.",
-    "reasonRequired": "Vous devez fournir un motif."
+    "reasonRequired": "Vous devez fournir un motif.",
+    "reportRateLimitExceeded": "Vous signalez trop rapidement ! Veuillez attendre quelques minutes avant d'essayer à nouveau."
   },
 
   "tickets": {
@@ -670,7 +672,8 @@
     "config-channels": "Canaux",
     "config-roles": "Rôles",
     "config-users": "Utilisateurs",
-    "editLimits": "Modifier les limites"
+    "editLimits": "Modifier les limites",
+    "userStats": "Statistiques utilisateur"
   },
 
   "tips": {
