@@ -139,7 +139,8 @@
     "youCannotSendMessagesToBots": "Vous ne pouvez pas envoyer de messages aux bots.",
     "memberNotProvided": "Vous devez indiquer un membre.",
     "reasonRequired": "Vous devez fournir un motif.",
-    "reportRateLimitExceeded": "Vous signalez trop rapidement ! Veuillez attendre quelques minutes avant d'essayer à nouveau."
+    "reportRateLimitExceeded": "Vous signalez trop rapidement ! Veuillez attendre quelques minutes avant d'essayer à nouveau.",
+    "reportIdGenerationFailed": "Échec de la génération de l'ID de signalement."
   },
 
   "tickets": {
@@ -522,7 +523,16 @@
     "newMessage": "Nouvelle Message",
     "reportDMMessage": "Signaler un message direct",
     "reportDMReasonPlaceholder": "Pourquoi souhaitez-vous signaler ce message ?",
-    "reportDMMessageSuccess": "### Signalement créé avec succès.\nVeuillez noter que nous ne pouvons pas vous fournir de retour d'information sur ce signalement."
+    "reportDMMessageSuccess": "### Signalement créé avec succès.\nVeuillez noter que nous ne pouvons pas vous fournir de retour d'information sur ce signalement.",
+    "userStatsDetails": [
+      "- **Tickets Créés:** `{ticketsCreated}`",
+      "- **Signalements Créés:** `{reportsCreated}`",
+      "- **Signalements Reçus:** `{reportsReceived}`",
+      "### __Statistiques de la Liste Noire__",
+      "- **Tickets:** `{blacklistTickets}`",
+      "- **Signalements:** `{blacklistReports}`",
+      "- **Tags:** `{blacklistTags}`"
+    ]
   },
 
   "labels": {
