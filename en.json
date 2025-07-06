@@ -2,7 +2,7 @@
   "global": {
     "currentlyNotLoggedIn": "You are currently not logged in.",
     "loginRequired": "Login required!",
-    "loginWithDiscordDesc": "You need to log in with Discord. This is the easiest way of determining our mutual servers. Please click the login button to continue or [here](https://api.supportmail.dev/discord/login).",
+    "loginWithDiscordDesc": "You need to log in with Discord. This is the easiest way of determining our mutual servers. Please click the login button to continue or [here](https://supportmail.dev/discord/login).",
     "contactServerAdmin": "Please contact a server admin.",
     "reportToDeveloper": "Please report this issue to the [developer](https://discord.gg/rFkVQx3vpj).",
     "blacklistedTitle": ":warning: You are blacklisted!",

@@ -2,7 +2,7 @@
   "global": {
     "currentlyNotLoggedIn": "Du bist aktuell nicht eingeloggt.",
     "loginRequired": "Login benötigt!",
-    "loginWithDiscordDesc": "Du musst dich mit Discord einloggen. Dies ist der einfachste Weg, um unsere gemeinsamen Server zu ermitteln. Bitte klicke auf den Login-Button, um fortzufahren oder [hier](https://api.supportmail.dev/discord/login).",
+    "loginWithDiscordDesc": "Du musst dich mit Discord einloggen. Dies ist der einfachste Weg, um unsere gemeinsamen Server zu ermitteln. Bitte klicke auf den Login-Button, um fortzufahren oder [hier](https://supportmail.dev/discord/login).",
     "contactServerAdmin": "Bitte kontaktiere einen Serveradmin.",
     "reportToDeveloper": "Bitte melde diesen Fehler umgehend an den Entwickler [hier](https://discord.gg/rFkVQx3vpj).",
     "blacklistedTitle": ":warning: Du bist geblacklisted.",
