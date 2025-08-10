@@ -140,7 +140,8 @@
     "memberNotProvided": "Vous devez indiquer un membre.",
     "reasonRequired": "Vous devez fournir un motif.",
     "reportRateLimitExceeded": "Vous signalez trop rapidement ! Veuillez attendre quelques minutes avant d'essayer à nouveau.",
-    "reportIdGenerationFailed": "Échec de la génération de l'ID de signalement."
+    "reportIdGenerationFailed": "Échec de la génération de l'ID de signalement.",
+    "userIsImmune": "L'utilisateur ne peut pas être signalé."
   },
 
   "tickets": {

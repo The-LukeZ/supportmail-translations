@@ -140,7 +140,8 @@
     "memberNotProvided": "You must provide a member.",
     "reasonRequired": "You must provide a reason.",
     "reportRateLimitExceeded": "You're reporting too quickly! Please wait a few minutes before trying again.",
-    "reportIdGenerationFailed": "Failed to generate unique Report ID."
+    "reportIdGenerationFailed": "Failed to generate unique Report ID.",
+    "userIsImmune": "User is immune to reports."
   },
 
   "tickets": {

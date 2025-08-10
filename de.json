@@ -140,7 +140,8 @@
     "memberNotProvided": "Du musst einen Nutzer angeben.",
     "reasonRequired": "Du musst einen Grund angeben.",
     "reportRateLimitExceeded": "Du meldest zu schnell! Bitte warte ein paar Minuten, bevor du es erneut versuchst.",
-    "reportIdGenerationFailed": "Die Erstellung der einzigartigen Meldungs-ID ist fehlgeschlagen."
+    "reportIdGenerationFailed": "Die Erstellung der einzigartigen Meldungs-ID ist fehlgeschlagen.",
+    "userIsImmune": "Der Nutzer kann nicht gemeldet werden."
   },
 
   "tickets": {
