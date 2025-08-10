@@ -649,6 +649,8 @@
     "banUser": "Nutzer bannen",
     "ignore": "Ignorieren",
     "resolve": "Annehmen",
+    "ignoreReport": "Meldung ignorieren",
+    "resolveReport": "Meldung annehmen",
     "deleteMessage": "Nachricht löschen",
     "takeAction": "Maßnahme ergreifen",
     "resolveWithoutAction": "Annehmen (ohne Maßnahme)",

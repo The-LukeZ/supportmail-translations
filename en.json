@@ -647,6 +647,8 @@
     "banUser": "Ban User",
     "ignore": "Ignore",
     "resolve": "Resolve",
+    "ignoreReport": "Ignore Report",
+    "resolveReport": "Resolve Report",
     "deleteMessage": "Delete Message",
     "takeAction": "Take Action",
     "resolveWithoutAction": "Resolve (without action)",
