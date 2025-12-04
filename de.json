@@ -543,7 +543,8 @@
       "- **Tickets:** `{blacklistTickets}`",
       "- **Meldungen:** `{blacklistReports}`",
       "- **Tags:** `{blacklistTags}`"
-    ]
+    ],
+    "sendMessageFooter": "-# Diese Nachricht zu **keinem** Ticket. Wenn du glaubst, dass diese Nachricht mit böswilliger Absicht gesendet wurde, klicke bitte auf den Button, um sie zu melden."
   },
 
   "labels": {
@@ -696,7 +697,8 @@
     "config-roles": "Rollen",
     "config-users": "Nutzer",
     "editLimits": "Limits bearbeiten",
-    "userStats": "Nutzerstatistiken"
+    "userStats": "Nutzerstatistiken",
+    "reportAbuseToBot": "Missbrauch an SupportMail melden"
   },
 
   "tips": {

@@ -538,7 +538,8 @@
       "- **Tickets:** {blacklistTickets}",
       "- **Signalements:** {blacklistReports}",
       "- **Tags:** {blacklistTags}"
-    ]
+    ],
+    "sendMessageFooter": "-# Ce message n'est **pas** lié à un ticket. Si vous pensez que ce message a été envoyé dans une intention malveillante, veuillez cliquer sur le bouton pour le signaler."
   },
 
   "labels": {
@@ -691,7 +692,8 @@
     "config-roles": "Rôles",
     "config-users": "Utilisateurs",
     "editLimits": "Modifier les limites",
-    "userStats": "Statistiques utilisateur"
+    "userStats": "Statistiques utilisateur",
+    "reportAbuseToBot": "Signaler un abus à SupportMail"
   },
 
   "tips": {
