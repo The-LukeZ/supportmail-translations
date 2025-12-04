@@ -217,7 +217,9 @@
     "autoClose": "Automatically close",
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Close ticket instead?",
-    "responseInTicket": "Response in Ticket",
+    "messageReceived": "Message Received",
+    "dmMessageMetadata": "-# **Server**: [{guildname}](discord://-/channels/{guildid})\n-# **Author**: {authormention} {profilelink}\n-# **Sent at**: {timestamp}",
+    "profileLink": "[Profile Link](discord://-/users/{userid})",
     "checkYourDM": "Please check your DMs.",
     "finishOpenTicket": "Finish open your ticket first!",
     "usersCanCreateTicketsAnon": "Users can create tickets anonymously. Read more about it [here](https://docs.supportmail.dev/f/tickets/anonymous)",
@@ -227,7 +229,8 @@
     "feedbackThankYou": "### Thanks for sharing your thoughts!\nUnfortunately, we won't be able to respond to your feedback.",
     "ticketReopened": "Ticket reopened",
     "closeRequestDenied": "Close request denied",
-    "closeRequestAccepted": "Close request accepted"
+    "closeRequestAccepted": "Close request accepted",
+    "attachmentsExceedingTheUploadLimit": "Attachments that exceed the upload limit:\n{links}"
   },
 
   "reports": {

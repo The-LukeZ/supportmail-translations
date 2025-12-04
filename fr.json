@@ -217,7 +217,9 @@
     "autoClose": "Fermeture automatique",
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Fermer le ticket à la place ?",
-    "responseInTicket": "Réponse dans le ticket",
+    "messageReceived": "Message reçu",
+    "dmMessageMetadata": "-# **Serveur**: [{guildname}](discord://-/channels/{guildid})\n-# **Auteur**: {authormention} {profilelink}\n-# **Envoyé le**: {timestamp}",
+    "profileLink": "[Lien du profil](discord://-/users/{userid})",
     "checkYourDM": "Veuillez vérifier vos messages privés.",
     "finishOpenTicket": "Veuillez d'abord terminer l'ouverture de votre ticket !",
     "usersCanCreateTicketsAnon": "Les utilisateurs peuvent créer des tickets anonymement. En savoir plus [ici](https://docs.supportmail.dev/f/tickets/anonymous)",
@@ -227,7 +229,8 @@
     "feedbackThankYou": "### Merci d'avoir partagé vos impressions !\nMalheureusement, nous ne pourrons pas répondre à vos retours.",
     "ticketReopened": "Ticket rouvert",
     "closeRequestDenied": "Demande de fermeture refusée",
-    "closeRequestAccepted": "Demande de fermeture acceptée"
+    "closeRequestAccepted": "Demande de fermeture acceptée",
+    "attachmentsExceedingTheUploadLimit": "Pièces jointes dépassant la limite de téléchargement :\n{links}"
   },
 
   "reports": {
