@@ -141,7 +141,8 @@
     "reasonRequired": "Du musst einen Grund angeben.",
     "reportRateLimitExceeded": "Du meldest zu schnell! Bitte warte ein paar Minuten, bevor du es erneut versuchst.",
     "reportIdGenerationFailed": "Die Erstellung der einzigartigen Meldungs-ID ist fehlgeschlagen.",
-    "userIsImmune": "Der Nutzer kann nicht gemeldet werden."
+    "userIsImmune": "Der Nutzer kann nicht gemeldet werden.",
+    "messageContentTooLong": "Dein Nachrichteninhalt ist zu lang. Bitte kürze ihn um mindestens {amount} Zeichen."
   },
 
   "tickets": {

@@ -141,7 +141,8 @@
     "reasonRequired": "You must provide a reason.",
     "reportRateLimitExceeded": "You're reporting too quickly! Please wait a few minutes before trying again.",
     "reportIdGenerationFailed": "Failed to generate unique Report ID.",
-    "userIsImmune": "User is immune to reports."
+    "userIsImmune": "User is immune to reports.",
+    "messageContentTooLong": "Your message content is too long. Please shorten it by at least {amount} characters."
   },
 
   "tickets": {
