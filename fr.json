@@ -142,7 +142,8 @@
     "reportRateLimitExceeded": "Vous signalez trop rapidement ! Veuillez attendre quelques minutes avant d'essayer à nouveau.",
     "reportIdGenerationFailed": "Échec de la génération de l'ID de signalement.",
     "userIsImmune": "L'utilisateur ne peut pas être signalé.",
-    "messageContentTooLong": "Le contenu de votre message est trop long. Veuillez le raccourcir d'au moins {amount} caractères."
+    "messageContentTooLong": "Le contenu de votre message est trop long. Veuillez le raccourcir d'au moins {amount} caractères.",
+    "commandOnCooldown": "Vous pouvez réutiliser cette commande <t:{resumeTimestamp}:R>."
   },
 
   "tickets": {
