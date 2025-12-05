@@ -192,7 +192,7 @@
     "ticketPostNameAnonym": "#{count} | {ticketId} | Anonym",
     "userInfo": "User Info",
     "userDetails": [
-      "- **User:** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>",
+      "- **User:** [@{username}](<discord://-/users/{id}>) | <@{id}>",
       "- **User ID:** `{id}`",
       "- **Account Created:** {joinedDiscord}",
       "- **Joined Server:** {joinedGuild}"
@@ -253,7 +253,7 @@
     "reportTitle": "Report | `{id}`",
     "reportedUser": "Reported User",
     "reportUserDetails": [
-      "- Username: [@{username}](https://discord.com/users/{userid})",
+      "- Username: [@{username}](discord://-/users/{userid})",
       "- User ID: `{userid}`",
       "- Avatar URL: [Link]({avatarurl})",
       "- Account created: <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
@@ -326,7 +326,7 @@
     "reportResolved-Action": "The action taken was: `{action}`",
     "reportResolved-ReportId": "The report ID was: `{reportId}`",
     "reportedUserDetails": [
-      "User: [@{username}](<https://discord.com/users/{userid}/>) | <@{userid}>",
+      "User: [@{username}](<discord://-/users/{userid}>) | <@{userid}>",
       "User ID: `{userid}`",
       "Username: {username}",
       "[Avatar URL]({avatarurl})",

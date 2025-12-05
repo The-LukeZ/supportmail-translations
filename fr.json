@@ -192,7 +192,7 @@
     "ticketPostNameAnonym": "#{count} | {ticketId} | Anonyme",
     "userInfo": "Infos utilisateur",
     "userDetails": [
-      "- **Utilisateur :** [@{username}](<https://discord.com/users/{id}/>) | <@{id}>",
+      "- **Utilisateur :** [@{username}](<discord://-/users/{id}>) | <@{id}>",
       "- **ID utilisateur :** `{id}`",
       "- **Compte créé :** {joinedDiscord}",
       "- **A rejoint le serveur :** {joinedGuild}"
@@ -253,7 +253,7 @@
     "reportTitle": "Signalement | `{id}`",
     "reportedUser": "Utilisateur signalé",
     "reportUserDetails": [
-      "- Nom d'utilisateur : [@{username}](https://discord.com/users/{userid})",
+      "- Nom d'utilisateur : [@{username}](discord://-/users/{userid})",
       "- ID de l'utilisateur : `{userid}`",
       "- URL de l'avatar : [Lien]({avatarurl})",
       "- Compte créé : <t:{joineddiscord}> (<t:{joineddiscord}:R>)",
@@ -326,7 +326,7 @@
     "reportResolved-Action": "L'action effectuée était : `{action}`",
     "reportResolved-ReportId": "L'ID du signalement était : `{reportId}`",
     "reportedUserDetails": [
-      "Utilisateur : [@{username}](<https://discord.com/users/{userid}/>) | <@{userid}>",
+      "Utilisateur : [@{username}](<discord://-/users/{userid}>) | <@{userid}>",
       "ID de l'utilisateur : `{userid}`",
       "Nom d'utilisateur : {username}",
       "[URL de l'avatar]({avatarurl})",
