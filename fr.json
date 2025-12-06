@@ -219,7 +219,7 @@
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Fermer le ticket à la place ?",
     "messageReceived": "Message reçu",
-    "dmMessageMetadata": "-# **Serveur**: [{guildname}](discord://-/channels/{guildid})\n-# **Auteur**: {authormention} {profilelink}\n-# **Envoyé le**: {timestamp}",
+    "dmMessageMetadata": "-# **Auteur**: {authormention} ({profilelink}) du [{guildname}](discord://-/channels/{guildid})\n-# **Envoyé le**: {timestamp}",
     "profileLink": "[Lien du profil](discord://-/users/{userid})",
     "checkYourDM": "Veuillez vérifier vos messages privés.",
     "finishOpenTicket": "Veuillez d'abord terminer l'ouverture de votre ticket !",

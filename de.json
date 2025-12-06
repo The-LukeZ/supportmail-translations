@@ -220,7 +220,7 @@
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Ticket stattdessen schließen?",
     "messageReceived": "Nachricht erhalten",
-    "dmMessageMetadata": "-# **Server**: [{guildname}](discord://-/channels/{guildid})\n-# **Autor**: {authormention} {profilelink}\n-# **Gesendet**: {timestamp}",
+    "dmMessageMetadata": "-# **Autor**: {authormention} ({profilelink}) von [{guildname}](discord://-/channels/{guildid})\n-# **Gesendet**: {timestamp}",
     "profileLink": "[Profil-Link](discord://-/users/{userid})",
     "checkYourDM": "Bitte überprüfe deine DMs.",
     "finishOpenTicket": "Beende zuerst dein offenes Ticket.",

@@ -219,7 +219,7 @@
     "closeInValue": "<t:{timeSeconds}:R> (<t:{timeSeconds}>)",
     "closeInsteadQuestion": "Close ticket instead?",
     "messageReceived": "Message Received",
-    "dmMessageMetadata": "-# **Server**: [{guildname}](discord://-/channels/{guildid})\n-# **Author**: {authormention} {profilelink}\n-# **Sent at**: {timestamp}",
+    "dmMessageMetadata": "-# **Author**: {authormention} ({profilelink}) from [{guildname}](discord://-/channels/{guildid})\n-# **Sent at**: {timestamp}",
     "profileLink": "[Profile Link](discord://-/users/{userid})",
     "checkYourDM": "Please check your DMs.",
     "finishOpenTicket": "Finish open your ticket first!",
