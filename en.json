@@ -44,7 +44,7 @@
     "setupInProgress": "Setup already in progress. Please wait.",
     "invalidPositions": "Invalid positions! Every position has to be unique and between `1` and `5`.",
     "anonymDisabled": "Anonymity is disabled.",
-    "postClosed_ReopenToContinue": "This post has been closed. Reopen it to continue the conversation.\n-# The post will be archived again in 10 seconds. PLease do not respond in closed tickets!",
+    "postClosed_ReopenToContinue": "This post has been closed. Reopen it to continue the conversation.\n-# The post will be archived again in 10 seconds. Please do not respond in closed tickets!",
     "dmFailed": "Failed to send the DM.",
     "userNotifyFailed": "Failed to notify the user.",
     "cannotSendMessagesToTheUser": "Cannot send messages to the user.",
