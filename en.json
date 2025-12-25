@@ -143,7 +143,8 @@
     "reportIdGenerationFailed": "Failed to generate unique Report ID.",
     "userIsImmune": "User is immune to reports.",
     "messageContentTooLong": "Your message content is too long. Please shorten it by at least {amount} characters.",
-    "commandOnCooldown": "You can use this command again <t:{resumeTimestamp}:R>."
+    "commandOnCooldown": "You can use this command again <t:{resumeTimestamp}:R>.",
+    "messageContentEmpty": "Your message content is empty."
   },
 
   "tickets": {

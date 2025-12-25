@@ -143,7 +143,8 @@
     "reportIdGenerationFailed": "Die Erstellung der einzigartigen Meldungs-ID ist fehlgeschlagen.",
     "userIsImmune": "Der Nutzer kann nicht gemeldet werden.",
     "messageContentTooLong": "Dein Nachrichteninhalt ist zu lang. Bitte kürze ihn um mindestens {amount} Zeichen.",
-    "commandOnCooldown": "Du kannst diesen Befehl <t:{resumeTimestamp}:R> wieder verwenden."
+    "commandOnCooldown": "Du kannst diesen Befehl <t:{resumeTimestamp}:R> wieder verwenden.",
+    "messageContentEmpty": "Dein Nachrichteninhalt ist leer."
   },
 
   "tickets": {
