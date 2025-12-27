@@ -14,6 +14,7 @@
     "areYouSure": "Are you sure?",
     "feature-tickets": "Tickets",
     "feature-reports": "Reports",
+    "feature-tags": "Tags",
     "feature-all": "All",
     "moduleWithPH": "Module(s): {module}",
     "configurationsWereResetNotification": "Configurations were reset."
