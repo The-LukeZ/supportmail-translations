@@ -545,7 +545,8 @@
       "- **Reports:** `{blacklistReports}`",
       "- **Tags:** `{blacklistTags}`"
     ],
-    "sendMessageFooter": "-# This message is **not** related to a ticket. If you believe that this message was sent with malicious intent, please click the button to report it."
+    "sendMessageFooter": "-# This message is **not** related to a ticket. If you believe that this message was sent with malicious intent, please click the button to report it.",
+    "messageSent": "Message sent."
   },
 
   "labels": {
