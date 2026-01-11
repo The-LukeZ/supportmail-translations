@@ -1,5 +1,8 @@
 # Supportmail Locales (aka Translations)
 
+> [!WARNING]
+> Deprecated in favor of V3 of the bot. Maybe, some time in the future, the translations will be open sourced again.
+
 Translations for [SupportMail](https://supportmail.dev)
 
 ## Currently supported languages
